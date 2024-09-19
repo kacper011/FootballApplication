@@ -1,11 +1,14 @@
 package com.example.laliga_api.service;
 
+import com.example.laliga_api.dto.PlayerDTO;
+import com.example.laliga_api.mapper.PlayerMapper;
 import com.example.laliga_api.model.Player;
 import com.example.laliga_api.repository.PlayerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class PlayerService {
@@ -15,8 +18,11 @@ public class PlayerService {
     @Autowired
     private TeamService teamService;
 
-    public List<Player> getAllPlayers() {
-        return playerRepository.findAll();
+    public List<PlayerDTO> getAllPlayers() {
+        List<Player> players = playerRepository.findAll();
+        return players.stream()
+                .map(PlayerMapper::toDTO)
+                .collect(Collectors.toList());
     }
 
     public Player getPlayerById(Long id) {

@@ -33,11 +33,11 @@ public class TeamMapper {
         dto.setCoach(coachMapper.toDTO(team.getCoach()));
 
         // Konwersja listy graczy na listę PlayerDTO
-        List<PlayerDTO> playerDTOs = team.getPlayers()
-                .stream()
-                .map(playerMapper::toDTO)
-                .collect(Collectors.toList());
-        dto.setPlayers(playerDTOs);
+//        List<PlayerDTO> playerDTOs = team.getPlayers()
+//                .stream()
+//                .map(playerMapper::toDTO)
+//                .collect(Collectors.toList());
+//        dto.setPlayers(playerDTOs);
 
         return dto;
     }

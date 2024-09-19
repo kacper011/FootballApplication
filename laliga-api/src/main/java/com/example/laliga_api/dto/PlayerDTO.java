@@ -13,16 +13,5 @@ public class PlayerDTO {
     private int number;
     private String nationality;
     private int age;
-
-
-    public PlayerDTO convertToDTO(Player player) {
-        PlayerDTO dto = new PlayerDTO();
-        dto.setId(player.getId());
-        dto.setName(player.getName());
-        dto.setPosition(player.getPosition());
-        dto.setNumber(player.getNumber());
-        dto.setNationality(player.getNationality());
-        dto.setAge(player.getAge());
-        return dto;
-    }
+    private String teamName;
 }

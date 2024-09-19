@@ -10,20 +10,23 @@ import org.springframework.stereotype.Component;
 public class PlayerMapper {
 
     // Konwersja z encji Player na PlayerDTO
-    public PlayerDTO toDTO(Player player) {
+    public static PlayerDTO toDTO(Player player) {
         if (player == null) {
             return null;
         }
 
-        PlayerDTO dto = new PlayerDTO();
-        dto.setId(player.getId());
-        dto.setName(player.getName());
-        dto.setPosition(player.getPosition());
-        dto.setNumber(player.getNumber());
-        dto.setNationality(player.getNationality());
-        dto.setAge(player.getAge());
-
-        return dto;
+        PlayerDTO playerDTO = new PlayerDTO();
+        playerDTO.setId(player.getId());
+        playerDTO.setName(player.getName());
+        playerDTO.setPosition(player.getPosition());
+        playerDTO.setNumber(player.getNumber());
+        playerDTO.setNationality(player.getNationality());
+        playerDTO.setAge(player.getAge());
+        // Przypisanie nazwy drużyny
+        if (player.getTeam() != null) {
+            playerDTO.setTeamName(player.getTeam().getName());
+        }
+        return playerDTO;
     }
 
     // Konwersja z PlayerDTO na encję Player

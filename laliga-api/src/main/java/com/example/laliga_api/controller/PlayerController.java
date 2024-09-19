@@ -1,8 +1,10 @@
 package com.example.laliga_api.controller;
 
+import com.example.laliga_api.dto.PlayerDTO;
 import com.example.laliga_api.model.Player;
 import com.example.laliga_api.service.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,8 +17,9 @@ public class PlayerController {
     private PlayerService playerService;
 
     @GetMapping
-    public List<Player> getAllPlayers() {
-        return playerService.getAllPlayers();
+    public ResponseEntity<List<PlayerDTO>> getAllPlayers() {
+        List<PlayerDTO> players = playerService.getAllPlayers();
+        return ResponseEntity.ok(players);
     }
 
     @GetMapping("/{id}")
