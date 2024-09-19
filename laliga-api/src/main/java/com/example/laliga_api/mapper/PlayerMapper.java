@@ -4,8 +4,6 @@ import com.example.laliga_api.dto.PlayerDTO;
 import com.example.laliga_api.model.Player;
 import org.springframework.stereotype.Component;
 
-import org.springframework.stereotype.Component;
-
 @Component
 public class PlayerMapper {
 
@@ -22,6 +20,7 @@ public class PlayerMapper {
         playerDTO.setNumber(player.getNumber());
         playerDTO.setNationality(player.getNationality());
         playerDTO.setAge(player.getAge());
+
         // Przypisanie nazwy drużyny
         if (player.getTeam() != null) {
             playerDTO.setTeamName(player.getTeam().getName());
@@ -46,3 +45,4 @@ public class PlayerMapper {
         return player;
     }
 }
+

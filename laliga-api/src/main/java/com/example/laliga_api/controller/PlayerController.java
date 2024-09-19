@@ -1,6 +1,7 @@
 package com.example.laliga_api.controller;
 
 import com.example.laliga_api.dto.PlayerDTO;
+import com.example.laliga_api.mapper.PlayerMapper;
 import com.example.laliga_api.model.Player;
 import com.example.laliga_api.service.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,15 @@ import java.util.List;
 public class PlayerController {
 
     @Autowired
-    private PlayerService playerService;
+    private final PlayerService playerService;
+    @Autowired
+    private final PlayerMapper playerMapper;
+
+    @Autowired
+    public PlayerController(PlayerService playerService, PlayerMapper playerMapper) {
+        this.playerService = playerService;
+        this.playerMapper = playerMapper;
+    }
 
     @GetMapping
     public ResponseEntity<List<PlayerDTO>> getAllPlayers() {
@@ -23,9 +32,19 @@ public class PlayerController {
     }
 
     @GetMapping("/{id}")
-    public Player getPlayerById(@PathVariable Long id) {
-        return playerService.getPlayerById(id);
+    public ResponseEntity<PlayerDTO> getPlayerById(@PathVariable Long id) {
+
+        Player player = playerService.getPlayerById(id);
+
+        PlayerDTO playerDTO = playerMapper.toDTO(player);
+
+        if (playerDTO == null) {
+            return ResponseEntity.notFound().build();
+        }
+
+        return ResponseEntity.ok(playerDTO);
     }
+
 
     @GetMapping("/team/{teamId}")
     public List<Player> getPlayersByTeamId(@PathVariable Long teamId) {
