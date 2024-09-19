@@ -1,5 +1,6 @@
 package com.example.laliga_api.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,7 +23,9 @@ public class Team {
     private String stadium;
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "coach_id")
+    @JsonManagedReference
     private Coach coach;
-    @OneToMany(mappedBy = "team", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "team", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JsonManagedReference
     private List<Player> players;
 }

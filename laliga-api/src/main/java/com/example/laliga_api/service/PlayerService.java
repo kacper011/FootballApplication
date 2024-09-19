@@ -12,6 +12,8 @@ public class PlayerService {
 
     @Autowired
     private PlayerRepository playerRepository;
+    @Autowired
+    private TeamService teamService;
 
     public List<Player> getAllPlayers() {
         return playerRepository.findAll();
@@ -26,6 +28,9 @@ public class PlayerService {
     }
 
     public Player savePlayer(Player player) {
+        if (player.getTeam() != null && player.getTeam().getId() != null) {
+            player.setTeam(teamService.getTeamById(player.getTeam().getId()));
+        }
         return playerRepository.save(player);
     }
 

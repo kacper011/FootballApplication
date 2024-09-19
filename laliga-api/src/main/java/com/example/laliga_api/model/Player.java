@@ -1,5 +1,6 @@
 package com.example.laliga_api.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -23,5 +24,6 @@ public class Player {
     private int age;
     @ManyToOne
     @JoinColumn(name = "team_id")
+    @JsonBackReference
     private Team team;
 }
