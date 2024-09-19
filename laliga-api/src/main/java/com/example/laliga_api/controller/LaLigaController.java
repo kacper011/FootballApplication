@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController
-@RequestMapping("/laliga")
-public class LaLigaController {
-
-    @GetMapping("/teams")
-    public List<Team> getAllTeams() {
-        return null;
-    }
-}
+//@RestController
+//@RequestMapping("/laliga")
+//public class LaLigaController {
+//
+//    @GetMapping("/teams")
+//    public List<Team> getAllTeams() {
+//        return null;
+//    }
+//}
