@@ -18,4 +18,7 @@ public class TeamPoints {
     private String teamName;
     private int points;
     private int matchesPlayed;
+    private int wins;
+    private int draws;
+    private int losses;
 }

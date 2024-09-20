@@ -1,13 +1,12 @@
 package com.example.laliga_api.controller;
 
-import com.example.laliga_api.model.Team;
 import com.example.laliga_api.model.TeamPoints;
 import com.example.laliga_api.service.TeamPointsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
+
 
 @RestController
 @RequestMapping("/laliga")
@@ -28,8 +27,20 @@ public class LaLigaController {
 
     @PostMapping("/updatePoints")
     public String updatePoints(@RequestParam String teamName, @RequestParam int points) {
-        TeamPoints updatedTeam = teamPointsService.updatePoints(teamName, points);
-        return "Updated points for team: " + updatedTeam.getTeamName() + ". New points: " + updatedTeam.getPoints() + ", Matches Played: " + updatedTeam.getMatchesPlayed();
+        try {
+            TeamPoints updatedTeam = teamPointsService.updatePoints(teamName, points);
+            return String.format(
+                    "Updated points for team: %s. New points: %d, Matches Played: %d, Wins: %d, Draws: %d, Losses: %d",
+                    updatedTeam.getTeamName(),
+                    updatedTeam.getPoints(),
+                    updatedTeam.getMatchesPlayed(),
+                    updatedTeam.getWins(),
+                    updatedTeam.getDraws(),
+                    updatedTeam.getLosses()
+            );
+        } catch (IllegalArgumentException e) {
+            return e.getMessage();
+        }
     }
 
     @GetMapping("/table")
