@@ -14,3 +14,16 @@ public class TeamDTO {
     private CoachDTO coach;
     private List<PlayerDTO> players;
 }
+
+/*
+JSON TO ADD TEAM
+{
+  "name" : "Real Madrid",
+  "stadium" : "Estadio Santiago Bernabéu",
+  "coach" : {
+    "name" : "Carlo Ancelotti",
+    "nationality" : "Italy",
+    "age" : 65
+  }
+}
+ */

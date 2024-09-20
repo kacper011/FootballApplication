@@ -3,7 +3,9 @@ package com.example.laliga_api.controller;
 import com.example.laliga_api.dto.PlayerDTO;
 import com.example.laliga_api.mapper.PlayerMapper;
 import com.example.laliga_api.model.Player;
+import com.example.laliga_api.model.Team;
 import com.example.laliga_api.service.PlayerService;
+import com.example.laliga_api.service.TeamService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,11 +19,14 @@ public class PlayerController {
     @Autowired
     private final PlayerService playerService;
     @Autowired
+    private final TeamService teamService;
+    @Autowired
     private final PlayerMapper playerMapper;
 
     @Autowired
-    public PlayerController(PlayerService playerService, PlayerMapper playerMapper) {
+    public PlayerController(PlayerService playerService, TeamService teamService, PlayerMapper playerMapper) {
         this.playerService = playerService;
+        this.teamService = teamService;
         this.playerMapper = playerMapper;
     }
 
@@ -52,7 +57,22 @@ public class PlayerController {
     }
 
     @PostMapping
-    public Player savePlayer(@RequestBody Player player) {
+    public Player savePlayer(@RequestBody PlayerDTO playerDTO) {
+
+        Team team = teamService.findByName(playerDTO.getTeamName());
+
+        if (team == null) {
+            throw new RuntimeException("Team not found with name: " + playerDTO.getTeamName());
+        }
+
+        Player player = new Player();
+        player.setName(playerDTO.getName());
+        player.setPosition(playerDTO.getPosition());
+        player.setNumber(playerDTO.getNumber());
+        player.setNationality(playerDTO.getNationality());
+        player.setAge(playerDTO.getAge());
+        player.setTeam(team);
+
         return playerService.savePlayer(player);
     }
 

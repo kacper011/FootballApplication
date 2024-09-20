@@ -23,7 +23,7 @@ public class TeamService {
         return team.orElse(null);
     }
 
-    public Team getTeamByName(String name) {
+    public Team findByName(String name) {
         return teamRepository.findByName(name);
     }
 

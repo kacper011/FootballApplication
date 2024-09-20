@@ -29,3 +29,16 @@ public class Team {
     @JsonManagedReference
     private List<Player> players;
 }
+
+/*
+JSON TO ADD TEAM
+{
+  "name" : "Real Madrid",
+  "stadium" : "Estadio Santiago Bernabéu",
+  "coach" : {
+    "name" : "Carlo Ancelotti",
+    "nationality" : "Italy",
+    "age" : 65
+  }
+}
+ */

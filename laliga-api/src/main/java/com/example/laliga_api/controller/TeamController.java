@@ -26,7 +26,7 @@ public class TeamController {
 
     @GetMapping("/name/{name}")
     public Team getTeamByName(@PathVariable String name) {
-        return teamService.getTeamByName(name);
+        return teamService.findByName(name);
     }
 
     @PostMapping
