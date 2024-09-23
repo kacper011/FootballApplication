@@ -21,11 +21,24 @@ public class Team {
     private Long id;
     private String name;
     private String stadium;
-//    @OneToOne(cascade = CascadeType.ALL)
-//    @JoinColumn(name = "coach_id")
-//    @JsonManagedReference
-//    private Coach coach;
-//    @OneToMany(mappedBy = "team", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-//    @JsonManagedReference
-//    private List<Player> players;
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "coach_id")
+    @JsonManagedReference
+    private Coach coach;
+    @OneToMany(mappedBy = "team", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JsonManagedReference
+    private List<Player> players;
 }
+
+/*
+JSON TO ADD TEAM
+{
+  "name" : "Real Madrid",
+  "stadium" : "Estadio Santiago Bernabéu",
+  "coach" : {
+    "name" : "Carlo Ancelotti",
+    "nationality" : "Italy",
+    "age" : 65
+  }
+}
+ */
