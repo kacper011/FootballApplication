@@ -1,7 +1,7 @@
-package com.example.bundesliga_api.bundesliga_api.service;
+package com.example.bundesliga_api.service;
 
-import com.example.bundesliga_api.bundesliga_api.model.TeamPoints;
-import com.example.bundesliga_api.bundesliga_api.repository.TeamPointsRepository;
+import com.example.bundesliga_api.model.TeamPoints;
+import com.example.bundesliga_api.repository.TeamPointsRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

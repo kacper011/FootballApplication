@@ -1,9 +1,9 @@
-package com.example.bundesliga_api.bundesliga_api.service;
+package com.example.bundesliga_api.service;
 
-import com.example.bundesliga_api.bundesliga_api.dto.PlayerDTO;
-import com.example.bundesliga_api.bundesliga_api.mapper.PlayerMapper;
-import com.example.bundesliga_api.bundesliga_api.model.Player;
-import com.example.bundesliga_api.bundesliga_api.repository.PlayerRepository;
+import com.example.bundesliga_api.dto.PlayerDTO;
+import com.example.bundesliga_api.mapper.PlayerMapper;
+import com.example.bundesliga_api.model.Player;
+import com.example.bundesliga_api.repository.PlayerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

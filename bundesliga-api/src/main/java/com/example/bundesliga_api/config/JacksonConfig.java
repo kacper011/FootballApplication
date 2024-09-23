@@ -1,4 +1,4 @@
-package com.example.bundesliga_api.bundesliga_api.config;
+package com.example.bundesliga_api.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;

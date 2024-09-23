@@ -1,4 +1,4 @@
-package com.example.bundesliga_api.bundesliga_api.dto;
+package com.example.bundesliga_api.dto;
 
 import lombok.Getter;
 import lombok.Setter;

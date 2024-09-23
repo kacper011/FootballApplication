@@ -1,4 +1,4 @@
-package com.example.bundesliga_api.bundesliga_api;
+package com.example.bundesliga_api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

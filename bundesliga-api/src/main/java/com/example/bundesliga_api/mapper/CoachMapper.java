@@ -1,7 +1,7 @@
-package com.example.bundesliga_api.bundesliga_api.mapper;
+package com.example.bundesliga_api.mapper;
 
-import com.example.bundesliga_api.bundesliga_api.dto.CoachDTO;
-import com.example.bundesliga_api.bundesliga_api.model.Coach;
+import com.example.bundesliga_api.dto.CoachDTO;
+import com.example.bundesliga_api.model.Coach;
 import org.springframework.stereotype.Component;
 
 @Component

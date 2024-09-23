@@ -1,8 +1,8 @@
-package com.example.bundesliga_api.bundesliga_api.mapper;
+package com.example.bundesliga_api.mapper;
 
-import com.example.bundesliga_api.bundesliga_api.dto.TeamDTO;
-import com.example.bundesliga_api.bundesliga_api.model.Player;
-import com.example.bundesliga_api.bundesliga_api.model.Team;
+import com.example.bundesliga_api.dto.TeamDTO;
+import com.example.bundesliga_api.model.Player;
+import com.example.bundesliga_api.model.Team;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

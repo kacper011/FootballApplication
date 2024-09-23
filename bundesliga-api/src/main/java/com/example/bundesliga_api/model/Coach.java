@@ -1,4 +1,4 @@
-package com.example.bundesliga_api.bundesliga_api.model;
+package com.example.bundesliga_api.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
@@ -12,30 +12,16 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "players")
-public class Player {
+@Table(name = "coaches")
+public class Coach {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String name;
-    private String position;
-    private int number;
     private String nationality;
     private int age;
-    @ManyToOne
-    @JoinColumn(name = "team_id")
+
+    @OneToOne(mappedBy = "coach")
     @JsonBackReference
     private Team team;
 }
-/*
-
-JSON TO ADD PLAYER
-{
-  "name" : "Daniel Carvajal",
-  "position" : "Defender",
-  "number" : 2,
-  "nationality" : "Spain",
-  "age" : 32,
-  "teamName" : "Real Madrid"
-}
- */

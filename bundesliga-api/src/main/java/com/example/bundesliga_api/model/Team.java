@@ -1,4 +1,4 @@
-package com.example.bundesliga_api.bundesliga_api.model;
+package com.example.bundesliga_api.model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
