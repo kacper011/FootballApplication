@@ -23,11 +23,17 @@ public class PlayerController {
     private final TeamService teamService;
     @Autowired
     private final PlayerMapper playerMapper;
-
+    @Autowired
     public PlayerController(PlayerService playerService, TeamService teamService, PlayerMapper playerMapper) {
         this.playerService = playerService;
         this.teamService = teamService;
         this.playerMapper = playerMapper;
+    }
+
+    @GetMapping
+    public ResponseEntity<List<PlayerDTO>> getAllPlayers() {
+        List<PlayerDTO> players = playerService.getAllPlayers();
+        return ResponseEntity.ok(players);
     }
 
     @GetMapping("/{id}")
