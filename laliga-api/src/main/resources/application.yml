@@ -10,8 +10,8 @@ spring:
     name: laliga-api
   datasource:
     url: jdbc:mysql://localhost:3306/laliga
-    username: Football
-    password: Footballapi123
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update

@@ -10,8 +10,8 @@ spring:
     name: premierleague-api
   datasource:
     url: jdbc:mysql://localhost:3306/premierleague
-    username: Football
-    password: Footballapi123
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
