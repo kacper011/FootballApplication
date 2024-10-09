@@ -23,6 +23,10 @@ spring:
           uri: http://localhost:8084
           predicates:
             - Path=/ekstraklasa/**
+        - id: seriea-api
+          uri: http://localhost:8085
+          predicates:
+            - Path=/seriea/**
     discovery:
       client:
         service-url:
