@@ -28,6 +28,7 @@ The following technologies and tools are used in this project:
 <li>API Gateway: Routes client requests to the correct microservice based on the URL pattern.</li>
 <li>MySQL: Database management system used to store application data.</li>
 <li>Postman: API testing tool used for testing and verifying the functionality of services.</li>
+<li>Docker: A platform used for developing, shipping, and running applications in containers, ensuring consistent environments across different stages of development and deployment.</li>
 <br>
 🚀 Setup and Installation
 <br><br>
