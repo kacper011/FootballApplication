@@ -47,6 +47,9 @@ Ensure you have installed:
 <li>api-gateway: Contains the API Gateway configuration, which handles the routing of requests.</li>
 <li>laliga-service: Microservice dedicated to handling data related to La Liga.</li>
 <li>bundesliga-service: Microservice dedicated to handling data related to Bundesliga.</li>
+<li>premierleague-service: Microservice dedicated to handling data related to PremierLeague.</li>
+<li>ekstraklasa-service: Microservice dedicated to handling data related to Ekstraklasa.</li>
+<li>seriea-service: Microservice dedicated to handling data related to SerieA.</li>
 <br>
 🤝 Contributing
 <br>
