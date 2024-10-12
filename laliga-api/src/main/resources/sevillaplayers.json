@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Ørjan Nyland",
+    "position": "Goalkeeper",
+    "number": 13,
+    "nationality": "Norway",
+    "age": 34,
+    "teamName": "Sevilla FC"
+  },
+  {
+    "name": "Loïc Badé",
+    "position": "Defender",
+    "number": 22,
+    "nationality": "France",
+    "age": 24,
+    "teamName": "Sevilla FC"
+  },
+  {
+    "name": "Nemanja Gudelj",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Serbia",
+    "age": 32,
+    "teamName": "Sevilla FC"
+  },
+  {
+    "name": "Valentín Barco",
+    "position": "Defender",
+    "number": 19,
+    "nationality": "Argentina",
+    "age": 20,
+    "teamName": "Sevilla FC"
+  },
+  {
+    "name": "Jesús Navas",
+    "position": "Right-back",
+    "number": 16,
+    "nationality": "Spain",
+    "age": 38,
+    "teamName": "Sevilla FC"
+  },
+  {
+    "name": "Albert Sambi Lokonga",
+    "position": "Midfielder",
+    "number": 12,
+    "nationality": "Belgium",
+    "age": 24,
+    "teamName": "Sevilla FC"
+  },
+  {
+    "name": "Lucien Agoumé",
+    "position": "Midfielder",
+    "number": 18,
+    "nationality": "France",
+    "age": 22,
+    "teamName": "Sevilla FC"
+  },
+  {
+    "name": "Saúl",
+    "position": "Midfielder",
+    "number": 17,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "Sevilla FC"
+  },
+  {
+    "name": "Djibril Sow",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Switzerland",
+    "age": 27,
+    "teamName": "Sevilla FC"
+  },
+  {
+    "name": "Kelechi Iheanacho",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Nigeria",
+    "age": 28,
+    "teamName": "Sevilla FC"
+  },
+  {
+    "name": "Erik Lamela",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Argentina",
+    "age": 32,
+    "teamName": "Sevilla FC"
+  }
+]
