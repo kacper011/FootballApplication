@@ -1,0 +1,193 @@
+{
+  "clubs": [
+    {
+      "name": "FC Barcelona",
+      "stadium": "Estadi Olímpic Lluís Companys",
+      "coach": {
+        "name": "Xavi Hernández",
+        "nationality": "Spain",
+        "age": 44
+      }
+    },
+    {
+      "name": "Real Madrid",
+      "stadium": "Santiago Bernabéu",
+      "coach": {
+        "name": "Carlo Ancelotti",
+        "nationality": "Italy",
+        "age": 65
+      }
+    },
+    {
+      "name": "Atlético Madrid",
+      "stadium": "Metropolitano",
+      "coach": {
+        "name": "Diego Simeone",
+        "nationality": "Argentina",
+        "age": 54
+      }
+    },
+    {
+      "name": "Sevilla FC",
+      "stadium": "Ramón Sánchez Pizjuán",
+      "coach": {
+        "name": "Diego Alonso",
+        "nationality": "Uruguay",
+        "age": 48
+      }
+    },
+    {
+      "name": "Real Sociedad",
+      "stadium": "Reale Arena",
+      "coach": {
+        "name": "Imanol Alguacil",
+        "nationality": "Spain",
+        "age": 52
+      }
+    },
+    {
+      "name": "Real Betis",
+      "stadium": "Estadio Benito Villamarín",
+      "coach": {
+        "name": "Manuel Pellegrini",
+        "nationality": "Chile",
+        "age": 71
+      }
+    },
+    {
+      "name": "Athletic Club",
+      "stadium": "San Mamés",
+      "coach": {
+        "name": "Ernesto Valverde",
+        "nationality": "Spain",
+        "age": 60
+      }
+    },
+    {
+      "name": "Villarreal CF",
+      "stadium": "Estadio de la Cerámica",
+      "coach": {
+        "name": "Pacheta",
+        "nationality": "Spain",
+        "age": 55
+      }
+    },
+    {
+      "name": "Valencia CF",
+      "stadium": "Mestalla",
+      "coach": {
+        "name": "Rubén Baraja",
+        "nationality": "Spain",
+        "age": 49
+      }
+    },
+    {
+      "name": "CA Osasuna",
+      "stadium": "Estadio El Sadar",
+      "coach": {
+        "name": "Jagoba Arrasate",
+        "nationality": "Spain",
+        "age": 45
+      }
+    },
+    {
+      "name": "Rayo Vallecano",
+      "stadium": "Estadio de Vallecas",
+      "coach": {
+        "name": "Francisco Rodríguez",
+        "nationality": "Spain",
+        "age": 45
+      }
+    },
+    {
+      "name": "Getafe CF",
+      "stadium": "Coliseum Alfonso Pérez",
+      "coach": {
+        "name": "José Bordalás",
+        "nationality": "Spain",
+        "age": 60
+      }
+    },
+    {
+      "name": "RCD Mallorca",
+      "stadium": "Estadi Mallorca Son Moix",
+      "coach": {
+        "name": "Javier Aguirre",
+        "nationality": "Mexico",
+        "age": 65
+      }
+    },
+    {
+      "name": "Cádiz CF",
+      "stadium": "Estadio Nuevo Mirandilla",
+      "coach": {
+        "name": "Sergio González",
+        "nationality": "Spain",
+        "age": 47
+      }
+    },
+    {
+      "name": "Deportivo Alavés",
+      "stadium": "Mendizorrotza",
+      "coach": {
+        "name": "Luis García Plaza",
+        "nationality": "Spain",
+        "age": 51
+      }
+    },
+    {
+      "name": "Granada CF",
+      "stadium": "Nuevo Estadio de Los Cármenes",
+      "coach": {
+        "name": "Paco López",
+        "nationality": "Spain",
+        "age": 56
+      }
+    },
+    {
+      "name": "UD Las Palmas",
+      "stadium": "Estadio de Gran Canaria",
+      "coach": {
+        "name": "García Pimienta",
+        "nationality": "Spain",
+        "age": 49
+      }
+    },
+    {
+      "name": "Girona FC",
+      "stadium": "Estadi Montilivi",
+      "coach": {
+        "name": "Míchel",
+        "nationality": "Spain",
+        "age": 48
+      }
+    },
+    {
+      "name": "Real Valladolid",
+      "stadium": "José Zorrilla",
+      "coach": {
+        "name": "Paulo Pezzolano",
+        "nationality": "Uruguay",
+        "age": 40
+      }
+    },
+    {
+      "name": "CD Leganés",
+      "stadium": "Estadio Municipal de Butarque",
+      "coach": {
+        "name": "Borja Jiménez",
+        "nationality": "Spain",
+        "age": 39
+      }
+    },
+    {
+      "name": "RCD Espanyol",
+      "stadium": "Stage Front Stadium",
+      "coach": {
+        "name": "Luis García",
+        "nationality": "Spain",
+        "age": 42
+      }
+    }
+  ]
+}

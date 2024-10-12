@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Jan Oblak",
+    "position": "Goalkeeper",
+    "number": 13,
+    "nationality": "Slovenia",
+    "age": 31,
+    "teamName": "Atlético Madrid"
+  },
+  {
+    "name": "Nahuel Molina",
+    "position": "Right-Back",
+    "number": 16,
+    "nationality": "Argentina",
+    "age": 26,
+    "teamName": "Atlético Madrid"
+  },
+  {
+    "name": "José María Giménez",
+    "position": "Centre-Back",
+    "number": 2,
+    "nationality": "Uruguay",
+    "age": 29,
+    "teamName": "Atlético Madrid"
+  },
+  {
+    "name": "Robin Le Normand",
+    "position": "Centre-Back",
+    "number": 24,
+    "nationality": "Spain",
+    "age": 27,
+    "teamName": "Atlético Madrid"
+  },
+  {
+    "name": "Reinildo Mandava",
+    "position": "Left-Back",
+    "number": 23,
+    "nationality": "Mozambique",
+    "age": 30,
+    "teamName": "Atlético Madrid"
+  },
+  {
+    "name": "Marcos Llorente",
+    "position": "Right Midfield",
+    "number": 14,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "Atlético Madrid"
+  },
+  {
+    "name": "Rodrigo de Paul",
+    "position": "Central Midfield",
+    "number": 5,
+    "nationality": "Argentina",
+    "age": 30,
+    "teamName": "Atlético Madrid"
+  },
+  {
+    "name": "Conor Gallagher",
+    "position": "Central Midfield",
+    "number": 4,
+    "nationality": "England",
+    "age": 24,
+    "teamName": "Atlético Madrid"
+  },
+  {
+    "name": "Antoine Griezmann",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "France",
+    "age": 33,
+    "teamName": "Atlético Madrid"
+  },
+  {
+    "name": "Julián Álvarez",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Argentina",
+    "age": 24,
+    "teamName": "Atlético Madrid"
+  },
+  {
+    "name": "Alexander Sørloth",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Norway",
+    "age": 28,
+    "teamName": "Atlético Madrid"
+  }
+]
