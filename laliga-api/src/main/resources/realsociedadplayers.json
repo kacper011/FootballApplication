@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Álex Remiro",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Spain",
+    "age": 28,
+    "teamName": "Real Sociedad"
+  },
+  {
+    "name": "Robin Le Normand",
+    "position": "Defender",
+    "number": 24,
+    "nationality": "France",
+    "age": 27,
+    "teamName": "Real Sociedad"
+  },
+  {
+    "name": "Igor Zubeldia",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "Real Sociedad"
+  },
+  {
+    "name": "Aihen Muñoz",
+    "position": "Left-back",
+    "number": 12,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "Real Sociedad"
+  },
+  {
+    "name": "Andoni Gorosabel",
+    "position": "Right-back",
+    "number": 18,
+    "nationality": "Spain",
+    "age": 28,
+    "teamName": "Real Sociedad"
+  },
+  {
+    "name": "Mikel Merino",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Spain",
+    "age": 27,
+    "teamName": "Real Sociedad"
+  },
+  {
+    "name": "Martín Zubimendi",
+    "position": "Midfielder",
+    "number": 3,
+    "nationality": "Spain",
+    "age": 25,
+    "teamName": "Real Sociedad"
+  },
+  {
+    "name": "David Silva",
+    "position": "Midfielder",
+    "number": 21,
+    "nationality": "Spain",
+    "age": 38,
+    "teamName": "Real Sociedad"
+  },
+  {
+    "name": "Takefusa Kubo",
+    "position": "Forward",
+    "number": 14,
+    "nationality": "Japan",
+    "age": 22,
+    "teamName": "Real Sociedad"
+  },
+  {
+    "name": "Mikel Oyarzabal",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Spain",
+    "age": 27,
+    "teamName": "Real Sociedad"
+  },
+  {
+    "name": "Ander Barrenetxea",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Spain",
+    "age": 22,
+    "teamName": "Real Sociedad"
+  }
+]
