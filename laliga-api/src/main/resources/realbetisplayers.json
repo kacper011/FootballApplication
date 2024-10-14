@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Claudio Bravo",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Chile",
+    "age": 41,
+    "teamName": "Real Betis"
+  },
+  {
+    "name": "Luiz Felipe",
+    "position": "Defender",
+    "number": 19,
+    "nationality": "Brazil",
+    "age": 26,
+    "teamName": "Real Betis"
+  },
+  {
+    "name": "Germán Pezzella",
+    "position": "Defender",
+    "number": 16,
+    "nationality": "Argentina",
+    "age": 32,
+    "teamName": "Real Betis"
+  },
+  {
+    "name": "Juan Miranda",
+    "position": "Left-back",
+    "number": 33,
+    "nationality": "Spain",
+    "age": 23,
+    "teamName": "Real Betis"
+  },
+  {
+    "name": "Youssouf Sabaly",
+    "position": "Right-back",
+    "number": 23,
+    "nationality": "Senegal",
+    "age": 31,
+    "teamName": "Real Betis"
+  },
+  {
+    "name": "Guido Rodríguez",
+    "position": "Midfielder",
+    "number": 5,
+    "nationality": "Argentina",
+    "age": 29,
+    "teamName": "Real Betis"
+  },
+  {
+    "name": "Sergio Canales",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Spain",
+    "age": 33,
+    "teamName": "Real Betis"
+  },
+  {
+    "name": "Andrés Guardado",
+    "position": "Midfielder",
+    "number": 18,
+    "nationality": "Mexico",
+    "age": 37,
+    "teamName": "Real Betis"
+  },
+  {
+    "name": "Ayoze Pérez",
+    "position": "Forward",
+    "number": 21,
+    "nationality": "Spain",
+    "age": 30,
+    "teamName": "Real Betis"
+  },
+  {
+    "name": "Borja Iglesias",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Spain",
+    "age": 31,
+    "teamName": "Real Betis"
+  },
+  {
+    "name": "Luiz Henrique",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Brazil",
+    "age": 22,
+    "teamName": "Real Betis"
+  }
+]
