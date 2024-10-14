@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Sergio Herrera",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Spain",
+    "age": 30,
+    "teamName": "CA Osasuna"
+  },
+  {
+    "name": "David García",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Spain",
+    "age": 30,
+    "teamName": "CA Osasuna"
+  },
+  {
+    "name": "Aridane Hernández",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Spain",
+    "age": 34,
+    "teamName": "CA Osasuna"
+  },
+  {
+    "name": "Juan Cruz",
+    "position": "Left-back",
+    "number": 3,
+    "nationality": "Spain",
+    "age": 30,
+    "teamName": "CA Osasuna"
+  },
+  {
+    "name": "Rubén Peña",
+    "position": "Right-back",
+    "number": 15,
+    "nationality": "Spain",
+    "age": 32,
+    "teamName": "CA Osasuna"
+  },
+  {
+    "name": "Lucas Torró",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "CA Osasuna"
+  },
+  {
+    "name": "Moi Gómez",
+    "position": "Midfielder",
+    "number": 16,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "CA Osasuna"
+  },
+  {
+    "name": "Aimar Oroz",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Spain",
+    "age": 21,
+    "teamName": "CA Osasuna"
+  },
+  {
+    "name": "Chimy Ávila",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Argentina",
+    "age": 29,
+    "teamName": "CA Osasuna"
+  },
+  {
+    "name": "Ante Budimir",
+    "position": "Forward",
+    "number": 17,
+    "nationality": "Croatia",
+    "age": 33,
+    "teamName": "CA Osasuna"
+  },
+  {
+    "name": "Abde Ezzalzouli",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Morocco",
+    "age": 22,
+    "teamName": "CA Osasuna"
+  }
+]
