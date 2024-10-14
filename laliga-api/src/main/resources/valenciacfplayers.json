@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Giorgi Mamardashvili",
+    "position": "Goalkeeper",
+    "number": 25,
+    "nationality": "Georgia",
+    "age": 23,
+    "teamName": "Valencia CF"
+  },
+  {
+    "name": "José Gayà",
+    "position": "Left-back",
+    "number": 14,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "Valencia CF"
+  },
+  {
+    "name": "Gabriel Paulista",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Brazil",
+    "age": 32,
+    "teamName": "Valencia CF"
+  },
+  {
+    "name": "Cenk Özkacar",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "Turkey",
+    "age": 23,
+    "teamName": "Valencia CF"
+  },
+  {
+    "name": "Thierry Correia",
+    "position": "Right-back",
+    "number": 2,
+    "nationality": "Portugal",
+    "age": 24,
+    "teamName": "Valencia CF"
+  },
+  {
+    "name": "Hugo Guillamón",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Spain",
+    "age": 23,
+    "teamName": "Valencia CF"
+  },
+  {
+    "name": "Pepelu",
+    "position": "Midfielder",
+    "number": 18,
+    "nationality": "Spain",
+    "age": 25,
+    "teamName": "Valencia CF"
+  },
+  {
+    "name": "André Almeida",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Portugal",
+    "age": 23,
+    "teamName": "Valencia CF"
+  },
+  {
+    "name": "Hugo Duro",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Spain",
+    "age": 24,
+    "teamName": "Valencia CF"
+  },
+  {
+    "name": "Diego López",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Spain",
+    "age": 21,
+    "teamName": "Valencia CF"
+  },
+  {
+    "name": "Samu Castillejo",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "Valencia CF"
+  }
+]
