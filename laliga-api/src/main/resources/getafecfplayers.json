@@ -1,0 +1,90 @@
+[
+  {
+    "name": "David Soria",
+    "position": "Goalkeeper",
+    "number": 13,
+    "nationality": "Spain",
+    "age": 30,
+    "teamName": "Getafe CF"
+  },
+  {
+    "name": "Djené Dakonam",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Togo",
+    "age": 32,
+    "teamName": "Getafe CF"
+  },
+  {
+    "name": "Gastón Álvarez",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "Uruguay",
+    "age": 23,
+    "teamName": "Getafe CF"
+  },
+  {
+    "name": "Juan Iglesias",
+    "position": "Right-back",
+    "number": 21,
+    "nationality": "Spain",
+    "age": 25,
+    "teamName": "Getafe CF"
+  },
+  {
+    "name": "Nemanja Maksimović",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Serbia",
+    "age": 28,
+    "teamName": "Getafe CF"
+  },
+  {
+    "name": "Mauro Arambarri",
+    "position": "Midfielder",
+    "number": 18,
+    "nationality": "Uruguay",
+    "age": 28,
+    "teamName": "Getafe CF"
+  },
+  {
+    "name": "Luis Milla",
+    "position": "Midfielder",
+    "number": 5,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "Getafe CF"
+  },
+  {
+    "name": "Carles Aleñá",
+    "position": "Midfielder",
+    "number": 11,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "Getafe CF"
+  },
+  {
+    "name": "Enes Ünal",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Turkey",
+    "age": 27,
+    "teamName": "Getafe CF"
+  },
+  {
+    "name": "Jaime Mata",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Spain",
+    "age": 35,
+    "teamName": "Getafe CF"
+  },
+  {
+    "name": "Borja Mayoral",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Spain",
+    "age": 27,
+    "teamName": "Getafe CF"
+  }
+]
