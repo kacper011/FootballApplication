@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Stole Dimitrievski",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "North Macedonia",
+    "age": 30,
+    "teamName": "Rayo Vallecano"
+  },
+  {
+    "name": "Fran García",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Spain",
+    "age": 24,
+    "teamName": "Rayo Vallecano"
+  },
+  {
+    "name": "Esteban Saveljich",
+    "position": "Defender",
+    "number": 24,
+    "nationality": "Montenegro",
+    "age": 32,
+    "teamName": "Rayo Vallecano"
+  },
+  {
+    "name": "Ivan Balliu",
+    "position": "Right-back",
+    "number": 20,
+    "nationality": "Albania",
+    "age": 32,
+    "teamName": "Rayo Vallecano"
+  },
+  {
+    "name": "Óscar Valentín",
+    "position": "Midfielder",
+    "number": 23,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "Rayo Vallecano"
+  },
+  {
+    "name": "Pathe Ciss",
+    "position": "Midfielder",
+    "number": 21,
+    "nationality": "Senegal",
+    "age": 29,
+    "teamName": "Rayo Vallecano"
+  },
+  {
+    "name": "Unai López",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Spain",
+    "age": 28,
+    "teamName": "Rayo Vallecano"
+  },
+  {
+    "name": "Álvaro García",
+    "position": "Forward",
+    "number": 18,
+    "nationality": "Spain",
+    "age": 31,
+    "teamName": "Rayo Vallecano"
+  },
+  {
+    "name": "Radamel Falcao",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Colombia",
+    "age": 38,
+    "teamName": "Rayo Vallecano"
+  },
+  {
+    "name": "Raúl de Tomás",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "Rayo Vallecano"
+  },
+  {
+    "name": "Sergio Camello",
+    "position": "Forward",
+    "number": 34,
+    "nationality": "Spain",
+    "age": 22,
+    "teamName": "Rayo Vallecano"
+  }
+]

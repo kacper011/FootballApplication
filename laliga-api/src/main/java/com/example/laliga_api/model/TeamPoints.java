@@ -21,4 +21,14 @@ public class TeamPoints {
     private int wins;
     private int draws;
     private int losses;
+
+    //Dodanie druzyny do tabeli LaLiga
+//    {
+//        "teamName": "Celta Vigo",
+//            "points": 0,
+//            "matchesPlayed": 0,
+//            "wins": 0,
+//            "draws": 0,
+//            "losses": 0
+//    }
 }
