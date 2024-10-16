@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Álvaro Valles",
+    "position": "Goalkeeper",
+    "number": 13,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "UD Las Palmas"
+  },
+  {
+    "name": "Sergi Cardona",
+    "position": "Left-back",
+    "number": 3,
+    "nationality": "Spain",
+    "age": 24,
+    "teamName": "UD Las Palmas"
+  },
+  {
+    "name": "Saúl Coco",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Equatorial Guinea",
+    "age": 24,
+    "teamName": "UD Las Palmas"
+  },
+  {
+    "name": "Eric Curbelo",
+    "position": "Defender",
+    "number": 18,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "UD Las Palmas"
+  },
+  {
+    "name": "Álex Suárez",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Spain",
+    "age": 30,
+    "teamName": "UD Las Palmas"
+  },
+  {
+    "name": "Kirian Rodríguez",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Spain",
+    "age": 27,
+    "teamName": "UD Las Palmas"
+  },
+  {
+    "name": "Jonathan Viera",
+    "position": "Midfielder",
+    "number": 21,
+    "nationality": "Spain",
+    "age": 34,
+    "teamName": "UD Las Palmas"
+  },
+  {
+    "name": "Enzo Loiodice",
+    "position": "Midfielder",
+    "number": 12,
+    "nationality": "France",
+    "age": 23,
+    "teamName": "UD Las Palmas"
+  },
+  {
+    "name": "Marc Cardona",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Spain",
+    "age": 28,
+    "teamName": "UD Las Palmas"
+  },
+  {
+    "name": "Sandro Ramírez",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Spain",
+    "age": 28,
+    "teamName": "UD Las Palmas"
+  },
+  {
+    "name": "Munir El Haddadi",
+    "position": "Forward",
+    "number": 17,
+    "nationality": "Morocco",
+    "age": 28,
+    "teamName": "UD Las Palmas"
+  }
+]
