@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Antonio Sivera",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Spain",
+    "age": 27,
+    "teamName": "Deportivo Alavés"
+  },
+  {
+    "name": "Rubén Duarte",
+    "position": "Left-back",
+    "number": 3,
+    "nationality": "Spain",
+    "age": 28,
+    "teamName": "Deportivo Alavés"
+  },
+  {
+    "name": "Abdelkabir Abqar",
+    "position": "Defender",
+    "number": 22,
+    "nationality": "Morocco",
+    "age": 24,
+    "teamName": "Deportivo Alavés"
+  },
+  {
+    "name": "Aleksandar Sedlar",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Serbia",
+    "age": 32,
+    "teamName": "Deportivo Alavés"
+  },
+  {
+    "name": "Javi López",
+    "position": "Right-back",
+    "number": 14,
+    "nationality": "Spain",
+    "age": 21,
+    "teamName": "Deportivo Alavés"
+  },
+  {
+    "name": "Salva Sevilla",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Spain",
+    "age": 40,
+    "teamName": "Deportivo Alavés"
+  },
+  {
+    "name": "Antonio Blanco",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Spain",
+    "age": 23,
+    "teamName": "Deportivo Alavés"
+  },
+  {
+    "name": "Jon Guridi",
+    "position": "Midfielder",
+    "number": 18,
+    "nationality": "Spain",
+    "age": 28,
+    "teamName": "Deportivo Alavés"
+  },
+  {
+    "name": "Luis Rioja",
+    "position": "Winger",
+    "number": 11,
+    "nationality": "Spain",
+    "age": 30,
+    "teamName": "Deportivo Alavés"
+  },
+  {
+    "name": "Kike García",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Spain",
+    "age": 34,
+    "teamName": "Deportivo Alavés"
+  },
+  {
+    "name": "Samú Omorodion",
+    "position": "Forward",
+    "number": 29,
+    "nationality": "Spain",
+    "age": 20,
+    "teamName": "Deportivo Alavés"
+  }
+]
