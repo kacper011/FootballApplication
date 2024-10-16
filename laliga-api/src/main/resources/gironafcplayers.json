@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Paulo Gazzaniga",
+    "position": "Goalkeeper",
+    "number": 13,
+    "nationality": "Argentina",
+    "age": 32,
+    "teamName": "Girona FC"
+  },
+  {
+    "name": "Arnau Martínez",
+    "position": "Right-back",
+    "number": 4,
+    "nationality": "Spain",
+    "age": 20,
+    "teamName": "Girona FC"
+  },
+  {
+    "name": "David López",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Spain",
+    "age": 34,
+    "teamName": "Girona FC"
+  },
+  {
+    "name": "Daley Blind",
+    "position": "Defender",
+    "number": 17,
+    "nationality": "Netherlands",
+    "age": 33,
+    "teamName": "Girona FC"
+  },
+  {
+    "name": "Miguel Gutiérrez",
+    "position": "Left-back",
+    "number": 3,
+    "nationality": "Spain",
+    "age": 22,
+    "teamName": "Girona FC"
+  },
+  {
+    "name": "Aleix García",
+    "position": "Midfielder",
+    "number": 14,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "Girona FC"
+  },
+  {
+    "name": "Yangel Herrera",
+    "position": "Midfielder",
+    "number": 21,
+    "nationality": "Venezuela",
+    "age": 26,
+    "teamName": "Girona FC"
+  },
+  {
+    "name": "Iván Martín",
+    "position": "Midfielder",
+    "number": 23,
+    "nationality": "Spain",
+    "age": 24,
+    "teamName": "Girona FC"
+  },
+  {
+    "name": "Savinho",
+    "position": "Winger",
+    "number": 7,
+    "nationality": "Brazil",
+    "age": 19,
+    "teamName": "Girona FC"
+  },
+  {
+    "name": "Cristhian Stuani",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Uruguay",
+    "age": 37,
+    "teamName": "Girona FC"
+  },
+  {
+    "name": "Viktor Tsygankov",
+    "position": "Winger",
+    "number": 8,
+    "nationality": "Ukraine",
+    "age": 26,
+    "teamName": "Girona FC"
+  }
+]
