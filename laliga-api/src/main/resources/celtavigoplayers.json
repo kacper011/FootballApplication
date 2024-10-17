@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Iván Villar",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "Celta Vigo"
+  },
+  {
+    "name": "Hugo Mallo",
+    "position": "Right-back",
+    "number": 2,
+    "nationality": "Spain",
+    "age": 32,
+    "teamName": "Celta Vigo"
+  },
+  {
+    "name": "Unai Núñez",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "Celta Vigo"
+  },
+  {
+    "name": "Javi Galán",
+    "position": "Left-back",
+    "number": 17,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "Celta Vigo"
+  },
+  {
+    "name": "Joseph Aidoo",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "Ghana",
+    "age": 28,
+    "teamName": "Celta Vigo"
+  },
+  {
+    "name": "Renato Tapia",
+    "position": "Midfielder",
+    "number": 14,
+    "nationality": "Peru",
+    "age": 28,
+    "teamName": "Celta Vigo"
+  },
+  {
+    "name": "Fran Beltrán",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Spain",
+    "age": 25,
+    "teamName": "Celta Vigo"
+  },
+  {
+    "name": "Gabri Veiga",
+    "position": "Midfielder",
+    "number": 24,
+    "nationality": "Spain",
+    "age": 21,
+    "teamName": "Celta Vigo"
+  },
+  {
+    "name": "Iago Aspas",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Spain",
+    "age": 36,
+    "teamName": "Celta Vigo"
+  },
+  {
+    "name": "Carles Pérez",
+    "position": "Winger",
+    "number": 7,
+    "nationality": "Spain",
+    "age": 25,
+    "teamName": "Celta Vigo"
+  },
+  {
+    "name": "Jørgen Strand Larsen",
+    "position": "Forward",
+    "number": 18,
+    "nationality": "Norway",
+    "age": 24,
+    "teamName": "Celta Vigo"
+  }
+]
