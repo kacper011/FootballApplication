@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Iván Villar",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "CD Leganés"
+  },
+  {
+    "name": "Kenneth Omeruo",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Nigeria",
+    "age": 30,
+    "teamName": "CD Leganés"
+  },
+  {
+    "name": "Sergio González",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "Spain",
+    "age": 31,
+    "teamName": "CD Leganés"
+  },
+  {
+    "name": "Allan Nyom",
+    "position": "Right-back",
+    "number": 12,
+    "nationality": "Cameroon",
+    "age": 35,
+    "teamName": "CD Leganés"
+  },
+  {
+    "name": "Jorge Miramón",
+    "position": "Right-back",
+    "number": 19,
+    "nationality": "Spain",
+    "age": 34,
+    "teamName": "CD Leganés"
+  },
+  {
+    "name": "Rubén Pardo",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Spain",
+    "age": 31,
+    "teamName": "CD Leganés"
+  },
+  {
+    "name": "Gaku Shibasaki",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Japan",
+    "age": 32,
+    "teamName": "CD Leganés"
+  },
+  {
+    "name": "Yacine Qasmi",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Morocco",
+    "age": 33,
+    "teamName": "CD Leganés"
+  },
+  {
+    "name": "Juan Muñoz",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Spain",
+    "age": 28,
+    "teamName": "CD Leganés"
+  },
+  {
+    "name": "Dani Raba",
+    "position": "Winger",
+    "number": 7,
+    "nationality": "Spain",
+    "age": 28,
+    "teamName": "CD Leganés"
+  },
+  {
+    "name": "Fede Vico",
+    "position": "Midfielder",
+    "number": 21,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "CD Leganés"
+  }
+]
