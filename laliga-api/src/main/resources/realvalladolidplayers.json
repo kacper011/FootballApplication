@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Jordi Masip",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Spain",
+    "age": 35,
+    "teamName": "Real Valladolid"
+  },
+  {
+    "name": "Luis Pérez",
+    "position": "Right-back",
+    "number": 2,
+    "nationality": "Spain",
+    "age": 28,
+    "teamName": "Real Valladolid"
+  },
+  {
+    "name": "Javi Sánchez",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "Real Valladolid"
+  },
+  {
+    "name": "Sergio Escudero",
+    "position": "Left-back",
+    "number": 18,
+    "nationality": "Spain",
+    "age": 34,
+    "teamName": "Real Valladolid"
+  },
+  {
+    "name": "Monchu",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Spain",
+    "age": 24,
+    "teamName": "Real Valladolid"
+  },
+  {
+    "name": "Roque Mesa",
+    "position": "Midfielder",
+    "number": 17,
+    "nationality": "Spain",
+    "age": 34,
+    "teamName": "Real Valladolid"
+  },
+  {
+    "name": "Kike Pérez",
+    "position": "Midfielder",
+    "number": 16,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "Real Valladolid"
+  },
+  {
+    "name": "Gonzalo Plata",
+    "position": "Winger",
+    "number": 11,
+    "nationality": "Ecuador",
+    "age": 23,
+    "teamName": "Real Valladolid"
+  },
+  {
+    "name": "Sergio León",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Spain",
+    "age": 34,
+    "teamName": "Real Valladolid"
+  },
+  {
+    "name": "Shon Weissman",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Israel",
+    "age": 28,
+    "teamName": "Real Valladolid"
+  },
+  {
+    "name": "Iván Fresneda",
+    "position": "Right-back",
+    "number": 27,
+    "nationality": "Spain",
+    "age": 19,
+    "teamName": "Real Valladolid"
+  }
+]
