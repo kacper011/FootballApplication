@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Fernando Pacheco",
+    "position": "Goalkeeper",
+    "number": 13,
+    "nationality": "Spain",
+    "age": 31,
+    "teamName": "RCD Espanyol"
+  },
+  {
+    "name": "Sergi Gómez",
+    "position": "Defender",
+    "number": 24,
+    "nationality": "Spain",
+    "age": 31,
+    "teamName": "RCD Espanyol"
+  },
+  {
+    "name": "Leandro Cabrera",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Uruguay",
+    "age": 32,
+    "teamName": "RCD Espanyol"
+  },
+  {
+    "name": "Brian Oliván",
+    "position": "Left-back",
+    "number": 14,
+    "nationality": "Spain",
+    "age": 29,
+    "teamName": "RCD Espanyol"
+  },
+  {
+    "name": "Oscar Gil",
+    "position": "Right-back",
+    "number": 2,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "RCD Espanyol"
+  },
+  {
+    "name": "Sergi Darder",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Spain",
+    "age": 30,
+    "teamName": "RCD Espanyol"
+  },
+  {
+    "name": "Nico Melamed",
+    "position": "Midfielder",
+    "number": 21,
+    "nationality": "Spain",
+    "age": 22,
+    "teamName": "RCD Espanyol"
+  },
+  {
+    "name": "Keidi Bare",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Albania",
+    "age": 26,
+    "teamName": "RCD Espanyol"
+  },
+  {
+    "name": "Javi Puado",
+    "position": "Winger",
+    "number": 7,
+    "nationality": "Spain",
+    "age": 25,
+    "teamName": "RCD Espanyol"
+  },
+  {
+    "name": "Martin Braithwaite",
+    "position": "Forward",
+    "number": 17,
+    "nationality": "Denmark",
+    "age": 33,
+    "teamName": "RCD Espanyol"
+  },
+  {
+    "name": "Joselu",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Spain",
+    "age": 33,
+    "teamName": "RCD Espanyol"
+  }
+]
