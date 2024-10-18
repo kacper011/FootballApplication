@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Manuel Neuer",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Germany",
+    "age": 38,
+    "teamName": "Bayern Munich"
+  },
+  {
+    "name": "Noussair Mazraoui",
+    "position": "Right-back",
+    "number": 40,
+    "nationality": "Morocco",
+    "age": 26,
+    "teamName": "Bayern Munich"
+  },
+  {
+    "name": "Matthijs de Ligt",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Netherlands",
+    "age": 24,
+    "teamName": "Bayern Munich"
+  },
+  {
+    "name": "Alphonso Davies",
+    "position": "Left-back",
+    "number": 19,
+    "nationality": "Canada",
+    "age": 23,
+    "teamName": "Bayern Munich"
+  },
+  {
+    "name": "Dayot Upamecano",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "France",
+    "age": 25,
+    "teamName": "Bayern Munich"
+  },
+  {
+    "name": "Joshua Kimmich",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "Bayern Munich"
+  },
+  {
+    "name": "Leon Goretzka",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "Bayern Munich"
+  },
+  {
+    "name": "Jamal Musiala",
+    "position": "Midfielder",
+    "number": 42,
+    "nationality": "Germany",
+    "age": 21,
+    "teamName": "Bayern Munich"
+  },
+  {
+    "name": "Thomas Müller",
+    "position": "Forward",
+    "number": 25,
+    "nationality": "Germany",
+    "age": 34,
+    "teamName": "Bayern Munich"
+  },
+  {
+    "name": "Leroy Sané",
+    "position": "Winger",
+    "number": 10,
+    "nationality": "Germany",
+    "age": 28,
+    "teamName": "Bayern Munich"
+  },
+  {
+    "name": "Harry Kane",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "England",
+    "age": 30,
+    "teamName": "Bayern Munich"
+  }
+]
