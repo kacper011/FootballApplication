@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Janis Blaswich",
+    "position": "Goalkeeper",
+    "number": 21,
+    "nationality": "Germany",
+    "age": 32,
+    "teamName": "RB Leipzig"
+  },
+  {
+    "name": "Mohamed Simakan",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "France",
+    "age": 24,
+    "teamName": "RB Leipzig"
+  },
+  {
+    "name": "Willi Orbán",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Hungary",
+    "age": 31,
+    "teamName": "RB Leipzig"
+  },
+  {
+    "name": "David Raum",
+    "position": "Left-back",
+    "number": 22,
+    "nationality": "Germany",
+    "age": 26,
+    "teamName": "RB Leipzig"
+  },
+  {
+    "name": "Joško Gvardiol",
+    "position": "Defender",
+    "number": 32,
+    "nationality": "Croatia",
+    "age": 21,
+    "teamName": "RB Leipzig"
+  },
+  {
+    "name": "Xaver Schlager",
+    "position": "Midfielder",
+    "number": 24,
+    "nationality": "Austria",
+    "age": 26,
+    "teamName": "RB Leipzig"
+  },
+  {
+    "name": "Kevin Kampl",
+    "position": "Midfielder",
+    "number": 44,
+    "nationality": "Slovenia",
+    "age": 33,
+    "teamName": "RB Leipzig"
+  },
+  {
+    "name": "Dani Olmo",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "RB Leipzig"
+  },
+  {
+    "name": "Emil Forsberg",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Sweden",
+    "age": 32,
+    "teamName": "RB Leipzig"
+  },
+  {
+    "name": "Timo Werner",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Germany",
+    "age": 28,
+    "teamName": "RB Leipzig"
+  },
+  {
+    "name": "Loïs Openda",
+    "position": "Forward",
+    "number": 17,
+    "nationality": "Belgium",
+    "age": 24,
+    "teamName": "RB Leipzig"
+  }
+]
