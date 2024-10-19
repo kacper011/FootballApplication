@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Gregor Kobel",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Switzerland",
+    "age": 26,
+    "teamName": "Borussia Dortmund"
+  },
+  {
+    "name": "Mats Hummels",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "Germany",
+    "age": 35,
+    "teamName": "Borussia Dortmund"
+  },
+  {
+    "name": "Niklas Süle",
+    "position": "Defender",
+    "number": 25,
+    "nationality": "Germany",
+    "age": 28,
+    "teamName": "Borussia Dortmund"
+  },
+  {
+    "name": "Raphaël Guerreiro",
+    "position": "Left-back",
+    "number": 13,
+    "nationality": "Portugal",
+    "age": 30,
+    "teamName": "Borussia Dortmund"
+  },
+  {
+    "name": "Julian Ryerson",
+    "position": "Defender",
+    "number": 26,
+    "nationality": "Norway",
+    "age": 26,
+    "teamName": "Borussia Dortmund"
+  },
+  {
+    "name": "Emre Can",
+    "position": "Midfielder",
+    "number": 23,
+    "nationality": "Germany",
+    "age": 30,
+    "teamName": "Borussia Dortmund"
+  },
+  {
+    "name": "Salih Özcan",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Turkey",
+    "age": 26,
+    "teamName": "Borussia Dortmund"
+  },
+  {
+    "name": "Julian Brandt",
+    "position": "Midfielder",
+    "number": 19,
+    "nationality": "Germany",
+    "age": 28,
+    "teamName": "Borussia Dortmund"
+  },
+  {
+    "name": "Marco Reus",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Germany",
+    "age": 35,
+    "teamName": "Borussia Dortmund"
+  },
+  {
+    "name": "Sébastien Haller",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Ivory Coast",
+    "age": 29,
+    "teamName": "Borussia Dortmund"
+  },
+  {
+    "name": "Donyell Malen",
+    "position": "Forward",
+    "number": 21,
+    "nationality": "Netherlands",
+    "age": 25,
+    "teamName": "Borussia Dortmund"
+  }
+]
