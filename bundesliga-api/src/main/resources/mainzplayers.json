@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Robin Zentner",
+    "position": "Goalkeeper",
+    "number": 27,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "Mainz"
+  },
+  {
+    "name": "Stefan Bell",
+    "position": "Defender",
+    "number": 16,
+    "nationality": "Germany",
+    "age": 32,
+    "teamName": "Mainz"
+  },
+  {
+    "name": "Andreas Hanche-Olsen",
+    "position": "Defender",
+    "number": 25,
+    "nationality": "Norway",
+    "age": 26,
+    "teamName": "Mainz"
+  },
+  {
+    "name": "Edimilson Fernandes",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Switzerland",
+    "age": 27,
+    "teamName": "Mainz"
+  },
+  {
+    "name": "Leandro Barreiro",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Luxembourg",
+    "age": 24,
+    "teamName": "Mainz"
+  },
+  {
+    "name": "Dominik Kohr",
+    "position": "Midfielder",
+    "number": 31,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "Mainz"
+  },
+  {
+    "name": "Jae-sung Lee",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "South Korea",
+    "age": 31,
+    "teamName": "Mainz"
+  },
+  {
+    "name": "Anton Stach",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Germany",
+    "age": 25,
+    "teamName": "Mainz"
+  },
+  {
+    "name": "Ludovic Ajorque",
+    "position": "Forward",
+    "number": 17,
+    "nationality": "France",
+    "age": 29,
+    "teamName": "Mainz"
+  },
+  {
+    "name": "Karim Onisiwo",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Austria",
+    "age": 31,
+    "teamName": "Mainz"
+  },
+  {
+    "name": "Tom Krauss",
+    "position": "Midfielder",
+    "number": 14,
+    "nationality": "Germany",
+    "age": 22,
+    "teamName": "Mainz"
+  }
+]
