@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Jonas Omlin",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Switzerland",
+    "age": 29,
+    "teamName": "Borussia Monchengladbach"
+  },
+  {
+    "name": "Jonas Hofmann",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Germany",
+    "age": 31,
+    "teamName": "Borussia Monchengladbach"
+  },
+  {
+    "name": "Matthias Ginter",
+    "position": "Defender",
+    "number": 28,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "Borussia Monchengladbach"
+  },
+  {
+    "name": "Luca Netz",
+    "position": "Defender",
+    "number": 30,
+    "nationality": "Germany",
+    "age": 21,
+    "teamName": "Borussia Monchengladbach"
+  },
+  {
+    "name": "Ramy Bensebaini",
+    "position": "Defender",
+    "number": 25,
+    "nationality": "Algeria",
+    "age": 28,
+    "teamName": "Borussia Monchengladbach"
+  },
+  {
+    "name": "Denis Zakaria",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Switzerland",
+    "age": 27,
+    "teamName": "Borussia Monchengladbach"
+  },
+  {
+    "name": "Florian Neuhaus",
+    "position": "Midfielder",
+    "number": 32,
+    "nationality": "Germany",
+    "age": 26,
+    "teamName": "Borussia Monchengladbach"
+  },
+  {
+    "name": "Jonas Hofmann",
+    "position": "Midfielder",
+    "number": 23,
+    "nationality": "Germany",
+    "age": 31,
+    "teamName": "Borussia Monchengladbach"
+  },
+  {
+    "name": "Lars Stindl",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Germany",
+    "age": 35,
+    "teamName": "Borussia Monchengladbach"
+  },
+  {
+    "name": "Marcus Thuram",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "France",
+    "age": 26,
+    "teamName": "Borussia Monchengladbach"
+  },
+  {
+    "name": "Alassane Plea",
+    "position": "Forward",
+    "number": 14,
+    "nationality": "France",
+    "age": 30,
+    "teamName": "Borussia Monchengladbach"
+  }
+]
