@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Jonas Wöber",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Austria",
+    "age": 25,
+    "teamName": "VfB Stuttgart"
+  },
+  {
+    "name": "Waldemar Anton",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Germany",
+    "age": 27,
+    "teamName": "VfB Stuttgart"
+  },
+  {
+    "name": "Konstantinos Mavropanos",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Greece",
+    "age": 25,
+    "teamName": "VfB Stuttgart"
+  },
+  {
+    "name": "Borna Sosa",
+    "position": "Defender",
+    "number": 24,
+    "nationality": "Croatia",
+    "age": 26,
+    "teamName": "VfB Stuttgart"
+  },
+  {
+    "name": "Pascal Stenzel",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Germany",
+    "age": 27,
+    "teamName": "VfB Stuttgart"
+  },
+  {
+    "name": "Enzo Millot",
+    "position": "Midfielder",
+    "number": 27,
+    "nationality": "France",
+    "age": 22,
+    "teamName": "VfB Stuttgart"
+  },
+  {
+    "name": "Wataru Endo",
+    "position": "Midfielder",
+    "number": 3,
+    "nationality": "Japan",
+    "age": 30,
+    "teamName": "VfB Stuttgart"
+  },
+  {
+    "name": "Sasa Kalajdzic",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Austria",
+    "age": 26,
+    "teamName": "VfB Stuttgart"
+  },
+  {
+    "name": "Serhou Guirassy",
+    "position": "Forward",
+    "number": 23,
+    "nationality": "Guinea",
+    "age": 27,
+    "teamName": "VfB Stuttgart"
+  },
+  {
+    "name": "Luka Jovic",
+    "position": "Forward",
+    "number": 18,
+    "nationality": "Serbia",
+    "age": 26,
+    "teamName": "VfB Stuttgart"
+  },
+  {
+    "name": "Fabian Giefer",
+    "position": "Goalkeeper",
+    "number": 35,
+    "nationality": "Germany",
+    "age": 31,
+    "teamName": "VfB Stuttgart"
+  }
+]
