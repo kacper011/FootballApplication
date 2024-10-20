@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Koen Casteels",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Belgium",
+    "age": 31,
+    "teamName": "VfL Wolfsburg"
+  },
+  {
+    "name": "Micky van de Ven",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "Netherlands",
+    "age": 22,
+    "teamName": "VfL Wolfsburg"
+  },
+  {
+    "name": "Maxence Lacroix",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "France",
+    "age": 23,
+    "teamName": "VfL Wolfsburg"
+  },
+  {
+    "name": "Gerrit Holtmann",
+    "position": "Defender",
+    "number": 24,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "VfL Wolfsburg"
+  },
+  {
+    "name": "Ridle Baku",
+    "position": "Defender",
+    "number": 20,
+    "nationality": "Germany",
+    "age": 25,
+    "teamName": "VfL Wolfsburg"
+  },
+  {
+    "name": "Felix Nmecha",
+    "position": "Midfielder",
+    "number": 27,
+    "nationality": "Germany",
+    "age": 23,
+    "teamName": "VfL Wolfsburg"
+  },
+  {
+    "name": "Xaver Schlager",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Austria",
+    "age": 25,
+    "teamName": "VfL Wolfsburg"
+  },
+  {
+    "name": "Maximilian Arnold",
+    "position": "Midfielder",
+    "number": 27,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "VfL Wolfsburg"
+  },
+  {
+    "name": "Lukas Nmecha",
+    "position": "Forward",
+    "number": 14,
+    "nationality": "Germany",
+    "age": 24,
+    "teamName": "VfL Wolfsburg"
+  },
+  {
+    "name": "Jonas Wind",
+    "position": "Forward",
+    "number": 18,
+    "nationality": "Denmark",
+    "age": 25,
+    "teamName": "VfL Wolfsburg"
+  },
+  {
+    "name": "Krzysztof Piatek",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "VfL Wolfsburg"
+  }
+]
