@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Kevin Trapp",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Germany",
+    "age": 33,
+    "teamName": "Eintracht Frankfurt"
+  },
+  {
+    "name": "Robin Koch",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Germany",
+    "age": 27,
+    "teamName": "Eintracht Frankfurt"
+  },
+  {
+    "name": "Tuta",
+    "position": "Defender",
+    "number": 35,
+    "nationality": "Brazil",
+    "age": 24,
+    "teamName": "Eintracht Frankfurt"
+  },
+  {
+    "name": "Christopher Lenz",
+    "position": "Defender",
+    "number": 25,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "Eintracht Frankfurt"
+  },
+  {
+    "name": "Ellyes Skhiri",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Tunisia",
+    "age": 28,
+    "teamName": "Eintracht Frankfurt"
+  },
+  {
+    "name": "Mario Götze",
+    "position": "Midfielder",
+    "number": 27,
+    "nationality": "Germany",
+    "age": 31,
+    "teamName": "Eintracht Frankfurt"
+  },
+  {
+    "name": "Jens Petter Hauge",
+    "position": "Midfielder",
+    "number": 23,
+    "nationality": "Norway",
+    "age": 24,
+    "teamName": "Eintracht Frankfurt"
+  },
+  {
+    "name": "Omar Marmoush",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Egypt",
+    "age": 24,
+    "teamName": "Eintracht Frankfurt"
+  },
+  {
+    "name": "Randal Kolo Muani",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "France",
+    "age": 25,
+    "teamName": "Eintracht Frankfurt"
+  },
+  {
+    "name": "Ansgar Knauff",
+    "position": "Midfielder",
+    "number": 36,
+    "nationality": "Germany",
+    "age": 22,
+    "teamName": "Eintracht Frankfurt"
+  },
+  {
+    "name": "Jesper Lindstrøm",
+    "position": "Midfielder",
+    "number": 29,
+    "nationality": "Denmark",
+    "age": 23,
+    "teamName": "Eintracht Frankfurt"
+  }
+]

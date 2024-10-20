@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Lukáš Hrádecký",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Finland",
+    "age": 34,
+    "teamName": "Bayer Leverkusen"
+  },
+  {
+    "name": "Jonathan Tah",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Germany",
+    "age": 27,
+    "teamName": "Bayer Leverkusen"
+  },
+  {
+    "name": "Edmond Tapsoba",
+    "position": "Defender",
+    "number": 12,
+    "nationality": "Burkina Faso",
+    "age": 25,
+    "teamName": "Bayer Leverkusen"
+  },
+  {
+    "name": "Piero Hincapié",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Ecuador",
+    "age": 21,
+    "teamName": "Bayer Leverkusen"
+  },
+  {
+    "name": "Granit Xhaka",
+    "position": "Midfielder",
+    "number": 34,
+    "nationality": "Switzerland",
+    "age": 32,
+    "teamName": "Bayer Leverkusen"
+  },
+  {
+    "name": "Florian Wirtz",
+    "position": "Midfielder",
+    "number": 27,
+    "nationality": "Germany",
+    "age": 21,
+    "teamName": "Bayer Leverkusen"
+  },
+  {
+    "name": "Exequiel Palacios",
+    "position": "Midfielder",
+    "number": 25,
+    "nationality": "Argentina",
+    "age": 25,
+    "teamName": "Bayer Leverkusen"
+  },
+  {
+    "name": "Jonas Hofmann",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Germany",
+    "age": 32,
+    "teamName": "Bayer Leverkusen"
+  },
+  {
+    "name": "Victor Boniface",
+    "position": "Forward",
+    "number": 22,
+    "nationality": "Nigeria",
+    "age": 23,
+    "teamName": "Bayer Leverkusen"
+  },
+  {
+    "name": "Jeremie Frimpong",
+    "position": "Defender",
+    "number": 30,
+    "nationality": "Netherlands",
+    "age": 23,
+    "teamName": "Bayer Leverkusen"
+  },
+  {
+    "name": "Moussa Diaby",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "France",
+    "age": 25,
+    "teamName": "Bayer Leverkusen"
+  }
+]
