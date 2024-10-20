@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Frederik Rønnow",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Denmark",
+    "age": 31,
+    "teamName": "Union Berlin"
+  },
+  {
+    "name": "Robin Knoche",
+    "position": "Defender",
+    "number": 31,
+    "nationality": "Germany",
+    "age": 31,
+    "teamName": "Union Berlin"
+  },
+  {
+    "name": "Diogo Leite",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Portugal",
+    "age": 25,
+    "teamName": "Union Berlin"
+  },
+  {
+    "name": "Danilho Doekhi",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Netherlands",
+    "age": 25,
+    "teamName": "Union Berlin"
+  },
+  {
+    "name": "Christopher Trimmel",
+    "position": "Defender",
+    "number": 28,
+    "nationality": "Austria",
+    "age": 37,
+    "teamName": "Union Berlin"
+  },
+  {
+    "name": "Rani Khedira",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "Union Berlin"
+  },
+  {
+    "name": "Aïssa Laïdouni",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Tunisia",
+    "age": 27,
+    "teamName": "Union Berlin"
+  },
+  {
+    "name": "Alex Král",
+    "position": "Midfielder",
+    "number": 33,
+    "nationality": "Czech Republic",
+    "age": 25,
+    "teamName": "Union Berlin"
+  },
+  {
+    "name": "Sheraldo Becker",
+    "position": "Forward",
+    "number": 27,
+    "nationality": "Suriname",
+    "age": 29,
+    "teamName": "Union Berlin"
+  },
+  {
+    "name": "Kevin Behrens",
+    "position": "Forward",
+    "number": 17,
+    "nationality": "Germany",
+    "age": 32,
+    "teamName": "Union Berlin"
+  },
+  {
+    "name": "David Datro Fofana",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Ivory Coast",
+    "age": 21,
+    "teamName": "Union Berlin"
+  }
+]
