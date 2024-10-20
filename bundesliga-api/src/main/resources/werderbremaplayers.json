@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Jiri Pavlenka",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Czech Republic",
+    "age": 31,
+    "teamName": "Werder Bremen"
+  },
+  {
+    "name": "Marco Friedl",
+    "position": "Defender",
+    "number": 28,
+    "nationality": "Austria",
+    "age": 25,
+    "teamName": "Werder Bremen"
+  },
+  {
+    "name": "Milos Veljkovic",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Serbia",
+    "age": 28,
+    "teamName": "Werder Bremen"
+  },
+  {
+    "name": "Lee Buchanan",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "England",
+    "age": 23,
+    "teamName": "Werder Bremen"
+  },
+  {
+    "name": "Niklas Stark",
+    "position": "Defender",
+    "number": 13,
+    "nationality": "Germany",
+    "age": 28,
+    "teamName": "Werder Bremen"
+  },
+  {
+    "name": "Christian Groß",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Germany",
+    "age": 34,
+    "teamName": "Werder Bremen"
+  },
+  {
+    "name": "Leonardo Bittencourt",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Germany",
+    "age": 30,
+    "teamName": "Werder Bremen"
+  },
+  {
+    "name": "Ilia Gruev",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Bulgaria",
+    "age": 24,
+    "teamName": "Werder Bremen"
+  },
+  {
+    "name": "Marvin Ducksch",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "Werder Bremen"
+  },
+  {
+    "name": "Niclas Füllkrug",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Germany",
+    "age": 30,
+    "teamName": "Werder Bremen"
+  },
+  {
+    "name": "Leonardo Bittencourt",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Germany",
+    "age": 30,
+    "teamName": "Werder Bremen"
+  }
+]
