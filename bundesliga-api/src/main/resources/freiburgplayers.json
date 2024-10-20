@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Noah Atubolu",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Germany",
+    "age": 21,
+    "teamName": "Freiburg"
+  },
+  {
+    "name": "Philipp Lienhart",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Austria",
+    "age": 27,
+    "teamName": "Freiburg"
+  },
+  {
+    "name": "Manuel Gulde",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Germany",
+    "age": 32,
+    "teamName": "Freiburg"
+  },
+  {
+    "name": "Christian Günter",
+    "position": "Defender",
+    "number": 30,
+    "nationality": "Germany",
+    "age": 31,
+    "teamName": "Freiburg"
+  },
+  {
+    "name": "Nicolas Höfler",
+    "position": "Midfielder",
+    "number": 27,
+    "nationality": "Germany",
+    "age": 33,
+    "teamName": "Freiburg"
+  },
+  {
+    "name": "Maximilian Eggestein",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Germany",
+    "age": 27,
+    "teamName": "Freiburg"
+  },
+  {
+    "name": "Ritsu Doan",
+    "position": "Midfielder",
+    "number": 42,
+    "nationality": "Japan",
+    "age": 26,
+    "teamName": "Freiburg"
+  },
+  {
+    "name": "Vincenzo Grifo",
+    "position": "Forward",
+    "number": 32,
+    "nationality": "Italy",
+    "age": 31,
+    "teamName": "Freiburg"
+  },
+  {
+    "name": "Michael Gregoritsch",
+    "position": "Forward",
+    "number": 38,
+    "nationality": "Austria",
+    "age": 29,
+    "teamName": "Freiburg"
+  },
+  {
+    "name": "Lucas Höler",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "Freiburg"
+  },
+  {
+    "name": "Matthias Ginter",
+    "position": "Defender",
+    "number": 28,
+    "nationality": "Germany",
+    "age": 29,
+    "teamName": "Freiburg"
+  }
+]
