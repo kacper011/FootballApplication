@@ -16,9 +16,9 @@ public class TransferService {
         this.restTemplate = restTemplate;
     }
 
-    public PlayerDTO getPlayerFromBundesliga(int playerId) {
+    public PlayerDTO getPlayerFromLeague(String league, int playerId) {
 
-        String url = String.format("http://localhost:8080/bundesliga/players/%d", playerId);
+        String url = String.format("http://localhost:8080/%s/players/%d", league, playerId);
         Player player = restTemplate.getForObject(url, Player.class);
 
         if (player != null) {

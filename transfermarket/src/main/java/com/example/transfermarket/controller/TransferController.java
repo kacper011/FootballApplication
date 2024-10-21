@@ -19,9 +19,9 @@ public class TransferController {
         this.transferService = transferService;
     }
 
-    @GetMapping("/bundesliga/players/{playerId}")
-    public PlayerDTO getPlayer(@PathVariable int playerId) {
-        PlayerDTO playerDTO = transferService.getPlayerFromBundesliga(playerId);
+    @GetMapping("/{league}/players/{playerId}")
+    public PlayerDTO getPlayer(@PathVariable String league, @PathVariable int playerId) {
+        PlayerDTO playerDTO = transferService.getPlayerFromLeague(league, playerId);
         if (playerDTO == null) {
             throw new RuntimeException("Player not found with ID: " + playerId);
         }
