@@ -3,6 +3,7 @@ package com.example.laliga_api.service;
 import com.example.laliga_api.dto.PlayerDTO;
 import com.example.laliga_api.mapper.PlayerMapper;
 import com.example.laliga_api.model.Player;
+import com.example.laliga_api.model.Team;
 import com.example.laliga_api.repository.PlayerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -42,5 +43,26 @@ public class PlayerService {
 
     public void deletePlayer(Long id) {
         playerRepository.deleteById(id);
+    }
+
+    public Player updatePlayer(Long id, PlayerDTO playerDTO) {
+
+        Player existingPlayer = playerRepository.findById(id).orElse(null);
+
+        if (existingPlayer == null) {
+            return null;
+        }
+
+        existingPlayer.setName(playerDTO.getName());
+        existingPlayer.setPosition(playerDTO.getPosition());
+        existingPlayer.setNumber(playerDTO.getNumber());
+        existingPlayer.setNationality(playerDTO.getNationality());
+        existingPlayer.setAge(playerDTO.getAge());
+
+        Team team = teamService.findByName(playerDTO.getTeamName());
+        if (team != null) {
+            existingPlayer.setTeam(team);
+        }
+        return playerRepository.save(existingPlayer);
     }
 }
