@@ -76,6 +76,18 @@ public class PlayerController {
         return playerService.savePlayer(player);
     }
 
+    @PutMapping("/{id}")
+    public ResponseEntity<PlayerDTO> updatePlayer(@PathVariable Long id, @RequestBody PlayerDTO playerDTO) {
+        Player player = playerService.updatePlayer(id, playerDTO);
+
+        if (player == null) {
+            return ResponseEntity.notFound().build();
+        }
+
+        PlayerDTO updatedPlayerDTO = playerMapper.toDTO(player);
+        return ResponseEntity.ok(updatedPlayerDTO);
+    }
+
     @DeleteMapping("/{id}")
     public void deletePlayer(@PathVariable Long id) {
         playerService.deletePlayer(id);
