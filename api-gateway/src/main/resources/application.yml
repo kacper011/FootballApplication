@@ -27,6 +27,10 @@ spring:
           uri: http://localhost:8085
           predicates:
             - Path=/seriea/**
+        - id: transfermarket
+          uri: http://localhost:8086
+          predicates:
+            - Path=/transfermarket/**
     discovery:
       client:
         service-url:
