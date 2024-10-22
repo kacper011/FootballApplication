@@ -3,35 +3,35 @@ server:
 
 spring:
   application:
-    name: gateway
+    name: api-gateway
   cloud:
     gateway:
       routes:
         - id: laliga-api
-          uri: http://localhost:8081
+          uri: http://laliga-api:8081
           predicates:
             - Path=/laliga/**
         - id: bundesliga-api
-          uri: http://localhost:8082
+          uri: http://bundesliga-api:8082
           predicates:
             - Path=/bundesliga/**
         - id: premierleague-api
-          uri: http://localhost:8083
+          uri: http://premierleague-api:8083
           predicates:
             - Path=/premierleague/**
         - id: ekstraklasa-api
-          uri: http://localhost:8084
+          uri: http://ekstraklasa-api:8084
           predicates:
             - Path=/ekstraklasa/**
         - id: seriea-api
-          uri: http://localhost:8085
+          uri: http://seriea-api:8085
           predicates:
             - Path=/seriea/**
         - id: transfermarket
-          uri: http://localhost:8086
+          uri: http://transfermarket:8086
           predicates:
             - Path=/transfermarket/**
     discovery:
       client:
         service-url:
-          defaultZone: http://localhost:8761/eureka/
+          defaultZone: http://eureka-server:8761/eureka/
