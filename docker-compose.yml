@@ -1,15 +1,20 @@
 version: '3'
 services:
   eureka-server:
-    image: eureka-server:latest  # Używamy już zbudowanego obrazu
+    image: eureka-server  # Używamy już zbudowanego obrazu
     ports:
       - "8761:8761"
     networks:
       - gateway-network
-    restart: always  # Opcjonalnie
+    # restart: always  # Opcjonalnie
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8761/eureka/"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
 
   gateway:
-    image: api-gateway:latest  # Używamy już zbudowanego obrazu
+    image: api-gateway  # Używamy już zbudowanego obrazu
     ports:
       - "8080:8080"
     environment:
@@ -18,7 +23,7 @@ services:
       - eureka-server
     networks:
       - gateway-network
-    restart: always  # Opcjonalnie
+    # restart: always  # Opcjonalnie
 
   bundesliga-api:
     image: bundesliga-api  # Obraz dla bundesliga-api
@@ -30,7 +35,7 @@ services:
       - eureka-server
     networks:
       - gateway-network
-    restart: always  # Opcjonalnie
+    # restart: always  # Opcjonalnie
 
   laliga-api:
     image: laliga-api  # Obraz dla laliga-api
@@ -42,7 +47,7 @@ services:
       - eureka-server
     networks:
       - gateway-network
-    restart: always  # Opcjonalnie
+    # restart: always  # Opcjonalnie
 
   premierleague-api:
     image: premierleague-api  # Obraz dla premierleague-api
@@ -54,7 +59,7 @@ services:
       - eureka-server
     networks:
       - gateway-network
-    restart: always  # Opcjonalnie
+    # restart: always  # Opcjonalnie
 
   ekstraklasa-api:
     image: ekstraklasa-api  # Obraz dla ekstraklasa-api
@@ -66,7 +71,7 @@ services:
       - eureka-server
     networks:
       - gateway-network
-    restart: always  # Opcjonalnie
+    # restart: always  # Opcjonalnie
 
   seriea-api:
     image: seriea-api  # Obraz dla seriea-api
@@ -78,7 +83,7 @@ services:
       - eureka-server
     networks:
       - gateway-network
-    restart: always  # Opcjonalnie
+    # restart: always  # Opcjonalnie
 
   transfermarket:
     image: transfermarket  # Obraz dla transfermarket
@@ -90,7 +95,7 @@ services:
       - eureka-server
     networks:
       - gateway-network
-    restart: always  # Opcjonalnie
+    # restart: always  # Opcjonalnie
 
 networks:
   gateway-network:
