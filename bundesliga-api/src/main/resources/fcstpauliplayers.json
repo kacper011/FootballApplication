@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Nikola Vasilj",
+    "position": "Goalkeeper",
+    "number": 22,
+    "nationality": "Bosnia and Herzegovina",
+    "age": 27,
+    "teamName": "FC St. Pauli"
+  },
+  {
+    "name": "Jakov Medić",
+    "position": "Defender",
+    "number": 18,
+    "nationality": "Croatia",
+    "age": 25,
+    "teamName": "FC St. Pauli"
+  },
+  {
+    "name": "Luca Zander",
+    "position": "Defender",
+    "number": 19,
+    "nationality": "Germany",
+    "age": 28,
+    "teamName": "FC St. Pauli"
+  },
+  {
+    "name": "Leart Paqarada",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Kosovo",
+    "age": 29,
+    "teamName": "FC St. Pauli"
+  },
+  {
+    "name": "Eric Smith",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Sweden",
+    "age": 26,
+    "teamName": "FC St. Pauli"
+  },
+  {
+    "name": "Jackson Irvine",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Australia",
+    "age": 31,
+    "teamName": "FC St. Pauli"
+  },
+  {
+    "name": "Oladapo Afolayan",
+    "position": "Forward",
+    "number": 17,
+    "nationality": "England",
+    "age": 26,
+    "teamName": "FC St. Pauli"
+  },
+  {
+    "name": "Elias Saad",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Germany",
+    "age": 23,
+    "teamName": "FC St. Pauli"
+  },
+  {
+    "name": "David Otto",
+    "position": "Forward",
+    "number": 27,
+    "nationality": "Germany",
+    "age": 24,
+    "teamName": "FC St. Pauli"
+  },
+  {
+    "name": "Marcel Hartel",
+    "position": "Midfielder",
+    "number": 30,
+    "nationality": "Germany",
+    "age": 28,
+    "teamName": "FC St. Pauli"
+  },
+  {
+    "name": "Connor Metcalfe",
+    "position": "Midfielder",
+    "number": 26,
+    "nationality": "Australia",
+    "age": 24,
+    "teamName": "FC St. Pauli"
+  }
+]
