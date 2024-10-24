@@ -12,7 +12,7 @@ spring:
           predicates:
             - Path=/laliga/**
         - id: bundesliga-api
-          uri: http://bundesliga-api:8082
+          uri: http://localhost:8082
           predicates:
             - Path=/bundesliga/**
         - id: premierleague-api

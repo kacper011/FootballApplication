@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Finn Dahmen",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Germany",
+    "age": 25,
+    "teamName": "FC Augsburg"
+  },
+  {
+    "name": "Jeffrey Gouweleeuw",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Netherlands",
+    "age": 32,
+    "teamName": "FC Augsburg"
+  },
+  {
+    "name": "Maximilian Bauer",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Germany",
+    "age": 23,
+    "teamName": "FC Augsburg"
+  },
+  {
+    "name": "Iago",
+    "position": "Defender",
+    "number": 22,
+    "nationality": "Brazil",
+    "age": 26,
+    "teamName": "FC Augsburg"
+  },
+  {
+    "name": "Arne Engels",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Belgium",
+    "age": 20,
+    "teamName": "FC Augsburg"
+  },
+  {
+    "name": "Elvis Rexhbecaj",
+    "position": "Midfielder",
+    "number": 13,
+    "nationality": "Kosovo",
+    "age": 26,
+    "teamName": "FC Augsburg"
+  },
+  {
+    "name": "Dion Beljo",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Croatia",
+    "age": 21,
+    "teamName": "FC Augsburg"
+  },
+  {
+    "name": "Ermedin Demirović",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Bosnia and Herzegovina",
+    "age": 25,
+    "teamName": "FC Augsburg"
+  },
+  {
+    "name": "Mads Pedersen",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Denmark",
+    "age": 27,
+    "teamName": "FC Augsburg"
+  },
+  {
+    "name": "Ruben Vargas",
+    "position": "Forward",
+    "number": 16,
+    "nationality": "Switzerland",
+    "age": 25,
+    "teamName": "FC Augsburg"
+  },
+  {
+    "name": "Fredrik Jensen",
+    "position": "Midfielder",
+    "number": 24,
+    "nationality": "Finland",
+    "age": 26,
+    "teamName": "FC Augsburg"
+  }
+]
