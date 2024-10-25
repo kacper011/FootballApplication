@@ -58,7 +58,7 @@ public class PlayerController {
     @PostMapping
     public Player savePlayer(@RequestBody PlayerDTO playerDTO) {
 
-        Team team = teamService.findByName(playerDTO.getName());
+        Team team = teamService.findByName(playerDTO.getTeamName());
 
         if (team == null) {
             throw new RuntimeException("Team not found with name: " + playerDTO.getTeamName());

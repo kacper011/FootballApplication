@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Alisson Becker",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Brazil",
+    "age": 31,
+    "teamName": "Liverpool FC"
+  },
+  {
+    "name": "Trent Alexander-Arnold",
+    "position": "Defender",
+    "number": 66,
+    "nationality": "England",
+    "age": 25,
+    "teamName": "Liverpool FC"
+  },
+  {
+    "name": "Virgil van Dijk",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Netherlands",
+    "age": 32,
+    "teamName": "Liverpool FC"
+  },
+  {
+    "name": "Ibrahima Konaté",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "France",
+    "age": 24,
+    "teamName": "Liverpool FC"
+  },
+  {
+    "name": "Andy Robertson",
+    "position": "Defender",
+    "number": 26,
+    "nationality": "Scotland",
+    "age": 30,
+    "teamName": "Liverpool FC"
+  },
+  {
+    "name": "Fabinho",
+    "position": "Midfielder",
+    "number": 3,
+    "nationality": "Brazil",
+    "age": 30,
+    "teamName": "Liverpool FC"
+  },
+  {
+    "name": "Jordan Henderson",
+    "position": "Midfielder",
+    "number": 14,
+    "nationality": "England",
+    "age": 34,
+    "teamName": "Liverpool FC"
+  },
+  {
+    "name": "Mohamed Salah",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Egypt",
+    "age": 32,
+    "teamName": "Liverpool FC"
+  },
+  {
+    "name": "Diogo Jota",
+    "position": "Forward",
+    "number": 20,
+    "nationality": "Portugal",
+    "age": 27,
+    "teamName": "Liverpool FC"
+  },
+  {
+    "name": "Darwin Núñez",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Uruguay",
+    "age": 25,
+    "teamName": "Liverpool FC"
+  },
+  {
+    "name": "Curtis Jones",
+    "position": "Midfielder",
+    "number": 17,
+    "nationality": "England",
+    "age": 23,
+    "teamName": "Liverpool FC"
+  }
+]
