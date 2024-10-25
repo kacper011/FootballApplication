@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Manuel Riemann",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Germany",
+    "age": 35,
+    "teamName": "VfL Bochum"
+  },
+  {
+    "name": "Danilo Soares",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Brazil",
+    "age": 31,
+    "teamName": "VfL Bochum"
+  },
+  {
+    "name": "Erhan Masovic",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Serbia",
+    "age": 24,
+    "teamName": "VfL Bochum"
+  },
+  {
+    "name": "Keven Schlotterbeck",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Germany",
+    "age": 26,
+    "teamName": "VfL Bochum"
+  },
+  {
+    "name": "Anthony Losilla",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "France",
+    "age": 37,
+    "teamName": "VfL Bochum"
+  },
+  {
+    "name": "Kevin Stöger",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Austria",
+    "age": 30,
+    "teamName": "VfL Bochum"
+  },
+  {
+    "name": "Takuma Asano",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Japan",
+    "age": 29,
+    "teamName": "VfL Bochum"
+  },
+  {
+    "name": "Philipp Hofmann",
+    "position": "Forward",
+    "number": 33,
+    "nationality": "Germany",
+    "age": 30,
+    "teamName": "VfL Bochum"
+  },
+  {
+    "name": "Christopher Antwi-Adjei",
+    "position": "Forward",
+    "number": 22,
+    "nationality": "Ghana",
+    "age": 29,
+    "teamName": "VfL Bochum"
+  },
+  {
+    "name": "Ivan Ordets",
+    "position": "Defender",
+    "number": 20,
+    "nationality": "Ukraine",
+    "age": 31,
+    "teamName": "VfL Bochum"
+  },
+  {
+    "name": "Patrick Osterhage",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Germany",
+    "age": 24,
+    "teamName": "VfL Bochum"
+  }
+]
