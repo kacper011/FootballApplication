@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Ederson",
+    "position": "Goalkeeper",
+    "number": 31,
+    "nationality": "Brazil",
+    "age": 30,
+    "teamName": "Manchester City FC"
+  },
+  {
+    "name": "Kyle Walker",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "England",
+    "age": 34,
+    "teamName": "Manchester City FC"
+  },
+  {
+    "name": "Ruben Dias",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Portugal",
+    "age": 26,
+    "teamName": "Manchester City FC"
+  },
+  {
+    "name": "Manuel Akanji",
+    "position": "Defender",
+    "number": 25,
+    "nationality": "Switzerland",
+    "age": 28,
+    "teamName": "Manchester City FC"
+  },
+  {
+    "name": "Josko Gvardiol",
+    "position": "Defender",
+    "number": 24,
+    "nationality": "Croatia",
+    "age": 22,
+    "teamName": "Manchester City FC"
+  },
+  {
+    "name": "Rodri",
+    "position": "Midfielder",
+    "number": 16,
+    "nationality": "Spain",
+    "age": 27,
+    "teamName": "Manchester City FC"
+  },
+  {
+    "name": "Kevin De Bruyne",
+    "position": "Midfielder",
+    "number": 17,
+    "nationality": "Belgium",
+    "age": 32,
+    "teamName": "Manchester City FC"
+  },
+  {
+    "name": "Phil Foden",
+    "position": "Midfielder",
+    "number": 47,
+    "nationality": "England",
+    "age": 24,
+    "teamName": "Manchester City FC"
+  },
+  {
+    "name": "Erling Haaland",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Norway",
+    "age": 23,
+    "teamName": "Manchester City FC"
+  },
+  {
+    "name": "Julian Alvarez",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Argentina",
+    "age": 24,
+    "teamName": "Manchester City FC"
+  },
+  {
+    "name": "Bernardo Silva",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Portugal",
+    "age": 29,
+    "teamName": "Manchester City FC"
+  }
+]
