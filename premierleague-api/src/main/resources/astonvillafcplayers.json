@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Emiliano Martinez",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Argentina",
+    "age": 31,
+    "teamName": "Aston Villa FC"
+  },
+  {
+    "name": "Matty Cash",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Poland",
+    "age": 26,
+    "teamName": "Aston Villa FC"
+  },
+  {
+    "name": "Tyrone Mings",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "England",
+    "age": 30,
+    "teamName": "Aston Villa FC"
+  },
+  {
+    "name": "Ezri Konsa",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "England",
+    "age": 25,
+    "teamName": "Aston Villa FC"
+  },
+  {
+    "name": "Pau Torres",
+    "position": "Defender",
+    "number": 14,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "Aston Villa FC"
+  },
+  {
+    "name": "Douglas Luiz",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Brazil",
+    "age": 25,
+    "teamName": "Aston Villa FC"
+  },
+  {
+    "name": "John McGinn",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Scotland",
+    "age": 29,
+    "teamName": "Aston Villa FC"
+  },
+  {
+    "name": "Leon Bailey",
+    "position": "Midfielder",
+    "number": 31,
+    "nationality": "Jamaica",
+    "age": 26,
+    "teamName": "Aston Villa FC"
+  },
+  {
+    "name": "Moussa Diaby",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "France",
+    "age": 24,
+    "teamName": "Aston Villa FC"
+  },
+  {
+    "name": "Ollie Watkins",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "England",
+    "age": 27,
+    "teamName": "Aston Villa FC"
+  },
+  {
+    "name": "Boubacar Kamara",
+    "position": "Midfielder",
+    "number": 44,
+    "nationality": "France",
+    "age": 24,
+    "teamName": "Aston Villa FC"
+  }
+]
