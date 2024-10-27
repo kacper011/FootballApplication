@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Robert Sanchez",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Spain",
+    "age": 25,
+    "teamName": "Chelsea FC"
+  },
+  {
+    "name": "Reece James",
+    "position": "Defender",
+    "number": 24,
+    "nationality": "England",
+    "age": 24,
+    "teamName": "Chelsea FC"
+  },
+  {
+    "name": "Thiago Silva",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Brazil",
+    "age": 39,
+    "teamName": "Chelsea FC"
+  },
+  {
+    "name": "Levi Colwill",
+    "position": "Defender",
+    "number": 26,
+    "nationality": "England",
+    "age": 20,
+    "teamName": "Chelsea FC"
+  },
+  {
+    "name": "Ben Chilwell",
+    "position": "Defender",
+    "number": 21,
+    "nationality": "England",
+    "age": 26,
+    "teamName": "Chelsea FC"
+  },
+  {
+    "name": "Enzo Fernandez",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Argentina",
+    "age": 22,
+    "teamName": "Chelsea FC"
+  },
+  {
+    "name": "Conor Gallagher",
+    "position": "Midfielder",
+    "number": 23,
+    "nationality": "England",
+    "age": 23,
+    "teamName": "Chelsea FC"
+  },
+  {
+    "name": "Raheem Sterling",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "England",
+    "age": 28,
+    "teamName": "Chelsea FC"
+  },
+  {
+    "name": "Mykhailo Mudryk",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Ukraine",
+    "age": 22,
+    "teamName": "Chelsea FC"
+  },
+  {
+    "name": "Nicolas Jackson",
+    "position": "Forward",
+    "number": 15,
+    "nationality": "Senegal",
+    "age": 22,
+    "teamName": "Chelsea FC"
+  },
+  {
+    "name": "Malo Gusto",
+    "position": "Defender",
+    "number": 27,
+    "nationality": "France",
+    "age": 20,
+    "teamName": "Chelsea FC"
+  }
+]
