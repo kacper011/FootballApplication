@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Jason Steele",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "England",
+    "age": 33,
+    "teamName": "Brighton & Hove Albion FC"
+  },
+  {
+    "name": "Lewis Dunk",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "England",
+    "age": 31,
+    "teamName": "Brighton & Hove Albion FC"
+  },
+  {
+    "name": "Pervis Estupiñán",
+    "position": "Defender",
+    "number": 30,
+    "nationality": "Ecuador",
+    "age": 25,
+    "teamName": "Brighton & Hove Albion FC"
+  },
+  {
+    "name": "Jan Paul van Hecke",
+    "position": "Defender",
+    "number": 29,
+    "nationality": "Netherlands",
+    "age": 23,
+    "teamName": "Brighton & Hove Albion FC"
+  },
+  {
+    "name": "Tariq Lamptey",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Ghana",
+    "age": 23,
+    "teamName": "Brighton & Hove Albion FC"
+  },
+  {
+    "name": "Moises Caicedo",
+    "position": "Midfielder",
+    "number": 25,
+    "nationality": "Ecuador",
+    "age": 21,
+    "teamName": "Brighton & Hove Albion FC"
+  },
+  {
+    "name": "Pascal Gross",
+    "position": "Midfielder",
+    "number": 13,
+    "nationality": "Germany",
+    "age": 32,
+    "teamName": "Brighton & Hove Albion FC"
+  },
+  {
+    "name": "Solly March",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "England",
+    "age": 29,
+    "teamName": "Brighton & Hove Albion FC"
+  },
+  {
+    "name": "Kaoru Mitoma",
+    "position": "Forward",
+    "number": 22,
+    "nationality": "Japan",
+    "age": 26,
+    "teamName": "Brighton & Hove Albion FC"
+  },
+  {
+    "name": "Evan Ferguson",
+    "position": "Forward",
+    "number": 28,
+    "nationality": "Ireland",
+    "age": 19,
+    "teamName": "Brighton & Hove Albion FC"
+  },
+  {
+    "name": "Danny Welbeck",
+    "position": "Forward",
+    "number": 18,
+    "nationality": "England",
+    "age": 33,
+    "teamName": "Brighton & Hove Albion FC"
+  }
+]
