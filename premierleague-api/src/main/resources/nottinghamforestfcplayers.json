@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Matt Turner",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "USA",
+    "age": 29,
+    "teamName": "Nottingham Forest FC"
+  },
+  {
+    "name": "Serge Aurier",
+    "position": "Defender",
+    "number": 24,
+    "nationality": "Ivory Coast",
+    "age": 30,
+    "teamName": "Nottingham Forest FC"
+  },
+  {
+    "name": "Scott McKenna",
+    "position": "Defender",
+    "number": 26,
+    "nationality": "Scotland",
+    "age": 26,
+    "teamName": "Nottingham Forest FC"
+  },
+  {
+    "name": "Joe Worrall",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "England",
+    "age": 26,
+    "teamName": "Nottingham Forest FC"
+  },
+  {
+    "name": "Neco Williams",
+    "position": "Defender",
+    "number": 7,
+    "nationality": "Wales",
+    "age": 22,
+    "teamName": "Nottingham Forest FC"
+  },
+  {
+    "name": "Ryan Yates",
+    "position": "Midfielder",
+    "number": 22,
+    "nationality": "England",
+    "age": 25,
+    "teamName": "Nottingham Forest FC"
+  },
+  {
+    "name": "Ibrahim Sangaré",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Ivory Coast",
+    "age": 25,
+    "teamName": "Nottingham Forest FC"
+  },
+  {
+    "name": "Morgan Gibbs-White",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "England",
+    "age": 23,
+    "teamName": "Nottingham Forest FC"
+  },
+  {
+    "name": "Anthony Elanga",
+    "position": "Forward",
+    "number": 21,
+    "nationality": "Sweden",
+    "age": 21,
+    "teamName": "Nottingham Forest FC"
+  },
+  {
+    "name": "Taiwo Awoniyi",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Nigeria",
+    "age": 26,
+    "teamName": "Nottingham Forest FC"
+  },
+  {
+    "name": "Chris Wood",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "New Zealand",
+    "age": 32,
+    "teamName": "Nottingham Forest FC"
+  }
+]
