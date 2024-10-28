@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Guglielmo Vicario",
+    "position": "Goalkeeper",
+    "number": 13,
+    "nationality": "Italy",
+    "age": 27,
+    "teamName": "Tottenham Hotspur FC"
+  },
+  {
+    "name": "Cristian Romero",
+    "position": "Defender",
+    "number": 17,
+    "nationality": "Argentina",
+    "age": 25,
+    "teamName": "Tottenham Hotspur FC"
+  },
+  {
+    "name": "Ben Davies",
+    "position": "Defender",
+    "number": 33,
+    "nationality": "Wales",
+    "age": 30,
+    "teamName": "Tottenham Hotspur FC"
+  },
+  {
+    "name": "Emerson Royal",
+    "position": "Defender",
+    "number": 12,
+    "nationality": "Brazil",
+    "age": 24,
+    "teamName": "Tottenham Hotspur FC"
+  },
+  {
+    "name": "Pedro Porro",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Spain",
+    "age": 24,
+    "teamName": "Tottenham Hotspur FC"
+  },
+  {
+    "name": "Yves Bissouma",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Mali",
+    "age": 27,
+    "teamName": "Tottenham Hotspur FC"
+  },
+  {
+    "name": "Pierre-Emile Højbjerg",
+    "position": "Midfielder",
+    "number": 5,
+    "nationality": "Denmark",
+    "age": 28,
+    "teamName": "Tottenham Hotspur FC"
+  },
+  {
+    "name": "James Maddison",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "England",
+    "age": 26,
+    "teamName": "Tottenham Hotspur FC"
+  },
+  {
+    "name": "Son Heung-min",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "South Korea",
+    "age": 31,
+    "teamName": "Tottenham Hotspur FC"
+  },
+  {
+    "name": "Richarlison",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Brazil",
+    "age": 26,
+    "teamName": "Tottenham Hotspur FC"
+  },
+  {
+    "name": "Dejan Kulusevski",
+    "position": "Forward",
+    "number": 21,
+    "nationality": "Sweden",
+    "age": 23,
+    "teamName": "Tottenham Hotspur FC"
+  }
+]
