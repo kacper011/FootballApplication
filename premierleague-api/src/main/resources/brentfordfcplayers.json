@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Mark Flekken",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Netherlands",
+    "age": 30,
+    "teamName": "Brentford FC"
+  },
+  {
+    "name": "Aaron Hickey",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Scotland",
+    "age": 21,
+    "teamName": "Brentford FC"
+  },
+  {
+    "name": "Ethan Pinnock",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Jamaica",
+    "age": 30,
+    "teamName": "Brentford FC"
+  },
+  {
+    "name": "Nathan Collins",
+    "position": "Defender",
+    "number": 22,
+    "nationality": "Ireland",
+    "age": 22,
+    "teamName": "Brentford FC"
+  },
+  {
+    "name": "Ben Mee",
+    "position": "Defender",
+    "number": 16,
+    "nationality": "England",
+    "age": 34,
+    "teamName": "Brentford FC"
+  },
+  {
+    "name": "Christian Nørgaard",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Denmark",
+    "age": 29,
+    "teamName": "Brentford FC"
+  },
+  {
+    "name": "Mathias Jensen",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Denmark",
+    "age": 27,
+    "teamName": "Brentford FC"
+  },
+  {
+    "name": "Vitaly Janelt",
+    "position": "Midfielder",
+    "number": 27,
+    "nationality": "Germany",
+    "age": 25,
+    "teamName": "Brentford FC"
+  },
+  {
+    "name": "Bryan Mbeumo",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Cameroon",
+    "age": 24,
+    "teamName": "Brentford FC"
+  },
+  {
+    "name": "Yoane Wissa",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "DR Congo",
+    "age": 27,
+    "teamName": "Brentford FC"
+  },
+  {
+    "name": "Kevin Schade",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Germany",
+    "age": 22,
+    "teamName": "Brentford FC"
+  }
+]
