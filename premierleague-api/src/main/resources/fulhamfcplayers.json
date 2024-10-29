@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Bernd Leno",
+    "position": "Goalkeeper",
+    "number": 17,
+    "nationality": "Germany",
+    "age": 31,
+    "teamName": "Fulham FC"
+  },
+  {
+    "name": "Kenny Tete",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Netherlands",
+    "age": 28,
+    "teamName": "Fulham FC"
+  },
+  {
+    "name": "Tim Ream",
+    "position": "Defender",
+    "number": 13,
+    "nationality": "USA",
+    "age": 36,
+    "teamName": "Fulham FC"
+  },
+  {
+    "name": "Issa Diop",
+    "position": "Defender",
+    "number": 31,
+    "nationality": "France",
+    "age": 26,
+    "teamName": "Fulham FC"
+  },
+  {
+    "name": "Antonee Robinson",
+    "position": "Defender",
+    "number": 33,
+    "nationality": "USA",
+    "age": 26,
+    "teamName": "Fulham FC"
+  },
+  {
+    "name": "João Palhinha",
+    "position": "Midfielder",
+    "number": 26,
+    "nationality": "Portugal",
+    "age": 28,
+    "teamName": "Fulham FC"
+  },
+  {
+    "name": "Andreas Pereira",
+    "position": "Midfielder",
+    "number": 18,
+    "nationality": "Brazil",
+    "age": 27,
+    "teamName": "Fulham FC"
+  },
+  {
+    "name": "Harrison Reed",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "England",
+    "age": 28,
+    "teamName": "Fulham FC"
+  },
+  {
+    "name": "Harry Wilson",
+    "position": "Forward",
+    "number": 8,
+    "nationality": "Wales",
+    "age": 26,
+    "teamName": "Fulham FC"
+  },
+  {
+    "name": "Raúl Jiménez",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Mexico",
+    "age": 32,
+    "teamName": "Fulham FC"
+  },
+  {
+    "name": "Carlos Vinícius",
+    "position": "Forward",
+    "number": 30,
+    "nationality": "Brazil",
+    "age": 28,
+    "teamName": "Fulham FC"
+  }
+]
