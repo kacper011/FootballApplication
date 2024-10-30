@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Neto",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Brazil",
+    "age": 34,
+    "teamName": "AFC Bournemouth"
+  },
+  {
+    "name": "Lloyd Kelly",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "England",
+    "age": 25,
+    "teamName": "AFC Bournemouth"
+  },
+  {
+    "name": "Chris Mepham",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Wales",
+    "age": 26,
+    "teamName": "AFC Bournemouth"
+  },
+  {
+    "name": "Marcos Senesi",
+    "position": "Defender",
+    "number": 25,
+    "nationality": "Argentina",
+    "age": 26,
+    "teamName": "AFC Bournemouth"
+  },
+  {
+    "name": "Max Aarons",
+    "position": "Defender",
+    "number": 37,
+    "nationality": "England",
+    "age": 23,
+    "teamName": "AFC Bournemouth"
+  },
+  {
+    "name": "Philip Billing",
+    "position": "Midfielder",
+    "number": 29,
+    "nationality": "Denmark",
+    "age": 27,
+    "teamName": "AFC Bournemouth"
+  },
+  {
+    "name": "Lewis Cook",
+    "position": "Midfielder",
+    "number": 4,
+    "nationality": "England",
+    "age": 27,
+    "teamName": "AFC Bournemouth"
+  },
+  {
+    "name": "Ryan Christie",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Scotland",
+    "age": 28,
+    "teamName": "AFC Bournemouth"
+  },
+  {
+    "name": "Dominic Solanke",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "England",
+    "age": 26,
+    "teamName": "AFC Bournemouth"
+  },
+  {
+    "name": "David Brooks",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Wales",
+    "age": 26,
+    "teamName": "AFC Bournemouth"
+  },
+  {
+    "name": "Antoine Semenyo",
+    "position": "Forward",
+    "number": 24,
+    "nationality": "Ghana",
+    "age": 24,
+    "teamName": "AFC Bournemouth"
+  }
+]
