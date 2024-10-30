@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Nick Pope",
+    "position": "Goalkeeper",
+    "number": 22,
+    "nationality": "England",
+    "age": 31,
+    "teamName": "Newcastle United FC"
+  },
+  {
+    "name": "Kieran Trippier",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "England",
+    "age": 33,
+    "teamName": "Newcastle United FC"
+  },
+  {
+    "name": "Sven Botman",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Netherlands",
+    "age": 23,
+    "teamName": "Newcastle United FC"
+  },
+  {
+    "name": "Fabian Schär",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Switzerland",
+    "age": 31,
+    "teamName": "Newcastle United FC"
+  },
+  {
+    "name": "Dan Burn",
+    "position": "Defender",
+    "number": 33,
+    "nationality": "England",
+    "age": 31,
+    "teamName": "Newcastle United FC"
+  },
+  {
+    "name": "Bruno Guimarães",
+    "position": "Midfielder",
+    "number": 39,
+    "nationality": "Brazil",
+    "age": 26,
+    "teamName": "Newcastle United FC"
+  },
+  {
+    "name": "Sean Longstaff",
+    "position": "Midfielder",
+    "number": 36,
+    "nationality": "England",
+    "age": 26,
+    "teamName": "Newcastle United FC"
+  },
+  {
+    "name": "Joelinton",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Brazil",
+    "age": 27,
+    "teamName": "Newcastle United FC"
+  },
+  {
+    "name": "Miguel Almirón",
+    "position": "Forward",
+    "number": 24,
+    "nationality": "Paraguay",
+    "age": 29,
+    "teamName": "Newcastle United FC"
+  },
+  {
+    "name": "Alexander Isak",
+    "position": "Forward",
+    "number": 14,
+    "nationality": "Sweden",
+    "age": 24,
+    "teamName": "Newcastle United FC"
+  },
+  {
+    "name": "Callum Wilson",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "England",
+    "age": 31,
+    "teamName": "Newcastle United FC"
+  }
+]
