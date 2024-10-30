@@ -15,6 +15,7 @@ The system is composed of several key components that work together to provide a
 <li>Requests sent to http://localhost:8080/premierleague are forwarded to the PremierLeague service running on http://localhost:8083.</li>
 <li>Requests sent to http://localhost:8080/ekstraklasa are forwarded to the Ekstraklasa service running on http://localhost:8084.</li>
 <li>Requests sent to http://localhost:8080/seriea are forwarded to the SerieA service running on http://localhost:8085.</li>
+<li>Requests sent to http://localhost:8080/transfermarket are forwarded to the Transfermarket service running on http://localhost:8086.</li>
 <br>
 🛠️ Technologies Used
 <br>
