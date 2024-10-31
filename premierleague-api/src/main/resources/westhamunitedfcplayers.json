@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Alphonse Areola",
+    "position": "Goalkeeper",
+    "number": 23,
+    "nationality": "France",
+    "age": 30,
+    "teamName": "West Ham United FC"
+  },
+  {
+    "name": "Kurt Zouma",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "France",
+    "age": 29,
+    "teamName": "West Ham United FC"
+  },
+  {
+    "name": "Angelo Ogbonna",
+    "position": "Defender",
+    "number": 21,
+    "nationality": "Italy",
+    "age": 35,
+    "teamName": "West Ham United FC"
+  },
+  {
+    "name": "Vladimír Coufal",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Czech Republic",
+    "age": 31,
+    "teamName": "West Ham United FC"
+  },
+  {
+    "name": "Nayef Aguerd",
+    "position": "Defender",
+    "number": 27,
+    "nationality": "Morocco",
+    "age": 27,
+    "teamName": "West Ham United FC"
+  },
+  {
+    "name": "Lucas Paquetá",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Brazil",
+    "age": 26,
+    "teamName": "West Ham United FC"
+  },
+  {
+    "name": "Tomáš Souček",
+    "position": "Midfielder",
+    "number": 28,
+    "nationality": "Czech Republic",
+    "age": 29,
+    "teamName": "West Ham United FC"
+  },
+  {
+    "name": "James Ward-Prowse",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "England",
+    "age": 29,
+    "teamName": "West Ham United FC"
+  },
+  {
+    "name": "Jarrod Bowen",
+    "position": "Forward",
+    "number": 20,
+    "nationality": "England",
+    "age": 27,
+    "teamName": "West Ham United FC"
+  },
+  {
+    "name": "Michail Antonio",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Jamaica",
+    "age": 33,
+    "teamName": "West Ham United FC"
+  },
+  {
+    "name": "Danny Ings",
+    "position": "Forward",
+    "number": 18,
+    "nationality": "England",
+    "age": 31,
+    "teamName": "West Ham United FC"
+  }
+]
