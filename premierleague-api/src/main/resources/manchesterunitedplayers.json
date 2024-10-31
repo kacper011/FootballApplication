@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Andre Onana",
+    "position": "Goalkeeper",
+    "number": 24,
+    "nationality": "Cameroon",
+    "age": 27,
+    "teamName": "Manchester United FC"
+  },
+  {
+    "name": "Raphaël Varane",
+    "position": "Defender",
+    "number": 19,
+    "nationality": "France",
+    "age": 30,
+    "teamName": "Manchester United FC"
+  },
+  {
+    "name": "Lisandro Martínez",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Argentina",
+    "age": 25,
+    "teamName": "Manchester United FC"
+  },
+  {
+    "name": "Victor Lindelöf",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Sweden",
+    "age": 29,
+    "teamName": "Manchester United FC"
+  },
+  {
+    "name": "Diogo Dalot",
+    "position": "Defender",
+    "number": 20,
+    "nationality": "Portugal",
+    "age": 24,
+    "teamName": "Manchester United FC"
+  },
+  {
+    "name": "Casemiro",
+    "position": "Midfielder",
+    "number": 18,
+    "nationality": "Brazil",
+    "age": 31,
+    "teamName": "Manchester United FC"
+  },
+  {
+    "name": "Bruno Fernandes",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Portugal",
+    "age": 29,
+    "teamName": "Manchester United FC"
+  },
+  {
+    "name": "Mason Mount",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "England",
+    "age": 24,
+    "teamName": "Manchester United FC"
+  },
+  {
+    "name": "Marcus Rashford",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "England",
+    "age": 26,
+    "teamName": "Manchester United FC"
+  },
+  {
+    "name": "Rasmus Højlund",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Denmark",
+    "age": 20,
+    "teamName": "Manchester United FC"
+  },
+  {
+    "name": "Anthony Martial",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "France",
+    "age": 28,
+    "teamName": "Manchester United FC"
+  }
+]
