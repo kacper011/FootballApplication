@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Jordan Pickford",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "England",
+    "age": 29,
+    "teamName": "Everton FC"
+  },
+  {
+    "name": "James Tarkowski",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "England",
+    "age": 31,
+    "teamName": "Everton FC"
+  },
+  {
+    "name": "Michael Keane",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "England",
+    "age": 30,
+    "teamName": "Everton FC"
+  },
+  {
+    "name": "Nathan Patterson",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Scotland",
+    "age": 22,
+    "teamName": "Everton FC"
+  },
+  {
+    "name": "Vitaliy Mykolenko",
+    "position": "Defender",
+    "number": 19,
+    "nationality": "Ukraine",
+    "age": 24,
+    "teamName": "Everton FC"
+  },
+  {
+    "name": "Amadou Onana",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Belgium",
+    "age": 22,
+    "teamName": "Everton FC"
+  },
+  {
+    "name": "Idrissa Gueye",
+    "position": "Midfielder",
+    "number": 27,
+    "nationality": "Senegal",
+    "age": 34,
+    "teamName": "Everton FC"
+  },
+  {
+    "name": "Abdoulaye Doucouré",
+    "position": "Midfielder",
+    "number": 16,
+    "nationality": "Mali",
+    "age": 30,
+    "teamName": "Everton FC"
+  },
+  {
+    "name": "Dwight McNeil",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "England",
+    "age": 23,
+    "teamName": "Everton FC"
+  },
+  {
+    "name": "Dominic Calvert-Lewin",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "England",
+    "age": 26,
+    "teamName": "Everton FC"
+  },
+  {
+    "name": "Beto",
+    "position": "Forward",
+    "number": 14,
+    "nationality": "Portugal",
+    "age": 25,
+    "teamName": "Everton FC"
+  }
+]
