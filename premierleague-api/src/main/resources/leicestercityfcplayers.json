@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Mads Hermansen",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Denmark",
+    "age": 23,
+    "teamName": "Leicester City FC"
+  },
+  {
+    "name": "Wout Faes",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Belgium",
+    "age": 25,
+    "teamName": "Leicester City FC"
+  },
+  {
+    "name": "Harry Souttar",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "Australia",
+    "age": 25,
+    "teamName": "Leicester City FC"
+  },
+  {
+    "name": "James Justin",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "England",
+    "age": 25,
+    "teamName": "Leicester City FC"
+  },
+  {
+    "name": "Ricardo Pereira",
+    "position": "Defender",
+    "number": 21,
+    "nationality": "Portugal",
+    "age": 30,
+    "teamName": "Leicester City FC"
+  },
+  {
+    "name": "Wilfred Ndidi",
+    "position": "Midfielder",
+    "number": 25,
+    "nationality": "Nigeria",
+    "age": 26,
+    "teamName": "Leicester City FC"
+  },
+  {
+    "name": "Kiernan Dewsbury-Hall",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "England",
+    "age": 25,
+    "teamName": "Leicester City FC"
+  },
+  {
+    "name": "Dennis Praet",
+    "position": "Midfielder",
+    "number": 26,
+    "nationality": "Belgium",
+    "age": 29,
+    "teamName": "Leicester City FC"
+  },
+  {
+    "name": "Kelechi Iheanacho",
+    "position": "Forward",
+    "number": 14,
+    "nationality": "Nigeria",
+    "age": 27,
+    "teamName": "Leicester City FC"
+  },
+  {
+    "name": "Jamie Vardy",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "England",
+    "age": 36,
+    "teamName": "Leicester City FC"
+  },
+  {
+    "name": "Patson Daka",
+    "position": "Forward",
+    "number": 20,
+    "nationality": "Zambia",
+    "age": 25,
+    "teamName": "Leicester City FC"
+  }
+]
