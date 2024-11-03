@@ -5,7 +5,7 @@ services:
     ports:
       - "8761:8761"
     networks:
-      - gateway-network
+      - footballapplication_gateway-network
     restart: always  # Opcjonalnie
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8761/eureka/"]
@@ -22,7 +22,7 @@ services:
     depends_on:
       - eureka-server
     networks:
-      - gateway-network
+      - footballapplication_gateway-network
     restart: always  # Opcjonalnie
 
   bundesliga-api:
@@ -34,7 +34,7 @@ services:
     depends_on:
       - eureka-server
     networks:
-      - gateway-network
+      - footballapplication_gateway-network
     restart: always  # Opcjonalnie
 
   laliga-api:
@@ -46,7 +46,7 @@ services:
     depends_on:
       - eureka-server
     networks:
-      - gateway-network
+      - footballapplication_gateway-network
     # restart: always  # Opcjonalnie
 
   premierleague-api:
@@ -58,7 +58,7 @@ services:
     depends_on:
       - eureka-server
     networks:
-      - gateway-network
+      - footballapplication_gateway-network
     # restart: always  # Opcjonalnie
 
   ekstraklasa-api:
@@ -70,7 +70,7 @@ services:
     depends_on:
       - eureka-server
     networks:
-      - gateway-network
+      - footballapplication_gateway-network
     # restart: always  # Opcjonalnie
 
   seriea-api:
@@ -82,7 +82,7 @@ services:
     depends_on:
       - eureka-server
     networks:
-      - gateway-network
+      - footballapplication_gateway-network
     # restart: always  # Opcjonalnie
 
   transfermarket:
@@ -94,11 +94,11 @@ services:
     depends_on:
       - eureka-server
     networks:
-      - gateway-network
+      - footballapplication_gateway-network
     # restart: always  # Opcjonalnie
 
 networks:
-  gateway-network:
+  footballapplication_gateway-network:
     driver: bridge
 
 
