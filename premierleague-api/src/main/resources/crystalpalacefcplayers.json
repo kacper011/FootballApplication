@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Sam Johnstone",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "England",
+    "age": 30,
+    "teamName": "Crystal Palace FC"
+  },
+  {
+    "name": "Joachim Andersen",
+    "position": "Defender",
+    "number": 16,
+    "nationality": "Denmark",
+    "age": 27,
+    "teamName": "Crystal Palace FC"
+  },
+  {
+    "name": "Marc Guéhi",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "England",
+    "age": 23,
+    "teamName": "Crystal Palace FC"
+  },
+  {
+    "name": "Tyrick Mitchell",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "England",
+    "age": 24,
+    "teamName": "Crystal Palace FC"
+  },
+  {
+    "name": "Joel Ward",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "England",
+    "age": 34,
+    "teamName": "Crystal Palace FC"
+  },
+  {
+    "name": "Cheick Doucouré",
+    "position": "Midfielder",
+    "number": 28,
+    "nationality": "Mali",
+    "age": 23,
+    "teamName": "Crystal Palace FC"
+  },
+  {
+    "name": "Jeffrey Schlupp",
+    "position": "Midfielder",
+    "number": 15,
+    "nationality": "Ghana",
+    "age": 31,
+    "teamName": "Crystal Palace FC"
+  },
+  {
+    "name": "Will Hughes",
+    "position": "Midfielder",
+    "number": 19,
+    "nationality": "England",
+    "age": 28,
+    "teamName": "Crystal Palace FC"
+  },
+  {
+    "name": "Jordan Ayew",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Ghana",
+    "age": 32,
+    "teamName": "Crystal Palace FC"
+  },
+  {
+    "name": "Odsonne Édouard",
+    "position": "Forward",
+    "number": 22,
+    "nationality": "France",
+    "age": 26,
+    "teamName": "Crystal Palace FC"
+  },
+  {
+    "name": "Eberechi Eze",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "England",
+    "age": 25,
+    "teamName": "Crystal Palace FC"
+  }
+]
