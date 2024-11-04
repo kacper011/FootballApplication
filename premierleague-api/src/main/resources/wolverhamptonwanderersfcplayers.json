@@ -1,0 +1,90 @@
+[
+  {
+    "name": "José Sá",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Portugal",
+    "age": 30,
+    "teamName": "Wolverhampton Wanderers FC"
+  },
+  {
+    "name": "Craig Dawson",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "England",
+    "age": 33,
+    "teamName": "Wolverhampton Wanderers FC"
+  },
+  {
+    "name": "Max Kilman",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "England",
+    "age": 26,
+    "teamName": "Wolverhampton Wanderers FC"
+  },
+  {
+    "name": "Rayan Aït-Nouri",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "France",
+    "age": 22,
+    "teamName": "Wolverhampton Wanderers FC"
+  },
+  {
+    "name": "Nelson Semedo",
+    "position": "Defender",
+    "number": 22,
+    "nationality": "Portugal",
+    "age": 29,
+    "teamName": "Wolverhampton Wanderers FC"
+  },
+  {
+    "name": "João Gomes",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Brazil",
+    "age": 22,
+    "teamName": "Wolverhampton Wanderers FC"
+  },
+  {
+    "name": "Mario Lemina",
+    "position": "Midfielder",
+    "number": 5,
+    "nationality": "Gabon",
+    "age": 30,
+    "teamName": "Wolverhampton Wanderers FC"
+  },
+  {
+    "name": "Matheus Nunes",
+    "position": "Midfielder",
+    "number": 27,
+    "nationality": "Portugal",
+    "age": 25,
+    "teamName": "Wolverhampton Wanderers FC"
+  },
+  {
+    "name": "Pedro Neto",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Portugal",
+    "age": 23,
+    "teamName": "Wolverhampton Wanderers FC"
+  },
+  {
+    "name": "Matheus Cunha",
+    "position": "Forward",
+    "number": 12,
+    "nationality": "Brazil",
+    "age": 24,
+    "teamName": "Wolverhampton Wanderers FC"
+  },
+  {
+    "name": "Hwang Hee-chan",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "South Korea",
+    "age": 27,
+    "teamName": "Wolverhampton Wanderers FC"
+  }
+]
