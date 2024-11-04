@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Gavin Bazunu",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Ireland",
+    "age": 21,
+    "teamName": "Southampton FC"
+  },
+  {
+    "name": "Kyle Walker-Peters",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "England",
+    "age": 26,
+    "teamName": "Southampton FC"
+  },
+  {
+    "name": "Jan Bednarek",
+    "position": "Defender",
+    "number": 35,
+    "nationality": "Poland",
+    "age": 27,
+    "teamName": "Southampton FC"
+  },
+  {
+    "name": "Jack Stephens",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "England",
+    "age": 29,
+    "teamName": "Southampton FC"
+  },
+  {
+    "name": "Ryan Manning",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Ireland",
+    "age": 27,
+    "teamName": "Southampton FC"
+  },
+  {
+    "name": "James Ward-Prowse",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "England",
+    "age": 29,
+    "teamName": "Southampton FC"
+  },
+  {
+    "name": "Will Smallbone",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Ireland",
+    "age": 23,
+    "teamName": "Southampton FC"
+  },
+  {
+    "name": "Stuart Armstrong",
+    "position": "Midfielder",
+    "number": 17,
+    "nationality": "Scotland",
+    "age": 31,
+    "teamName": "Southampton FC"
+  },
+  {
+    "name": "Carlos Alcaraz",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Argentina",
+    "age": 20,
+    "teamName": "Southampton FC"
+  },
+  {
+    "name": "Adam Armstrong",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "England",
+    "age": 27,
+    "teamName": "Southampton FC"
+  },
+  {
+    "name": "Che Adams",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Scotland",
+    "age": 27,
+    "teamName": "Southampton FC"
+  }
+]
