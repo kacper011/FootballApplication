@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Łukasz Budziłek",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Poland",
+    "age": 32,
+    "teamName": "Motor Lublin"
+  },
+  {
+    "name": "Paweł Moskwik",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Poland",
+    "age": 29,
+    "teamName": "Motor Lublin"
+  },
+  {
+    "name": "Maciej Orłowski",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "Motor Lublin"
+  },
+  {
+    "name": "Adrian Dziubiński",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Poland",
+    "age": 27,
+    "teamName": "Motor Lublin"
+  },
+  {
+    "name": "Tomasz Swędrowski",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Poland",
+    "age": 29,
+    "teamName": "Motor Lublin"
+  },
+  {
+    "name": "Wojciech Reiman",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Poland",
+    "age": 36,
+    "teamName": "Motor Lublin"
+  },
+  {
+    "name": "Arkadiusz Najemski",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Poland",
+    "age": 26,
+    "teamName": "Motor Lublin"
+  },
+  {
+    "name": "Artur Balicki",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Poland",
+    "age": 25,
+    "teamName": "Motor Lublin"
+  },
+  {
+    "name": "Kamil Wojtkowski",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Poland",
+    "age": 25,
+    "teamName": "Motor Lublin"
+  },
+  {
+    "name": "Michał Fidziukiewicz",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Poland",
+    "age": 30,
+    "teamName": "Motor Lublin"
+  },
+  {
+    "name": "Dominik Kunca",
+    "position": "Midfielder",
+    "number": 14,
+    "nationality": "Slovakia",
+    "age": 31,
+    "teamName": "Motor Lublin"
+  }
+]
