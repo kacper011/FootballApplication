@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Filip Bednarek",
+    "position": "Goalkeeper",
+    "number": 35,
+    "nationality": "Poland",
+    "age": 31,
+    "teamName": "Lech Poznań"
+  },
+  {
+    "name": "Bartłomiej Kukułowicz",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Poland",
+    "age": 20,
+    "teamName": "Lech Poznań"
+  },
+  {
+    "name": "Antonio Milić",
+    "position": "Defender",
+    "number": 16,
+    "nationality": "Croatia",
+    "age": 29,
+    "teamName": "Lech Poznań"
+  },
+  {
+    "name": "Lubomir Šatka",
+    "position": "Defender",
+    "number": 37,
+    "nationality": "Slovakia",
+    "age": 28,
+    "teamName": "Lech Poznań"
+  },
+  {
+    "name": "Jesper Karlström",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Sweden",
+    "age": 28,
+    "teamName": "Lech Poznań"
+  },
+  {
+    "name": "Filip Marchwiński",
+    "position": "Midfielder",
+    "number": 11,
+    "nationality": "Poland",
+    "age": 21,
+    "teamName": "Lech Poznań"
+  },
+  {
+    "name": "Radosław Murawski",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Poland",
+    "age": 29,
+    "teamName": "Lech Poznań"
+  },
+  {
+    "name": "João Amaral",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Portugal",
+    "age": 32,
+    "teamName": "Lech Poznań"
+  },
+  {
+    "name": "Mikael Ishak",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Sweden",
+    "age": 30,
+    "teamName": "Lech Poznań"
+  },
+  {
+    "name": "Michal Skóraś",
+    "position": "Forward",
+    "number": 21,
+    "nationality": "Poland",
+    "age": 24,
+    "teamName": "Lech Poznań"
+  },
+  {
+    "name": "Afonso Sousa",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Portugal",
+    "age": 23,
+    "teamName": "Lech Poznań"
+  }
+]
