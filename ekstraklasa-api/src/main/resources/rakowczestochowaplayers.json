@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Vladan Kovačević",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Bosnia and Herzegovina",
+    "age": 25,
+    "teamName": "Raków Częstochowa"
+  },
+  {
+    "name": "Bogdan Racovițan",
+    "position": "Defender",
+    "number": 25,
+    "nationality": "Romania",
+    "age": 23,
+    "teamName": "Raków Częstochowa"
+  },
+  {
+    "name": "Zoran Arsenić",
+    "position": "Defender",
+    "number": 17,
+    "nationality": "Croatia",
+    "age": 29,
+    "teamName": "Raków Częstochowa"
+  },
+  {
+    "name": "Stratos Svarnas",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Greece",
+    "age": 25,
+    "teamName": "Raków Częstochowa"
+  },
+  {
+    "name": "Fran Tudor",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Croatia",
+    "age": 28,
+    "teamName": "Raków Częstochowa"
+  },
+  {
+    "name": "Ben Lederman",
+    "position": "Midfielder",
+    "number": 16,
+    "nationality": "Poland",
+    "age": 23,
+    "teamName": "Raków Częstochowa"
+  },
+  {
+    "name": "Giannis Papanikolaou",
+    "position": "Midfielder",
+    "number": 66,
+    "nationality": "Greece",
+    "age": 24,
+    "teamName": "Raków Częstochowa"
+  },
+  {
+    "name": "Marcin Cebula",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Poland",
+    "age": 27,
+    "teamName": "Raków Częstochowa"
+  },
+  {
+    "name": "Sebastian Musiolik",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Poland",
+    "age": 27,
+    "teamName": "Raków Częstochowa"
+  },
+  {
+    "name": "Lukáš Štetina",
+    "position": "Defender",
+    "number": 44,
+    "nationality": "Slovakia",
+    "age": 32,
+    "teamName": "Raków Częstochowa"
+  },
+  {
+    "name": "Jean Carlos Silva",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Brazil",
+    "age": 27,
+    "teamName": "Raków Częstochowa"
+  }
+]
