@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Karol Niemczycki",
+    "position": "Goalkeeper",
+    "number": 40,
+    "nationality": "Poland",
+    "age": 24,
+    "teamName": "Cracovia"
+  },
+  {
+    "name": "Cornel Râpă",
+    "position": "Defender",
+    "number": 87,
+    "nationality": "Romania",
+    "age": 33,
+    "teamName": "Cracovia"
+  },
+  {
+    "name": "Matej Rodin",
+    "position": "Defender",
+    "number": 39,
+    "nationality": "Bosnia and Herzegovina",
+    "age": 27,
+    "teamName": "Cracovia"
+  },
+  {
+    "name": "Virgil Ghiță",
+    "position": "Defender",
+    "number": 55,
+    "nationality": "Romania",
+    "age": 25,
+    "teamName": "Cracovia"
+  },
+  {
+    "name": "Kamil Pestka",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Poland",
+    "age": 25,
+    "teamName": "Cracovia"
+  },
+  {
+    "name": "Takuto Oshima",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Japan",
+    "age": 23,
+    "teamName": "Cracovia"
+  },
+  {
+    "name": "Kamil Ogorzały",
+    "position": "Midfielder",
+    "number": 15,
+    "nationality": "Poland",
+    "age": 21,
+    "teamName": "Cracovia"
+  },
+  {
+    "name": "Michal Siplak",
+    "position": "Midfielder",
+    "number": 29,
+    "nationality": "Slovakia",
+    "age": 27,
+    "teamName": "Cracovia"
+  },
+  {
+    "name": "Benjamin Källman",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Finland",
+    "age": 25,
+    "teamName": "Cracovia"
+  },
+  {
+    "name": "Patryk Makuch",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Poland",
+    "age": 24,
+    "teamName": "Cracovia"
+  },
+  {
+    "name": "Otto John",
+    "position": "Forward",
+    "number": 20,
+    "nationality": "Nigeria",
+    "age": 26,
+    "teamName": "Cracovia"
+  }
+]
