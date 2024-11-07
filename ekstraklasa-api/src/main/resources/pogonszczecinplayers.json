@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Dante Stipica",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Croatia",
+    "age": 32,
+    "teamName": "Pogoń Szczecin"
+  },
+  {
+    "name": "Mariusz Malec",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "Pogoń Szczecin"
+  },
+  {
+    "name": "Benedikt Zech",
+    "position": "Defender",
+    "number": 13,
+    "nationality": "Austria",
+    "age": 32,
+    "teamName": "Pogoń Szczecin"
+  },
+  {
+    "name": "Luis Mata",
+    "position": "Defender",
+    "number": 97,
+    "nationality": "Portugal",
+    "age": 26,
+    "teamName": "Pogoń Szczecin"
+  },
+  {
+    "name": "Leo Borges",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Brazil",
+    "age": 22,
+    "teamName": "Pogoń Szczecin"
+  },
+  {
+    "name": "Damian Dąbrowski",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Poland",
+    "age": 31,
+    "teamName": "Pogoń Szczecin"
+  },
+  {
+    "name": "Kamil Grosicki",
+    "position": "Midfielder",
+    "number": 11,
+    "nationality": "Poland",
+    "age": 35,
+    "teamName": "Pogoń Szczecin"
+  },
+  {
+    "name": "Kacper Smoliński",
+    "position": "Midfielder",
+    "number": 14,
+    "nationality": "Poland",
+    "age": 22,
+    "teamName": "Pogoń Szczecin"
+  },
+  {
+    "name": "Luka Zahovič",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Slovenia",
+    "age": 27,
+    "teamName": "Pogoń Szczecin"
+  },
+  {
+    "name": "Pontus Almqvist",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Sweden",
+    "age": 24,
+    "teamName": "Pogoń Szczecin"
+  }
+]
