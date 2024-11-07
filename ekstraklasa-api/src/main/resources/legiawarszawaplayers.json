@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Kacper Tobiasz",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Poland",
+    "age": 21,
+    "teamName": "Legia Warszawa"
+  },
+  {
+    "name": "Artur Jędrzejczyk",
+    "position": "Defender",
+    "number": 55,
+    "nationality": "Poland",
+    "age": 36,
+    "teamName": "Legia Warszawa"
+  },
+  {
+    "name": "Maik Nawrocki",
+    "position": "Defender",
+    "number": 17,
+    "nationality": "Poland",
+    "age": 22,
+    "teamName": "Legia Warszawa"
+  },
+  {
+    "name": "Rafał Augustyniak",
+    "position": "Defender",
+    "number": 8,
+    "nationality": "Poland",
+    "age": 29,
+    "teamName": "Legia Warszawa"
+  },
+  {
+    "name": "Yuri Ribeiro",
+    "position": "Defender",
+    "number": 16,
+    "nationality": "Portugal",
+    "age": 26,
+    "teamName": "Legia Warszawa"
+  },
+  {
+    "name": "Josué Pesqueira",
+    "position": "Midfielder",
+    "number": 27,
+    "nationality": "Portugal",
+    "age": 32,
+    "teamName": "Legia Warszawa"
+  },
+  {
+    "name": "Bartłomiej Ciepiela",
+    "position": "Midfielder",
+    "number": 28,
+    "nationality": "Poland",
+    "age": 22,
+    "teamName": "Legia Warszawa"
+  },
+  {
+    "name": "Marc Gual",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Spain",
+    "age": 27,
+    "teamName": "Legia Warszawa"
+  },
+  {
+    "name": "Tomas Pekhart",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Czech Republic",
+    "age": 34,
+    "teamName": "Legia Warszawa"
+  },
+  {
+    "name": "Ernest Muci",
+    "position": "Forward",
+    "number": 20,
+    "nationality": "Albania",
+    "age": 22,
+    "teamName": "Legia Warszawa"
+  }
+]
