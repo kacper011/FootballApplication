@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Henrich Ravas",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Slovakia",
+    "age": 25,
+    "teamName": "Widzew Łódź"
+  },
+  {
+    "name": "Mateusz Żyro",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Poland",
+    "age": 25,
+    "teamName": "Widzew Łódź"
+  },
+  {
+    "name": "Serafin Szota",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Poland",
+    "age": 24,
+    "teamName": "Widzew Łódź"
+  },
+  {
+    "name": "Martin Kreuzriegler",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Austria",
+    "age": 29,
+    "teamName": "Widzew Łódź"
+  },
+  {
+    "name": "Patryk Stępiński",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "Widzew Łódź"
+  },
+  {
+    "name": "Dominik Kun",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Poland",
+    "age": 29,
+    "teamName": "Widzew Łódź"
+  },
+  {
+    "name": "Juliusz Letniowski",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Poland",
+    "age": 25,
+    "teamName": "Widzew Łódź"
+  },
+  {
+    "name": "Bartłomiej Pawłowski",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Poland",
+    "age": 30,
+    "teamName": "Widzew Łódź"
+  },
+  {
+    "name": "Łukasz Zjawiński",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Poland",
+    "age": 23,
+    "teamName": "Widzew Łódź"
+  },
+  {
+    "name": "Kristoffer Hansen",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Norway",
+    "age": 29,
+    "teamName": "Widzew Łódź"
+  }
+]
