@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Frantisek Plach",
+    "position": "Goalkeeper",
+    "number": 26,
+    "nationality": "Slovakia",
+    "age": 31,
+    "teamName": "Piast Gliwice"
+  },
+  {
+    "name": "Jakub Czerwiński",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Poland",
+    "age": 32,
+    "teamName": "Piast Gliwice"
+  },
+  {
+    "name": "Constantin Reiner",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Austria",
+    "age": 25,
+    "teamName": "Piast Gliwice"
+  },
+  {
+    "name": "Miguel Munoz",
+    "position": "Defender",
+    "number": 18,
+    "nationality": "Spain",
+    "age": 24,
+    "teamName": "Piast Gliwice"
+  },
+  {
+    "name": "Tomas Huk",
+    "position": "Defender",
+    "number": 20,
+    "nationality": "Slovakia",
+    "age": 28,
+    "teamName": "Piast Gliwice"
+  },
+  {
+    "name": "Tomasz Jodłowiec",
+    "position": "Midfielder",
+    "number": 3,
+    "nationality": "Poland",
+    "age": 38,
+    "teamName": "Piast Gliwice"
+  },
+  {
+    "name": "Michael Ameyaw",
+    "position": "Midfielder",
+    "number": 13,
+    "nationality": "Poland",
+    "age": 23,
+    "teamName": "Piast Gliwice"
+  },
+  {
+    "name": "Damian Kądzior",
+    "position": "Midfielder",
+    "number": 11,
+    "nationality": "Poland",
+    "age": 31,
+    "teamName": "Piast Gliwice"
+  },
+  {
+    "name": "Gabriel Kirejczyk",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Poland",
+    "age": 22,
+    "teamName": "Piast Gliwice"
+  },
+  {
+    "name": "Jorge Félix",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Spain",
+    "age": 31,
+    "teamName": "Piast Gliwice"
+  }
+]
