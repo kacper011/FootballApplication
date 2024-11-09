@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Dawid Kudła",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Poland",
+    "age": 31,
+    "teamName": "GKS Katowice"
+  },
+  {
+    "name": "Bartosz Jaroszek",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "GKS Katowice"
+  },
+  {
+    "name": "Grzegorz Janiszewski",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Poland",
+    "age": 27,
+    "teamName": "GKS Katowice"
+  },
+  {
+    "name": "Michał Kołodziejski",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Poland",
+    "age": 25,
+    "teamName": "GKS Katowice"
+  },
+  {
+    "name": "Marcin Wasielewski",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Poland",
+    "age": 29,
+    "teamName": "GKS Katowice"
+  },
+  {
+    "name": "Arkadiusz Woźniak",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Poland",
+    "age": 33,
+    "teamName": "GKS Katowice"
+  },
+  {
+    "name": "Adrian Błąd",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Poland",
+    "age": 32,
+    "teamName": "GKS Katowice"
+  },
+  {
+    "name": "Michał Gałecki",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Poland",
+    "age": 27,
+    "teamName": "GKS Katowice"
+  },
+  {
+    "name": "Marko Roginić",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Croatia",
+    "age": 27,
+    "teamName": "GKS Katowice"
+  },
+  {
+    "name": "Patryk Szwedzik",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Poland",
+    "age": 23,
+    "teamName": "GKS Katowice"
+  }
+]
