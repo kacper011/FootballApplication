@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Daniel Bielica",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Poland",
+    "age": 24,
+    "teamName": "Górnik Zabrze"
+  },
+  {
+    "name": "Rafał Janicki",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Poland",
+    "age": 31,
+    "teamName": "Górnik Zabrze"
+  },
+  {
+    "name": "Richard Jensen",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Finland",
+    "age": 27,
+    "teamName": "Górnik Zabrze"
+  },
+  {
+    "name": "Erik Janža",
+    "position": "Defender",
+    "number": 14,
+    "nationality": "Slovenia",
+    "age": 30,
+    "teamName": "Górnik Zabrze"
+  },
+  {
+    "name": "Przemysław Wiśniewski",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Poland",
+    "age": 25,
+    "teamName": "Górnik Zabrze"
+  },
+  {
+    "name": "Krzysztof Kubica",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Poland",
+    "age": 22,
+    "teamName": "Górnik Zabrze"
+  },
+  {
+    "name": "Dani Pacheco",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Spain",
+    "age": 32,
+    "teamName": "Górnik Zabrze"
+  },
+  {
+    "name": "Robert Dadok",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Poland",
+    "age": 26,
+    "teamName": "Górnik Zabrze"
+  },
+  {
+    "name": "Lukas Podolski",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Germany",
+    "age": 38,
+    "teamName": "Górnik Zabrze"
+  },
+  {
+    "name": "Szymon Włodarczyk",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Poland",
+    "age": 21,
+    "teamName": "Górnik Zabrze"
+  }
+]
