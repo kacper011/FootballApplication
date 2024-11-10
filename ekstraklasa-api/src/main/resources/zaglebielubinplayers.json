@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Dominik Hładun",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "Zagłębie Lubin"
+  },
+  {
+    "name": "Aleks Ławniczak",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Poland",
+    "age": 24,
+    "teamName": "Zagłębie Lubin"
+  },
+  {
+    "name": "Bartosz Kopacz",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Poland",
+    "age": 31,
+    "teamName": "Zagłębie Lubin"
+  },
+  {
+    "name": "Damjan Bohar",
+    "position": "Midfielder",
+    "number": 39,
+    "nationality": "Slovenia",
+    "age": 32,
+    "teamName": "Zagłębie Lubin"
+  },
+  {
+    "name": "Jakub Wójcicki",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Poland",
+    "age": 35,
+    "teamName": "Zagłębie Lubin"
+  },
+  {
+    "name": "Kacper Chodyna",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Poland",
+    "age": 24,
+    "teamName": "Zagłębie Lubin"
+  },
+  {
+    "name": "Łukasz Łakomy",
+    "position": "Midfielder",
+    "number": 21,
+    "nationality": "Poland",
+    "age": 23,
+    "teamName": "Zagłębie Lubin"
+  },
+  {
+    "name": "Tomasz Makowski",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Poland",
+    "age": 24,
+    "teamName": "Zagłębie Lubin"
+  },
+  {
+    "name": "Sasa Zivec",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Slovenia",
+    "age": 32,
+    "teamName": "Zagłębie Lubin"
+  },
+  {
+    "name": "Łukasz Poręba",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Poland",
+    "age": 23,
+    "teamName": "Zagłębie Lubin"
+  }
+]
