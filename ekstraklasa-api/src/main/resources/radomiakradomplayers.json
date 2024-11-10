@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Gabriel Kobylak",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Poland",
+    "age": 21,
+    "teamName": "Radomiak Radom"
+  },
+  {
+    "name": "Mateusz Cichocki",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Poland",
+    "age": 31,
+    "teamName": "Radomiak Radom"
+  },
+  {
+    "name": "Raphael Rossi",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Brazil",
+    "age": 32,
+    "teamName": "Radomiak Radom"
+  },
+  {
+    "name": "Leandro",
+    "position": "Midfielder",
+    "number": 22,
+    "nationality": "Brazil",
+    "age": 39,
+    "teamName": "Radomiak Radom"
+  },
+  {
+    "name": "Dawid Abramowicz",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Poland",
+    "age": 34,
+    "teamName": "Radomiak Radom"
+  },
+  {
+    "name": "Michał Kaput",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Poland",
+    "age": 25,
+    "teamName": "Radomiak Radom"
+  },
+  {
+    "name": "Mateusz Radecki",
+    "position": "Midfielder",
+    "number": 21,
+    "nationality": "Poland",
+    "age": 29,
+    "teamName": "Radomiak Radom"
+  },
+  {
+    "name": "Roberto Alves",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Switzerland",
+    "age": 26,
+    "teamName": "Radomiak Radom"
+  },
+  {
+    "name": "Maurides",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Brazil",
+    "age": 29,
+    "teamName": "Radomiak Radom"
+  },
+  {
+    "name": "Luis Machado",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Portugal",
+    "age": 30,
+    "teamName": "Radomiak Radom"
+  }
+]
