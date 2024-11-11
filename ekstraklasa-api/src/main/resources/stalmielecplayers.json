@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Bartłomiej Żurek",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Poland",
+    "age": 31,
+    "teamName": "Stal Mielec"
+  },
+  {
+    "name": "Marcin Flis",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Poland",
+    "age": 29,
+    "teamName": "Stal Mielec"
+  },
+  {
+    "name": "Mateusz Żyro",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Poland",
+    "age": 25,
+    "teamName": "Stal Mielec"
+  },
+  {
+    "name": "Jonathan de Amo",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Spain",
+    "age": 33,
+    "teamName": "Stal Mielec"
+  },
+  {
+    "name": "Mateusz Matras",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "Poland",
+    "age": 32,
+    "teamName": "Stal Mielec"
+  },
+  {
+    "name": "Maciej Domański",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Poland",
+    "age": 32,
+    "teamName": "Stal Mielec"
+  },
+  {
+    "name": "Krystian Getinger",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Poland",
+    "age": 34,
+    "teamName": "Stal Mielec"
+  },
+  {
+    "name": "Piotr Wlazło",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Poland",
+    "age": 33,
+    "teamName": "Stal Mielec"
+  },
+  {
+    "name": "Fabian Piasecki",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "Stal Mielec"
+  },
+  {
+    "name": "Rauno Sappinen",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Estonia",
+    "age": 29,
+    "teamName": "Stal Mielec"
+  }
+]
