@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Konrad Forenc",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Poland",
+    "age": 30,
+    "teamName": "Korona Kielce"
+  },
+  {
+    "name": "Michał Koj",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Poland",
+    "age": 30,
+    "teamName": "Korona Kielce"
+  },
+  {
+    "name": "Miłosz Trojak",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Poland",
+    "age": 29,
+    "teamName": "Korona Kielce"
+  },
+  {
+    "name": "Kyrylo Petrov",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Ukraine",
+    "age": 33,
+    "teamName": "Korona Kielce"
+  },
+  {
+    "name": "Adnan Kovacević",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "Bosnia and Herzegovina",
+    "age": 30,
+    "teamName": "Korona Kielce"
+  },
+  {
+    "name": "Jacek Podgórski",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Poland",
+    "age": 27,
+    "teamName": "Korona Kielce"
+  },
+  {
+    "name": "Yevheniy Shakhov",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Ukraine",
+    "age": 32,
+    "teamName": "Korona Kielce"
+  },
+  {
+    "name": "Dalibor Takáč",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Slovakia",
+    "age": 26,
+    "teamName": "Korona Kielce"
+  },
+  {
+    "name": "Jakub Łukowski",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Poland",
+    "age": 26,
+    "teamName": "Korona Kielce"
+  },
+  {
+    "name": "Ronaldo Deaconu",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Romania",
+    "age": 26,
+    "teamName": "Korona Kielce"
+  }
+]
