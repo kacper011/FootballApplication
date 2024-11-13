@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Jakub Bartosz",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "Puszcza Niepołomice"
+  },
+  {
+    "name": "Konrad Stępień",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Poland",
+    "age": 27,
+    "teamName": "Puszcza Niepołomice"
+  },
+  {
+    "name": "Michał Koj",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Poland",
+    "age": 30,
+    "teamName": "Puszcza Niepołomice"
+  },
+  {
+    "name": "Igor Łasicki",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Poland",
+    "age": 29,
+    "teamName": "Puszcza Niepołomice"
+  },
+  {
+    "name": "Mateusz Bartków",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Poland",
+    "age": 31,
+    "teamName": "Puszcza Niepołomice"
+  },
+  {
+    "name": "Wojciech Hajda",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Poland",
+    "age": 24,
+    "teamName": "Puszcza Niepołomice"
+  },
+  {
+    "name": "Tomasz Makowski",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Poland",
+    "age": 26,
+    "teamName": "Puszcza Niepołomice"
+  },
+  {
+    "name": "Kamil Zapolnik",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Poland",
+    "age": 30,
+    "teamName": "Puszcza Niepołomice"
+  },
+  {
+    "name": "Łukasz Sołowiej",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "Puszcza Niepołomice"
+  },
+  {
+    "name": "Robert Janicki",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Poland",
+    "age": 27,
+    "teamName": "Puszcza Niepołomice"
+  }
+]
