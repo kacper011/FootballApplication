@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Michał Szromnik",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Poland",
+    "age": 30,
+    "teamName": "Śląsk Wrocław"
+  },
+  {
+    "name": "Konrad Poprawa",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Poland",
+    "age": 26,
+    "teamName": "Śląsk Wrocław"
+  },
+  {
+    "name": "Diogo Verdasca",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Portugal",
+    "age": 27,
+    "teamName": "Śląsk Wrocław"
+  },
+  {
+    "name": "Patryk Janasik",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Poland",
+    "age": 25,
+    "teamName": "Śląsk Wrocław"
+  },
+  {
+    "name": "Martin Konczkowski",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Poland",
+    "age": 30,
+    "teamName": "Śląsk Wrocław"
+  },
+  {
+    "name": "Petr Schwarz",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Czech Republic",
+    "age": 31,
+    "teamName": "Śląsk Wrocław"
+  },
+  {
+    "name": "Adrian Łyszczarz",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Poland",
+    "age": 23,
+    "teamName": "Śląsk Wrocław"
+  },
+  {
+    "name": "Michał Rzuchowski",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "Śląsk Wrocław"
+  },
+  {
+    "name": "Caye Quintana",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Spain",
+    "age": 30,
+    "teamName": "Śląsk Wrocław"
+  },
+  {
+    "name": "John Yeboah",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Germany",
+    "age": 23,
+    "teamName": "Śląsk Wrocław"
+  }
+]
