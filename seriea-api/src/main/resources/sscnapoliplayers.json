@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Alex Meret",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Italy",
+    "age": 26,
+    "teamName": "SSC Napoli"
+  },
+  {
+    "name": "Giovanni Di Lorenzo",
+    "position": "Defender",
+    "number": 22,
+    "nationality": "Italy",
+    "age": 30,
+    "teamName": "SSC Napoli"
+  },
+  {
+    "name": "Amir Rrahmani",
+    "position": "Defender",
+    "number": 13,
+    "nationality": "Kosovo",
+    "age": 29,
+    "teamName": "SSC Napoli"
+  },
+  {
+    "name": "Min-jae Kim",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "South Korea",
+    "age": 27,
+    "teamName": "SSC Napoli"
+  },
+  {
+    "name": "Mario Rui",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Portugal",
+    "age": 32,
+    "teamName": "SSC Napoli"
+  },
+  {
+    "name": "Stanislav Lobotka",
+    "position": "Midfielder",
+    "number": 68,
+    "nationality": "Slovakia",
+    "age": 29,
+    "teamName": "SSC Napoli"
+  },
+  {
+    "name": "Piotr Zieliński",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Poland",
+    "age": 29,
+    "teamName": "SSC Napoli"
+  },
+  {
+    "name": "André-Frank Zambo Anguissa",
+    "position": "Midfielder",
+    "number": 99,
+    "nationality": "Cameroon",
+    "age": 28,
+    "teamName": "SSC Napoli"
+  },
+  {
+    "name": "Victor Osimhen",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Nigeria",
+    "age": 25,
+    "teamName": "SSC Napoli"
+  },
+  {
+    "name": "Khvicha Kvaratskhelia",
+    "position": "Forward",
+    "number": 77,
+    "nationality": "Georgia",
+    "age": 22,
+    "teamName": "SSC Napoli"
+  }
+]

@@ -20,11 +20,11 @@ spring:
           predicates:
             - Path=/premierleague/**
         - id: ekstraklasa-api
-          uri: http://localhost:8084
+          uri: http://ekstraklasa-api:8084
           predicates:
             - Path=/ekstraklasa/**
         - id: seriea-api
-          uri: http://seriea-api:8085
+          uri: http://localhost:8085
           predicates:
             - Path=/seriea/**
         - id: transfermarket
