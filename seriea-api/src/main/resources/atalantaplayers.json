@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Juan Musso",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Argentina",
+    "age": 29,
+    "teamName": "Atalanta"
+  },
+  {
+    "name": "Rafael Tolói",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Italy",
+    "age": 33,
+    "teamName": "Atalanta"
+  },
+  {
+    "name": "Giorgio Scalvini",
+    "position": "Defender",
+    "number": 42,
+    "nationality": "Italy",
+    "age": 19,
+    "teamName": "Atalanta"
+  },
+  {
+    "name": "Marten de Roon",
+    "position": "Midfielder",
+    "number": 15,
+    "nationality": "Netherlands",
+    "age": 32,
+    "teamName": "Atalanta"
+  },
+  {
+    "name": "Teun Koopmeiners",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Netherlands",
+    "age": 25,
+    "teamName": "Atalanta"
+  },
+  {
+    "name": "Davide Zappacosta",
+    "position": "Midfielder",
+    "number": 77,
+    "nationality": "Italy",
+    "age": 31,
+    "teamName": "Atalanta"
+  },
+  {
+    "name": "Matteo Ruggeri",
+    "position": "Defender",
+    "number": 22,
+    "nationality": "Italy",
+    "age": 21,
+    "teamName": "Atalanta"
+  },
+  {
+    "name": "Mario Pašalić",
+    "position": "Midfielder",
+    "number": 88,
+    "nationality": "Croatia",
+    "age": 28,
+    "teamName": "Atalanta"
+  },
+  {
+    "name": "Ademola Lookman",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Nigeria",
+    "age": 26,
+    "teamName": "Atalanta"
+  },
+  {
+    "name": "Rasmus Højlund",
+    "position": "Forward",
+    "number": 17,
+    "nationality": "Denmark",
+    "age": 21,
+    "teamName": "Atalanta"
+  }
+]
