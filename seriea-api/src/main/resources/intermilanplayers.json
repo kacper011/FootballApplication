@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Samir Handanović",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Slovenia",
+    "age": 39,
+    "teamName": "Inter Milan"
+  },
+  {
+    "name": "Milan Škriniar",
+    "position": "Defender",
+    "number": 37,
+    "nationality": "Slovakia",
+    "age": 29,
+    "teamName": "Inter Milan"
+  },
+  {
+    "name": "Stefan de Vrij",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Netherlands",
+    "age": 32,
+    "teamName": "Inter Milan"
+  },
+  {
+    "name": "Marcelo Brozović",
+    "position": "Midfielder",
+    "number": 77,
+    "nationality": "Croatia",
+    "age": 31,
+    "teamName": "Inter Milan"
+  },
+  {
+    "name": "Nicolo Barella",
+    "position": "Midfielder",
+    "number": 23,
+    "nationality": "Italy",
+    "age": 27,
+    "teamName": "Inter Milan"
+  },
+  {
+    "name": "Henrikh Mkhitaryan",
+    "position": "Midfielder",
+    "number": 22,
+    "nationality": "Armenia",
+    "age": 35,
+    "teamName": "Inter Milan"
+  },
+  {
+    "name": "Hakan Çalhanoğlu",
+    "position": "Midfielder",
+    "number": 20,
+    "nationality": "Turkey",
+    "age": 30,
+    "teamName": "Inter Milan"
+  },
+  {
+    "name": "Lautaro Martínez",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Argentina",
+    "age": 26,
+    "teamName": "Inter Milan"
+  },
+  {
+    "name": "Romelu Lukaku",
+    "position": "Forward",
+    "number": 90,
+    "nationality": "Belgium",
+    "age": 31,
+    "teamName": "Inter Milan"
+  },
+  {
+    "name": "Edin Džeko",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Bosnia and Herzegovina",
+    "age": 38,
+    "teamName": "Inter Milan"
+  }
+]
