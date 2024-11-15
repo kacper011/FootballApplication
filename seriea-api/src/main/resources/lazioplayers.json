@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Luis Maximiano",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Portugal",
+    "age": 24,
+    "teamName": "Lazio"
+  },
+  {
+    "name": "Francesco Acerbi",
+    "position": "Defender",
+    "number": 33,
+    "nationality": "Italy",
+    "age": 36,
+    "teamName": "Lazio"
+  },
+  {
+    "name": "Patric",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Spain",
+    "age": 30,
+    "teamName": "Lazio"
+  },
+  {
+    "name": "Sergej Milinković-Savić",
+    "position": "Midfielder",
+    "number": 21,
+    "nationality": "Serbia",
+    "age": 29,
+    "teamName": "Lazio"
+  },
+  {
+    "name": "Luis Alberto",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Spain",
+    "age": 31,
+    "teamName": "Lazio"
+  },
+  {
+    "name": "Matías Vecino",
+    "position": "Midfielder",
+    "number": 5,
+    "nationality": "Uruguay",
+    "age": 32,
+    "teamName": "Lazio"
+  },
+  {
+    "name": "Ciro Immobile",
+    "position": "Forward",
+    "number": 17,
+    "nationality": "Italy",
+    "age": 34,
+    "teamName": "Lazio"
+  },
+  {
+    "name": "Felipe Anderson",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Brazil",
+    "age": 31,
+    "teamName": "Lazio"
+  },
+  {
+    "name": "Pedro",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Spain",
+    "age": 36,
+    "teamName": "Lazio"
+  },
+  {
+    "name": "Toma Bašić",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Croatia",
+    "age": 26,
+    "teamName": "Lazio"
+  }
+]
