@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Pietro Terracciano",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Italy",
+    "age": 33,
+    "teamName": "Fiorentina"
+  },
+  {
+    "name": "Nikola Milenković",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Serbia",
+    "age": 26,
+    "teamName": "Fiorentina"
+  },
+  {
+    "name": "Gérson",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Brazil",
+    "age": 26,
+    "teamName": "Fiorentina"
+  },
+  {
+    "name": "Sofyan Amrabat",
+    "position": "Midfielder",
+    "number": 34,
+    "nationality": "Morocco",
+    "age": 27,
+    "teamName": "Fiorentina"
+  },
+  {
+    "name": "Jonathan Ikoné",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "France",
+    "age": 25,
+    "teamName": "Fiorentina"
+  },
+  {
+    "name": "Arthur Cabral",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Brazil",
+    "age": 25,
+    "teamName": "Fiorentina"
+  },
+  {
+    "name": "Cristiano Biraghi",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Italy",
+    "age": 31,
+    "teamName": "Fiorentina"
+  },
+  {
+    "name": "Luka Jovic",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Serbia",
+    "age": 26,
+    "teamName": "Fiorentina"
+  },
+  {
+    "name": "Gaetano Castrovilli",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Italy",
+    "age": 26,
+    "teamName": "Fiorentina"
+  },
+  {
+    "name": "Dodo",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Brazil",
+    "age": 25,
+    "teamName": "Fiorentina"
+  }
+]
