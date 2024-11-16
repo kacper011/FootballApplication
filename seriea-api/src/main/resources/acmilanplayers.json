@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Mike Maignan",
+    "position": "Goalkeeper",
+    "number": 16,
+    "nationality": "France",
+    "age": 27,
+    "teamName": "AC Milan"
+  },
+  {
+    "name": "Theo Hernández",
+    "position": "Defender",
+    "number": 19,
+    "nationality": "France",
+    "age": 26,
+    "teamName": "AC Milan"
+  },
+  {
+    "name": "Fikayo Tomori",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "England",
+    "age": 25,
+    "teamName": "AC Milan"
+  },
+  {
+    "name": "Davide Calabria",
+    "position": "Defender",
+    "number": 2,
+    "nationality": "Italy",
+    "age": 27,
+    "teamName": "AC Milan"
+  },
+  {
+    "name": "Sandro Tonali",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Italy",
+    "age": 23,
+    "teamName": "AC Milan"
+  },
+  {
+    "name": "Ismaël Bennacer",
+    "position": "Midfielder",
+    "number": 4,
+    "nationality": "Algeria",
+    "age": 26,
+    "teamName": "AC Milan"
+  },
+  {
+    "name": "Rafael Leão",
+    "position": "Forward",
+    "number": 17,
+    "nationality": "Portugal",
+    "age": 24,
+    "teamName": "AC Milan"
+  },
+  {
+    "name": "Olivier Giroud",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "France",
+    "age": 37,
+    "teamName": "AC Milan"
+  },
+  {
+    "name": "Brahim Díaz",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Spain",
+    "age": 24,
+    "teamName": "AC Milan"
+  },
+  {
+    "name": "Charles De Ketelaere",
+    "position": "Forward",
+    "number": 90,
+    "nationality": "Belgium",
+    "age": 22,
+    "teamName": "AC Milan"
+  }
+]
