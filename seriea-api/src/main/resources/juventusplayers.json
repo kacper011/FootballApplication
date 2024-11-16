@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Wojciech Szczęsny",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Poland",
+    "age": 33,
+    "teamName": "Juventus"
+  },
+  {
+    "name": "Danilo",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Brazil",
+    "age": 32,
+    "teamName": "Juventus"
+  },
+  {
+    "name": "Gleison Bremer",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Brazil",
+    "age": 26,
+    "teamName": "Juventus"
+  },
+  {
+    "name": "Alex Sandro",
+    "position": "Defender",
+    "number": 12,
+    "nationality": "Brazil",
+    "age": 33,
+    "teamName": "Juventus"
+  },
+  {
+    "name": "Adrien Rabiot",
+    "position": "Midfielder",
+    "number": 25,
+    "nationality": "France",
+    "age": 28,
+    "teamName": "Juventus"
+  },
+  {
+    "name": "Manuel Locatelli",
+    "position": "Midfielder",
+    "number": 5,
+    "nationality": "Italy",
+    "age": 25,
+    "teamName": "Juventus"
+  },
+  {
+    "name": "Filip Kostić",
+    "position": "Midfielder",
+    "number": 17,
+    "nationality": "Serbia",
+    "age": 31,
+    "teamName": "Juventus"
+  },
+  {
+    "name": "Federico Chiesa",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Italy",
+    "age": 26,
+    "teamName": "Juventus"
+  },
+  {
+    "name": "Dusan Vlahovic",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Serbia",
+    "age": 23,
+    "teamName": "Juventus"
+  },
+  {
+    "name": "Moise Kean",
+    "position": "Forward",
+    "number": 18,
+    "nationality": "Italy",
+    "age": 23,
+    "teamName": "Juventus"
+  }
+]
