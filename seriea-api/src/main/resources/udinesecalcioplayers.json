@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Marco Silvestri",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Italy",
+    "age": 32,
+    "teamName": "Udinese Calcio"
+  },
+  {
+    "name": "Rodrigo Becão",
+    "position": "Defender",
+    "number": 50,
+    "nationality": "Brazil",
+    "age": 27,
+    "teamName": "Udinese Calcio"
+  },
+  {
+    "name": "Jaka Bijol",
+    "position": "Defender",
+    "number": 29,
+    "nationality": "Slovenia",
+    "age": 24,
+    "teamName": "Udinese Calcio"
+  },
+  {
+    "name": "Nehuén Pérez",
+    "position": "Defender",
+    "number": 18,
+    "nationality": "Argentina",
+    "age": 23,
+    "teamName": "Udinese Calcio"
+  },
+  {
+    "name": "Walace",
+    "position": "Midfielder",
+    "number": 11,
+    "nationality": "Brazil",
+    "age": 28,
+    "teamName": "Udinese Calcio"
+  },
+  {
+    "name": "Lazar Samardžić",
+    "position": "Midfielder",
+    "number": 24,
+    "nationality": "Germany",
+    "age": 21,
+    "teamName": "Udinese Calcio"
+  },
+  {
+    "name": "Sandi Lovrić",
+    "position": "Midfielder",
+    "number": 4,
+    "nationality": "Slovenia",
+    "age": 25,
+    "teamName": "Udinese Calcio"
+  },
+  {
+    "name": "Gerard Deulofeu",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Spain",
+    "age": 30,
+    "teamName": "Udinese Calcio"
+  },
+  {
+    "name": "Beto",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Portugal",
+    "age": 25,
+    "teamName": "Udinese Calcio"
+  },
+  {
+    "name": "Isaac Success",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Nigeria",
+    "age": 27,
+    "teamName": "Udinese Calcio"
+  }
+]
