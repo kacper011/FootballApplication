@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Łukasz Skorupski",
+    "position": "Goalkeeper",
+    "number": 28,
+    "nationality": "Poland",
+    "age": 32,
+    "teamName": "Bologna FC"
+  },
+  {
+    "name": "Stefan Posch",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Austria",
+    "age": 26,
+    "teamName": "Bologna FC"
+  },
+  {
+    "name": "Adama Soumaoro",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "France",
+    "age": 31,
+    "teamName": "Bologna FC"
+  },
+  {
+    "name": "Riccardo Calafiori",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Italy",
+    "age": 21,
+    "teamName": "Bologna FC"
+  },
+  {
+    "name": "Jerdy Schouten",
+    "position": "Midfielder",
+    "number": 30,
+    "nationality": "Netherlands",
+    "age": 26,
+    "teamName": "Bologna FC"
+  },
+  {
+    "name": "Nicolas Domínguez",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Argentina",
+    "age": 25,
+    "teamName": "Bologna FC"
+  },
+  {
+    "name": "Lewis Ferguson",
+    "position": "Midfielder",
+    "number": 19,
+    "nationality": "Scotland",
+    "age": 24,
+    "teamName": "Bologna FC"
+  },
+  {
+    "name": "Riccardo Orsolini",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "Italy",
+    "age": 26,
+    "teamName": "Bologna FC"
+  },
+  {
+    "name": "Joshua Zirkzee",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Netherlands",
+    "age": 23,
+    "teamName": "Bologna FC"
+  },
+  {
+    "name": "Giovanni Fabbian",
+    "position": "Midfielder",
+    "number": 21,
+    "nationality": "Italy",
+    "age": 20,
+    "teamName": "Bologna FC"
+  }
+]
