@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Samuele Perisan",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Italy",
+    "age": 26,
+    "teamName": "Empoli FC"
+  },
+  {
+    "name": "Sebastiano Luperto",
+    "position": "Defender",
+    "number": 33,
+    "nationality": "Italy",
+    "age": 27,
+    "teamName": "Empoli FC"
+  },
+  {
+    "name": "Ardian Ismajli",
+    "position": "Defender",
+    "number": 34,
+    "nationality": "Albania",
+    "age": 27,
+    "teamName": "Empoli FC"
+  },
+  {
+    "name": "Fabiano Parisi",
+    "position": "Defender",
+    "number": 65,
+    "nationality": "Italy",
+    "age": 23,
+    "teamName": "Empoli FC"
+  },
+  {
+    "name": "Razvan Marin",
+    "position": "Midfielder",
+    "number": 18,
+    "nationality": "Romania",
+    "age": 27,
+    "teamName": "Empoli FC"
+  },
+  {
+    "name": "Jacopo Fazzini",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Italy",
+    "age": 20,
+    "teamName": "Empoli FC"
+  },
+  {
+    "name": "Alberto Grassi",
+    "position": "Midfielder",
+    "number": 5,
+    "nationality": "Italy",
+    "age": 28,
+    "teamName": "Empoli FC"
+  },
+  {
+    "name": "Francesco Caputo",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Italy",
+    "age": 36,
+    "teamName": "Empoli FC"
+  },
+  {
+    "name": "Tommaso Baldanzi",
+    "position": "Forward",
+    "number": 35,
+    "nationality": "Italy",
+    "age": 20,
+    "teamName": "Empoli FC"
+  },
+  {
+    "name": "Nicolo Cambiaghi",
+    "position": "Forward",
+    "number": 28,
+    "nationality": "Italy",
+    "age": 23,
+    "teamName": "Empoli FC"
+  }
+]
