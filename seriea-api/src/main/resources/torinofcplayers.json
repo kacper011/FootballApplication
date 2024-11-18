@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Vanja Milinković-Savić",
+    "position": "Goalkeeper",
+    "number": 32,
+    "nationality": "Serbia",
+    "age": 26,
+    "teamName": "Torino FC"
+  },
+  {
+    "name": "Alessandro Buongiorno",
+    "position": "Defender",
+    "number": 4,
+    "nationality": "Italy",
+    "age": 24,
+    "teamName": "Torino FC"
+  },
+  {
+    "name": "Perr Schuurs",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Netherlands",
+    "age": 24,
+    "teamName": "Torino FC"
+  },
+  {
+    "name": "Ricardo Rodríguez",
+    "position": "Defender",
+    "number": 13,
+    "nationality": "Switzerland",
+    "age": 31,
+    "teamName": "Torino FC"
+  },
+  {
+    "name": "Sasa Lukic",
+    "position": "Midfielder",
+    "number": 10,
+    "nationality": "Serbia",
+    "age": 27,
+    "teamName": "Torino FC"
+  },
+  {
+    "name": "Ivan Ilić",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Serbia",
+    "age": 22,
+    "teamName": "Torino FC"
+  },
+  {
+    "name": "Karol Linetty",
+    "position": "Midfielder",
+    "number": 77,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "Torino FC"
+  },
+  {
+    "name": "Antonio Sanabria",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Paraguay",
+    "age": 27,
+    "teamName": "Torino FC"
+  },
+  {
+    "name": "Nemanja Radonjić",
+    "position": "Forward",
+    "number": 49,
+    "nationality": "Serbia",
+    "age": 27,
+    "teamName": "Torino FC"
+  },
+  {
+    "name": "Pietro Pellegri",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Italy",
+    "age": 22,
+    "teamName": "Torino FC"
+  }
+]
