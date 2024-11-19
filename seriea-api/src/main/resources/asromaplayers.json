@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Rui Patrício",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Portugal",
+    "age": 36,
+    "teamName": "AS Roma"
+  },
+  {
+    "name": "Gianluca Mancini",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Italy",
+    "age": 27,
+    "teamName": "AS Roma"
+  },
+  {
+    "name": "Chris Smalling",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "England",
+    "age": 34,
+    "teamName": "AS Roma"
+  },
+  {
+    "name": "Leonardo Spinazzola",
+    "position": "Defender",
+    "number": 37,
+    "nationality": "Italy",
+    "age": 31,
+    "teamName": "AS Roma"
+  },
+  {
+    "name": "Bryan Cristante",
+    "position": "Midfielder",
+    "number": 4,
+    "nationality": "Italy",
+    "age": 28,
+    "teamName": "AS Roma"
+  },
+  {
+    "name": "Lorenzo Pellegrini",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Italy",
+    "age": 28,
+    "teamName": "AS Roma"
+  },
+  {
+    "name": "Paulo Dybala",
+    "position": "Forward",
+    "number": 21,
+    "nationality": "Argentina",
+    "age": 30,
+    "teamName": "AS Roma"
+  },
+  {
+    "name": "Tammy Abraham",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "England",
+    "age": 26,
+    "teamName": "AS Roma"
+  },
+  {
+    "name": "Andrea Belotti",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Italy",
+    "age": 30,
+    "teamName": "AS Roma"
+  },
+  {
+    "name": "Houssem Aouar",
+    "position": "Midfielder",
+    "number": 22,
+    "nationality": "Algeria",
+    "age": 25,
+    "teamName": "AS Roma"
+  }
+]
