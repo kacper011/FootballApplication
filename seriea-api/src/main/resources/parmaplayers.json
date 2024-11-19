@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Gianluigi Buffon",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Italy",
+    "age": 46,
+    "teamName": "Parma"
+  },
+  {
+    "name": "Yordan Osorio",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Venezuela",
+    "age": 29,
+    "teamName": "Parma"
+  },
+  {
+    "name": "Enrico Del Prato",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "Italy",
+    "age": 24,
+    "teamName": "Parma"
+  },
+  {
+    "name": "Jayden Oosterwolde",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Netherlands",
+    "age": 22,
+    "teamName": "Parma"
+  },
+  {
+    "name": "Adrian Bernabé",
+    "position": "Midfielder",
+    "number": 16,
+    "nationality": "Spain",
+    "age": 22,
+    "teamName": "Parma"
+  },
+  {
+    "name": "Nahuel Estévez",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Argentina",
+    "age": 27,
+    "teamName": "Parma"
+  },
+  {
+    "name": "Franco Vázquez",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Argentina",
+    "age": 34,
+    "teamName": "Parma"
+  },
+  {
+    "name": "Adrian Benedyczak",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Poland",
+    "age": 22,
+    "teamName": "Parma"
+  },
+  {
+    "name": "Roberto Inglese",
+    "position": "Forward",
+    "number": 45,
+    "nationality": "Italy",
+    "age": 32,
+    "teamName": "Parma"
+  },
+  {
+    "name": "Dennis Man",
+    "position": "Forward",
+    "number": 98,
+    "nationality": "Romania",
+    "age": 25,
+    "teamName": "Parma"
+  }
+]
