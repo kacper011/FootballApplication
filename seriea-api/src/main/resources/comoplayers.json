@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Alessandro Ghidotti",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Italy",
+    "age": 22,
+    "teamName": "Como"
+  },
+  {
+    "name": "Cesc Fàbregas",
+    "position": "Midfielder",
+    "number": 4,
+    "nationality": "Spain",
+    "age": 37,
+    "teamName": "Como"
+  },
+  {
+    "name": "Liam Kerrigan",
+    "position": "Midfielder",
+    "number": 7,
+    "nationality": "Ireland",
+    "age": 23,
+    "teamName": "Como"
+  },
+  {
+    "name": "Alberto Cerri",
+    "position": "Forward",
+    "number": 27,
+    "nationality": "Italy",
+    "age": 27,
+    "teamName": "Como"
+  },
+  {
+    "name": "Patrick Cutrone",
+    "position": "Forward",
+    "number": 63,
+    "nationality": "Italy",
+    "age": 26,
+    "teamName": "Como"
+  },
+  {
+    "name": "Daniele Baselli",
+    "position": "Midfielder",
+    "number": 18,
+    "nationality": "Italy",
+    "age": 32,
+    "teamName": "Como"
+  },
+  {
+    "name": "Federico Barba",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Italy",
+    "age": 30,
+    "teamName": "Como"
+  },
+  {
+    "name": "Vittorio Parigini",
+    "position": "Midfielder",
+    "number": 11,
+    "nationality": "Italy",
+    "age": 27,
+    "teamName": "Como"
+  },
+  {
+    "name": "Alex Blanco",
+    "position": "Forward",
+    "number": 10,
+    "nationality": "Spain",
+    "age": 25,
+    "teamName": "Como"
+  },
+  {
+    "name": "Ettore Gliozzi",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Italy",
+    "age": 28,
+    "teamName": "Como"
+  }
+]
