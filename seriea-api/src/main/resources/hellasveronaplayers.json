@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Lorenzo Montipò",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Italy",
+    "age": 27,
+    "teamName": "Hellas Verona"
+  },
+  {
+    "name": "Pawel Dawidowicz",
+    "position": "Defender",
+    "number": 27,
+    "nationality": "Poland",
+    "age": 28,
+    "teamName": "Hellas Verona"
+  },
+  {
+    "name": "Diego Coppola",
+    "position": "Defender",
+    "number": 42,
+    "nationality": "Italy",
+    "age": 20,
+    "teamName": "Hellas Verona"
+  },
+  {
+    "name": "Filippo Terracciano",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Italy",
+    "age": 20,
+    "teamName": "Hellas Verona"
+  },
+  {
+    "name": "Ondrej Duda",
+    "position": "Midfielder",
+    "number": 33,
+    "nationality": "Slovakia",
+    "age": 29,
+    "teamName": "Hellas Verona"
+  },
+  {
+    "name": "Darko Lazović",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Serbia",
+    "age": 33,
+    "teamName": "Hellas Verona"
+  },
+  {
+    "name": "Adrien Tameze",
+    "position": "Midfielder",
+    "number": 61,
+    "nationality": "Cameroon",
+    "age": 29,
+    "teamName": "Hellas Verona"
+  },
+  {
+    "name": "Cyril Ngonge",
+    "position": "Forward",
+    "number": 26,
+    "nationality": "Belgium",
+    "age": 23,
+    "teamName": "Hellas Verona"
+  },
+  {
+    "name": "Federico Bonazzoli",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Italy",
+    "age": 26,
+    "teamName": "Hellas Verona"
+  },
+  {
+    "name": "Milan Đurić",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Bosnia and Herzegovina",
+    "age": 33,
+    "teamName": "Hellas Verona"
+  }
+]
