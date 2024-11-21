@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Josep Martínez",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Spain",
+    "age": 25,
+    "teamName": "Genoa"
+  },
+  {
+    "name": "Mattia Bani",
+    "position": "Defender",
+    "number": 13,
+    "nationality": "Italy",
+    "age": 30,
+    "teamName": "Genoa"
+  },
+  {
+    "name": "Radu Drăgușin",
+    "position": "Defender",
+    "number": 5,
+    "nationality": "Romania",
+    "age": 21,
+    "teamName": "Genoa"
+  },
+  {
+    "name": "Aaron Martin",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Spain",
+    "age": 26,
+    "teamName": "Genoa"
+  },
+  {
+    "name": "Kevin Strootman",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Netherlands",
+    "age": 34,
+    "teamName": "Genoa"
+  },
+  {
+    "name": "Morten Frendrup",
+    "position": "Midfielder",
+    "number": 32,
+    "nationality": "Denmark",
+    "age": 22,
+    "teamName": "Genoa"
+  },
+  {
+    "name": "Albert Guðmundsson",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Iceland",
+    "age": 26,
+    "teamName": "Genoa"
+  },
+  {
+    "name": "Caleb Ekuban",
+    "position": "Forward",
+    "number": 20,
+    "nationality": "Ghana",
+    "age": 29,
+    "teamName": "Genoa"
+  },
+  {
+    "name": "George Puscas",
+    "position": "Forward",
+    "number": 19,
+    "nationality": "Romania",
+    "age": 27,
+    "teamName": "Genoa"
+  },
+  {
+    "name": "Gudmundur Thórarinsson",
+    "position": "Midfielder",
+    "number": 16,
+    "nationality": "Iceland",
+    "age": 31,
+    "teamName": "Genoa"
+  }
+]
