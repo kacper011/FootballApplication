@@ -9,9 +9,9 @@ spring:
   application:
     name: ekstraklasa-api
   datasource:
-    url: jdbc:mysql://localhost:3306/ekstraklasa
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
+    url: jdbc:mysql://host.docker.internal:3306/ekstraklasa
+    username: ${DB_FOOTBALL_USERNAME}
+    password: ${DB_FOOTBALL_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update

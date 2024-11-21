@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Boris Radunović",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Serbia",
+    "age": 27,
+    "teamName": "Cagliari"
+  },
+  {
+    "name": "Adam Obert",
+    "position": "Defender",
+    "number": 15,
+    "nationality": "Slovakia",
+    "age": 21,
+    "teamName": "Cagliari"
+  },
+  {
+    "name": "Giorgio Altare",
+    "position": "Defender",
+    "number": 23,
+    "nationality": "Italy",
+    "age": 25,
+    "teamName": "Cagliari"
+  },
+  {
+    "name": "Zito Luvumbo",
+    "position": "Midfielder",
+    "number": 77,
+    "nationality": "Angola",
+    "age": 21,
+    "teamName": "Cagliari"
+  },
+  {
+    "name": "Marko Rog",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "Croatia",
+    "age": 28,
+    "teamName": "Cagliari"
+  },
+  {
+    "name": "Nahitan Nández",
+    "position": "Midfielder",
+    "number": 8,
+    "nationality": "Uruguay",
+    "age": 28,
+    "teamName": "Cagliari"
+  },
+  {
+    "name": "Gianluca Lapadula",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Peru",
+    "age": 33,
+    "teamName": "Cagliari"
+  },
+  {
+    "name": "Leonardo Pavoletti",
+    "position": "Forward",
+    "number": 30,
+    "nationality": "Italy",
+    "age": 35,
+    "teamName": "Cagliari"
+  },
+  {
+    "name": "Eldor Shomurodov",
+    "position": "Forward",
+    "number": 14,
+    "nationality": "Uzbekistan",
+    "age": 28,
+    "teamName": "Cagliari"
+  },
+  {
+    "name": "Antoine Makoumbou",
+    "position": "Midfielder",
+    "number": 29,
+    "nationality": "Congo",
+    "age": 25,
+    "teamName": "Cagliari"
+  }
+]
