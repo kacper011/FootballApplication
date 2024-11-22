@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Michele Di Gregorio",
+    "position": "Goalkeeper",
+    "number": 16,
+    "nationality": "Italy",
+    "age": 26,
+    "teamName": "Monza"
+  },
+  {
+    "name": "Armando Izzo",
+    "position": "Defender",
+    "number": 55,
+    "nationality": "Italy",
+    "age": 31,
+    "teamName": "Monza"
+  },
+  {
+    "name": "Carlos Augusto",
+    "position": "Defender",
+    "number": 30,
+    "nationality": "Brazil",
+    "age": 24,
+    "teamName": "Monza"
+  },
+  {
+    "name": "Marlon",
+    "position": "Defender",
+    "number": 3,
+    "nationality": "Brazil",
+    "age": 28,
+    "teamName": "Monza"
+  },
+  {
+    "name": "Matteo Pessina",
+    "position": "Midfielder",
+    "number": 32,
+    "nationality": "Italy",
+    "age": 26,
+    "teamName": "Monza"
+  },
+  {
+    "name": "Andrea Colpani",
+    "position": "Midfielder",
+    "number": 28,
+    "nationality": "Italy",
+    "age": 24,
+    "teamName": "Monza"
+  },
+  {
+    "name": "Patrick Ciurria",
+    "position": "Forward",
+    "number": 84,
+    "nationality": "Italy",
+    "age": 28,
+    "teamName": "Monza"
+  },
+  {
+    "name": "Gianluca Caprari",
+    "position": "Forward",
+    "number": 17,
+    "nationality": "Italy",
+    "age": 30,
+    "teamName": "Monza"
+  },
+  {
+    "name": "Andrea Petagna",
+    "position": "Forward",
+    "number": 37,
+    "nationality": "Italy",
+    "age": 28,
+    "teamName": "Monza"
+  },
+  {
+    "name": "Dany Mota",
+    "position": "Forward",
+    "number": 47,
+    "nationality": "Portugal",
+    "age": 25,
+    "teamName": "Monza"
+  }
+]
