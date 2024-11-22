@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Wladimiro Falcone",
+    "position": "Goalkeeper",
+    "number": 30,
+    "nationality": "Italy",
+    "age": 28,
+    "teamName": "Lecce"
+  },
+  {
+    "name": "Valentin Gendrey",
+    "position": "Defender",
+    "number": 17,
+    "nationality": "France",
+    "age": 23,
+    "teamName": "Lecce"
+  },
+  {
+    "name": "Federico Baschirotto",
+    "position": "Defender",
+    "number": 6,
+    "nationality": "Italy",
+    "age": 27,
+    "teamName": "Lecce"
+  },
+  {
+    "name": "Antonino Gallo",
+    "position": "Defender",
+    "number": 25,
+    "nationality": "Italy",
+    "age": 23,
+    "teamName": "Lecce"
+  },
+  {
+    "name": "Morten Hjulmand",
+    "position": "Midfielder",
+    "number": 42,
+    "nationality": "Denmark",
+    "age": 24,
+    "teamName": "Lecce"
+  },
+  {
+    "name": "Joan González",
+    "position": "Midfielder",
+    "number": 16,
+    "nationality": "Spain",
+    "age": 21,
+    "teamName": "Lecce"
+  },
+  {
+    "name": "Gabriel Strefezza",
+    "position": "Forward",
+    "number": 27,
+    "nationality": "Brazil",
+    "age": 26,
+    "teamName": "Lecce"
+  },
+  {
+    "name": "Assan Ceesay",
+    "position": "Forward",
+    "number": 9,
+    "nationality": "Gambia",
+    "age": 29,
+    "teamName": "Lecce"
+  },
+  {
+    "name": "Lameck Banda",
+    "position": "Forward",
+    "number": 22,
+    "nationality": "Zambia",
+    "age": 22,
+    "teamName": "Lecce"
+  },
+  {
+    "name": "Remi Oudin",
+    "position": "Forward",
+    "number": 7,
+    "nationality": "France",
+    "age": 27,
+    "teamName": "Lecce"
+  }
+]
