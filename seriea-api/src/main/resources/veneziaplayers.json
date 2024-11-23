@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Joronen Jesse",
+    "position": "Goalkeeper",
+    "number": 1,
+    "nationality": "Finland",
+    "age": 30,
+    "teamName": "Venezia"
+  },
+  {
+    "name": "Mattia Caldara",
+    "position": "Defender",
+    "number": 31,
+    "nationality": "Italy",
+    "age": 29,
+    "teamName": "Venezia"
+  },
+  {
+    "name": "Michael Svoboda",
+    "position": "Defender",
+    "number": 30,
+    "nationality": "Austria",
+    "age": 25,
+    "teamName": "Venezia"
+  },
+  {
+    "name": "Ridgeciano Haps",
+    "position": "Defender",
+    "number": 55,
+    "nationality": "Suriname",
+    "age": 30,
+    "teamName": "Venezia"
+  },
+  {
+    "name": "Gianluca Busio",
+    "position": "Midfielder",
+    "number": 6,
+    "nationality": "USA",
+    "age": 21,
+    "teamName": "Venezia"
+  },
+  {
+    "name": "Luca Fiordilino",
+    "position": "Midfielder",
+    "number": 16,
+    "nationality": "Italy",
+    "age": 27,
+    "teamName": "Venezia"
+  },
+  {
+    "name": "Joel Pohjanpalo",
+    "position": "Forward",
+    "number": 20,
+    "nationality": "Finland",
+    "age": 29,
+    "teamName": "Venezia"
+  },
+  {
+    "name": "Francesco Forte",
+    "position": "Forward",
+    "number": 11,
+    "nationality": "Italy",
+    "age": 30,
+    "teamName": "Venezia"
+  },
+  {
+    "name": "Andrija Novakovich",
+    "position": "Forward",
+    "number": 18,
+    "nationality": "USA",
+    "age": 27,
+    "teamName": "Venezia"
+  },
+  {
+    "name": "Denis Cheryshev",
+    "position": "Forward",
+    "number": 21,
+    "nationality": "Russia",
+    "age": 33,
+    "teamName": "Venezia"
+  }
+]
