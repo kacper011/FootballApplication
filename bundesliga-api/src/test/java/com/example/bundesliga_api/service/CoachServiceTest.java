@@ -12,6 +12,7 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
@@ -72,5 +73,25 @@ class CoachServiceTest {
         assertTrue(result.isEmpty(), "Result should be an empty list");
 
         verify(coachRepository, times(1)).findAll();
+    }
+
+    @DisplayName("Get Coach By Id Should Return Coach When Exists")
+    @Test
+    public void getCoachByIdShouldReturnCoachWhenExists() {
+
+        //Given
+        Long coachId = 1L;
+        Coach coach = new Coach(coachId, "Test Coach", "USA", 40);
+        when(coachRepository.findById(coachId)).thenReturn(Optional.of(coach));
+
+        //When
+        Coach result = coachService.getCoachById(coachId);
+
+        //Then
+        assertNotNull(result, "Result should not be null");
+        assertEquals(coachId, result.getId(), "Coach Id should match");
+        assertEquals("Test Coach", result.getName(), "Coach name should match");
+
+        verify(coachRepository, times(1)).findById(coachId);
     }
 }
