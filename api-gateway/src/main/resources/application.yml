@@ -24,7 +24,7 @@ spring:
           predicates:
             - Path=/ekstraklasa/**
         - id: seriea-api
-          uri: http://localhost:8085
+          uri: http://seriea-api:8085
           predicates:
             - Path=/seriea/**
         - id: transfermarket
