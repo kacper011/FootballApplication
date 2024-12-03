@@ -55,6 +55,22 @@ class CoachServiceTest {
         assertEquals("Team B", result.get(1).getTeam().getName(), "Second coach's team should be Team B");
 
         verify(coachRepository, times(1)).findAll();
+    }
 
+    @DisplayName("Get All Coaches Should Return Empty List When No Coaches")
+    @Test
+    public void getAllCoachesShouldReturnEmptyListWhenNoCoaches() {
+
+        //Given
+        when(coachRepository.findAll()).thenReturn(Arrays.asList());
+
+        //When
+        List<Coach> result = coachService.getAllCoaches();
+
+        //Then
+        assertNotNull(result, "Result should not be null");
+        assertTrue(result.isEmpty(), "Result should be an empty list");
+
+        verify(coachRepository, times(1)).findAll();
     }
 }
