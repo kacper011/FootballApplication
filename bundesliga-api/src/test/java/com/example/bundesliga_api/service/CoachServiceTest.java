@@ -111,4 +111,26 @@ class CoachServiceTest {
 
         verify(coachRepository, times(1)).findById(coachId);
     }
+
+    @DisplayName("Save Coach")
+    @Test
+    public void testSaveCoach() {
+
+        //Given
+        Coach coach = new Coach("Test Coach", "USA", 45);
+        Coach savedCoach = new Coach(1L, "Test Coach", "USA", 45);
+
+        when(coachRepository.save(coach)).thenReturn(savedCoach);
+
+        //When
+        Coach result = coachService.saveCoach(coach);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(1L, result.getId());
+        assertEquals("Test Coach", result.getName());
+        assertEquals("USA", result.getNationality());
+        assertEquals(45, result.getAge());
+        verify(coachRepository, times(1)).save(coach);
+    }
 }
