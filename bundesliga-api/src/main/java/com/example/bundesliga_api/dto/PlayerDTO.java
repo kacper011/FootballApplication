@@ -13,7 +13,21 @@ public class PlayerDTO {
     private String nationality;
     private int age;
     private String teamName;
+
+    public PlayerDTO(){
+
+    }
+
+    public PlayerDTO(int id, String name, String position, int number, String nationality, int age) {
+        this.id = id;
+        this.name = name;
+        this.position = position;
+        this.number = number;
+        this.nationality = nationality;
+        this.age = age;
+    }
 }
+
 
 /*
 JSON TO ADD PLAYER
