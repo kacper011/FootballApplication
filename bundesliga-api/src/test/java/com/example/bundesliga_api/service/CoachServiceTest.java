@@ -133,4 +133,18 @@ class CoachServiceTest {
         assertEquals(45, result.getAge());
         verify(coachRepository, times(1)).save(coach);
     }
+
+    @DisplayName("Delete Coach")
+    @Test
+    public void testDeleteCoach() {
+
+        //Given
+        Long coachId = 1L;
+
+        //When
+        coachRepository.deleteById(coachId);
+
+        //Then
+        verify(coachRepository, times(1)).deleteById(coachId);
+    }
 }
