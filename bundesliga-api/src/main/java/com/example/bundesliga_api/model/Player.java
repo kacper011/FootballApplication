@@ -16,7 +16,7 @@ import lombok.Setter;
 public class Player {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     private String name;
     private String position;
     private int number;
@@ -34,6 +34,14 @@ public class Player {
         this.number = number;
         this.nationality = nationality;
         this.age = age;
+    }
+
+    public Player(Integer id, String name, Integer age, String position,  Team team) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.position = position;
+        this.team = team;
     }
 }
 /*

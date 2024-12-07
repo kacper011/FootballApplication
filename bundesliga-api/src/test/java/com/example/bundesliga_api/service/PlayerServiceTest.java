@@ -3,6 +3,7 @@ package com.example.bundesliga_api.service;
 import com.example.bundesliga_api.dto.PlayerDTO;
 import com.example.bundesliga_api.mapper.PlayerMapper;
 import com.example.bundesliga_api.model.Player;
+import com.example.bundesliga_api.model.Team;
 import com.example.bundesliga_api.repository.PlayerRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -138,6 +139,31 @@ class PlayerServiceTest {
         verify(playerRepository, times(1)).findByTeamId(teamId);
     }
 
+    @DisplayName("Save Player With Team")
+    @Test
+    public void testSavePlayerWithTeam() {
+
+        //Given
+        Team team = new Team(1L, "Team A", null);
+        Player player = new Player(null, "Neymar", 25, "Forward", team);
+
+        Team fetchedTeam = new Team(1L, "Team A", null);
+        Player savedPlayer = new Player(1, "Neymar", 25, "Forward", fetchedTeam);
+
+        when(teamService.getTeamById(1L)).thenReturn(fetchedTeam);
+        when(playerRepository.save(any(Player.class))).thenReturn(savedPlayer);
+
+        //When
+        Player result = playerService.savePlayer(player);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(savedPlayer, result);
+        assertEquals(fetchedTeam, result.getTeam());
+
+        verify(teamService, times(1)).getTeamById(1L);
+        verify(playerRepository, times(1)).save(player);
+    }
 
 
 
