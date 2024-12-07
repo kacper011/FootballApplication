@@ -232,4 +232,25 @@ class PlayerServiceTest {
         verify(teamService, times(1)).findByName("Team A");
     }
 
+    @DisplayName("Update Player When Player Does Not Exist")
+    @Test
+    public void testUpdatePlayerWhenPlayerDoesNotExist() {
+
+        //Given
+        Long playerId = 1L;
+        PlayerDTO playerDTO = new PlayerDTO(1, "Updated Name", "Forward", 11, "Brasil", 25, "Team A");
+
+        when(playerRepository.findById(playerId)).thenReturn(Optional.empty());
+
+        //When
+        Player updatedPlayer = playerService.updatePlayer(playerId, playerDTO);
+
+        //Then
+        assertNull(updatedPlayer);
+
+        verify(playerRepository, times(1)).findById(playerId);
+        verify(playerRepository, times(0)).save(any(Player.class));
+        verify(teamService, times(0)).findByName(anyString());
+    }
+
 }
