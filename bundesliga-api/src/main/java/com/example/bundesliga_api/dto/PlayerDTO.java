@@ -26,6 +26,16 @@ public class PlayerDTO {
         this.nationality = nationality;
         this.age = age;
     }
+
+    public PlayerDTO(int id, String name, String position, int number, String nationality, int age, String teamName) {
+        this.id = id;
+        this.name = name;
+        this.position = position;
+        this.number = number;
+        this.nationality = nationality;
+        this.age = age;
+        this.teamName = teamName;
+    }
 }
 
 

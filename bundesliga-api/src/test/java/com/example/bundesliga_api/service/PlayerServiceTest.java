@@ -201,4 +201,35 @@ class PlayerServiceTest {
         verify(playerRepository, times(1)).deleteById(playerId);
     }
 
+    @DisplayName("Update Player When Player Exists")
+    @Test
+    public void testUpdatePlayerWhenPlayerExists() {
+
+        //Given
+        Long playerId = 1L;
+        Player existingPlayer = new Player(1, "Neymar", "Forward",  11, "Brasil",  25, null);
+        PlayerDTO playerDTO = new PlayerDTO(1, "Updated Name", "Forward", 11, "Brasil",  27, "Team A");
+        Team team = new Team(1L, "Team A", null);
+
+        when(playerRepository.findById(playerId)).thenReturn(Optional.of(existingPlayer));
+        when(teamService.findByName("Team A")).thenReturn(team);
+        when(playerRepository.save(any(Player.class))).thenAnswer(invocationOnMock -> invocationOnMock.getArgument(0));
+
+        //When
+        Player updatedPlayer = playerService.updatePlayer(playerId, playerDTO);
+
+        //Then
+        assertNotNull(updatedPlayer);
+        assertEquals("Updated Name", updatedPlayer.getName());
+        assertEquals("Forward", updatedPlayer.getPosition());
+        assertEquals(11, updatedPlayer.getNumber());
+        assertEquals("Brasil", updatedPlayer.getNationality());
+        assertEquals(27, updatedPlayer.getAge());
+        assertEquals(team, updatedPlayer.getTeam());
+
+        verify(playerRepository, times(1)).findById(playerId);
+        verify(playerRepository, times(1)).save(existingPlayer);
+        verify(teamService, times(1)).findByName("Team A");
+    }
+
 }
