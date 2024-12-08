@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 import java.util.Collections;
+import java.util.List;
 
 class TeamPointsServiceTest {
 
@@ -49,6 +50,27 @@ class TeamPointsServiceTest {
         verify(teamPointsRepository, times(1)).findAllByTeamName("Team A");
         verify(teamPointsRepository, times(1)).save(teamPoints);
 
+    }
+
+    @DisplayName("Add Team When Team Already Exists")
+    @Test
+    public void testAddTeamWhenTeamAlreadyExists() {
+
+        //Given
+        TeamPoints teamPoints = new TeamPoints(1L, "Team A", 9, 3, 3, 0, 0);
+        List<TeamPoints> existingTeams = List.of(new TeamPoints(2L, "Team A", 12, 4, 4, 0, 0));
+
+        when(teamPointsRepository.findAllByTeamName("Team A")).thenReturn(existingTeams);
+
+        //When & Then
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            teamPointsService.addTeam(teamPoints);
+        });
+
+        assertEquals("Team with name Team A already exists.", exception.getMessage());
+
+        verify(teamPointsRepository, times(1)).findAllByTeamName("Team A");
+        verify(teamPointsRepository, times(0)).save(any(TeamPoints.class));
     }
 
 }
