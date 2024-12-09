@@ -14,8 +14,7 @@ import org.mockito.MockitoAnnotations;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 class TeamServiceTest {
@@ -95,6 +94,23 @@ class TeamServiceTest {
         assertEquals("Stadium A", result.getStadium());
         assertNotNull(result.getCoach());
         assertEquals("Coach A", result.getCoach().getName());
+
+        verify(teamRepository, times(1)).findById(teamId);
+    }
+
+    @DisplayName("Get Team By Id Team Does Not Exist")
+    @Test
+    public void testGetTeamByIdTeamDoesNotExist() {
+
+        //Given
+        Long teamId = 1L;
+        when(teamRepository.findById(teamId)).thenReturn(Optional.empty());
+
+        //When
+        Team result = teamService.getTeamById(teamId);
+
+        //Then
+        assertNull(result);
 
         verify(teamRepository, times(1)).findById(teamId);
     }
