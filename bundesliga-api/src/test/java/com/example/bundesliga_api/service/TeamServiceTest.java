@@ -12,6 +12,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -72,6 +73,30 @@ class TeamServiceTest {
         assertEquals("Leo Messi", secondTeam.getPlayers().get(0).getName());
 
         verify(teamRepository, times(1)).findAll();
+    }
+
+    @DisplayName("Get Team By Id Team Exists")
+    @Test
+    public void testGetTeamByIdTeamExists() {
+
+        //Given
+        Long teamId = 1L;
+        Coach coach = new Coach(1L,"Coach A", "USA", 42);
+        Team mockTeam = new Team(teamId, "Team A", "Stadium A", coach, List.of());
+
+        when(teamRepository.findById(teamId)).thenReturn(Optional.of(mockTeam));
+
+        //When
+        Team result = teamService.getTeamById(teamId);
+
+        //Then
+        assertNotNull(result);
+        assertEquals("Team A", result.getName());
+        assertEquals("Stadium A", result.getStadium());
+        assertNotNull(result.getCoach());
+        assertEquals("Coach A", result.getCoach().getName());
+
+        verify(teamRepository, times(1)).findById(teamId);
     }
 
 }
