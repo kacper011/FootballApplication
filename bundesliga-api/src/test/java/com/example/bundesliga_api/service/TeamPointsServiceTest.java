@@ -1,5 +1,6 @@
 package com.example.bundesliga_api.service;
 
+import com.example.bundesliga_api.model.Team;
 import com.example.bundesliga_api.model.TeamPoints;
 import com.example.bundesliga_api.repository.TeamPointsRepository;
 import org.junit.jupiter.api.BeforeEach;
@@ -141,6 +142,32 @@ class TeamPointsServiceTest {
 
         verify(teamPointsRepository, times(1)).findByTeamName(teamName);
         verify(teamPointsRepository, times(0)).save(any());
+    }
+
+    @DisplayName("Get League Table")
+    @Test
+    public void testGetLeagueTable() {
+
+        //Given
+        TeamPoints teamA = new TeamPoints(1L, "Team A", 4, 4, 1, 1, 2);
+        TeamPoints teamB = new TeamPoints(2L, "Team B", 10, 4, 3, 1, 0);
+        TeamPoints teamC = new TeamPoints(3L, "Team C", 6, 4, 1, 3, 0);
+
+        List<TeamPoints> unsortedTeams = List.of(teamA, teamB, teamC);
+
+        when(teamPointsRepository.findAll()).thenReturn(unsortedTeams);
+
+        //When
+        List<TeamPoints> leagueTable = teamPointsService.getLeagueTable();
+
+        //Then
+        assertNotNull(leagueTable);
+        assertEquals(3, leagueTable.size());
+        assertEquals("Team B", leagueTable.get(0).getTeamName());
+        assertEquals("Team C", leagueTable.get(1).getTeamName());
+        assertEquals("Team A", leagueTable.get(2).getTeamName());
+
+        verify(teamPointsRepository, times(1)).findAll();
     }
 
 }
