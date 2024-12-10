@@ -155,4 +155,29 @@ class TeamServiceTest {
 
         verify(teamRepository, times(1)).findByName(teamName);
     }
+
+    @DisplayName("Save Team")
+    @Test
+    public void testSaveTeam() {
+
+        //Given
+        Coach coach = new Coach(1L,"Coach A", "USA", 42);
+        Team teamToSave = new Team(null, "Team A", "Stadium A", coach, List.of());
+        Team savedTeam = new Team(1L, "Team A", "Stadium A", coach, List.of());
+
+        when(teamRepository.save(teamToSave)).thenReturn(savedTeam);
+
+        //When
+        Team result = teamService.saveTeam(teamToSave);
+
+        //Then
+        assertNotNull(result);
+        assertEquals("Team A", result.getName());
+        assertEquals("Stadium A", result.getStadium());
+        assertNotNull(result.getCoach());
+        assertEquals("Coach A", result.getCoach().getName());
+
+        verify(teamRepository, times(1)).save(teamToSave);
+
+    }
 }
