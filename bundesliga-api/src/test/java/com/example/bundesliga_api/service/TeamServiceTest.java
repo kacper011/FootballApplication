@@ -193,4 +193,20 @@ class TeamServiceTest {
         //Then
         verify(teamRepository, times(1)).deleteById(teamId);
     }
+
+    @DisplayName("Delete Non Existent Team")
+    @Test
+    public void testDeleteNonExistentTeam() {
+
+        //Given
+        Long teamId = 999L;
+
+        doNothing().when(teamRepository).deleteById(teamId);
+
+        //When
+        teamService.deleteTeam(teamId);
+
+        //Then
+        verify(teamRepository, times(1)).deleteById(teamId);
+    }
 }
