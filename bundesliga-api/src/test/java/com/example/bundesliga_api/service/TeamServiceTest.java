@@ -178,6 +178,19 @@ class TeamServiceTest {
         assertEquals("Coach A", result.getCoach().getName());
 
         verify(teamRepository, times(1)).save(teamToSave);
+    }
 
+    @DisplayName("Delete Team")
+    @Test
+    public void testDeleteTeam() {
+
+        //Given
+        Long teamId = 1L;
+
+        //When
+        teamService.deleteTeam(teamId);
+
+        //Then
+        verify(teamRepository, times(1)).deleteById(teamId);
     }
 }
