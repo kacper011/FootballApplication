@@ -115,4 +115,28 @@ class TeamServiceTest {
         verify(teamRepository, times(1)).findById(teamId);
     }
 
+    @DisplayName("Find By Name Team Exists")
+    @Test
+    public void testFindByNameTeamExists() {
+
+        //Given
+        String teamName = "Team A";
+        Coach coach = new Coach(1L,"Coach A", "USA", 42);
+        Team mockTeam = new Team(1L, "Team A", "Stadium A", coach, List.of());
+
+        when(teamRepository.findByName(teamName)).thenReturn(mockTeam);
+
+        //When
+        Team result = teamService.findByName(teamName);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(teamName, result.getName());
+        assertEquals("Stadium A", result.getStadium());
+        assertNotNull(result.getCoach());
+        assertEquals("Coach A", result.getCoach().getName());
+
+        verify(teamRepository, times(1)).findByName(teamName);
+    }
+
 }

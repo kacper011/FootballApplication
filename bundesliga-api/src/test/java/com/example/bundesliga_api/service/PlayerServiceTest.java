@@ -76,7 +76,7 @@ class PlayerServiceTest {
 
         //Then
         assertNotNull(result);
-        assertEquals(playerId, result.getId());
+        assertEquals(1, result.getId());
         assertEquals("Neymar", result.getName());
 
         verify(playerRepository, times(1)).findById(playerId);
