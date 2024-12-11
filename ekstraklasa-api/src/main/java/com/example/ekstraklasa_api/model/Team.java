@@ -28,6 +28,12 @@ public class Team {
     @OneToMany(mappedBy = "team", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JsonManagedReference
     private List<Player> players;
+
+    public Team(Long id, String name, Coach coach) {
+        this.id = id;
+        this.name = name;
+        this.coach = coach;
+    }
 }
 
 /*
