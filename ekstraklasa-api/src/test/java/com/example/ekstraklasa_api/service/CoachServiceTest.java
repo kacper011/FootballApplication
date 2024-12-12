@@ -14,6 +14,7 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 class CoachServiceTest {
 
@@ -50,6 +51,28 @@ class CoachServiceTest {
         assertEquals("Poland", coaches.get(1).getNationality());
 
         verify(coachRepository, times(1)).findAll();
+    }
+
+    @DisplayName("Get Coach By Id Coach Exists")
+    @Test
+    public void testGetCoachByIdCoachExists() {
+
+        //Given
+        Long coachId = 1L;
+        Coach coach = new Coach(coachId, "First Coach", "USA", 45);
+
+        when(coachRepository.findById(coachId)).thenReturn(Optional.of(coach));
+
+        //When
+        Coach result = coachService.getCoachById(coachId);
+
+        //Then
+        assertNotNull(result);
+        assertEquals("First Coach", result.getName());
+        assertEquals("USA", result.getNationality());
+        assertEquals(45, result.getAge());
+
+        verify(coachRepository, times(1)).findById(coachId);
     }
 
 }
