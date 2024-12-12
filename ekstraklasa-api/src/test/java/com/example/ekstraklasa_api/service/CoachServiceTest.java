@@ -116,4 +116,18 @@ class CoachServiceTest {
 
     }
 
+    @DisplayName("Delete Coach")
+    @Test
+    public void testDeleteCoach() {
+
+        //Given
+        Long coachId = 1L;
+
+        //When
+        coachService.deleteCoach(coachId);
+
+        //Then
+        verify(coachRepository, times(1)).deleteById(coachId);
+    }
+
 }
