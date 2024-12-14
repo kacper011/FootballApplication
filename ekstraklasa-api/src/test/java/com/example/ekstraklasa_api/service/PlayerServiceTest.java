@@ -106,4 +106,29 @@ class PlayerServiceTest {
         verify(playerRepository, times(1)).findById(playerId);
     }
 
+    @DisplayName("Get Players By Team Id Success")
+    @Test
+    public void testGetPlayersByTeamIdSuccess() {
+
+        //Given
+        Long teamId = 1L;
+        Player player1 = new Player(1, "Player 1", "Forward", 11, "Poland", 20);
+        Player player2 = new Player(2, "Player 2", "Forward", 10, "Germany", 25);
+        List<Player> players = Arrays.asList(player1, player2);
+
+        when(playerRepository.findByTeamId(teamId)).thenReturn(players);
+
+        //When
+        List<Player> result = playerService.getPlayersByTeamId(teamId);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(2, result.size());
+        assertEquals(player1, result.get(0));
+        assertEquals(player2, result.get(1));
+
+        verify(playerRepository, times(1)).findByTeamId(teamId);
+
+    }
+
 }
