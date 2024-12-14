@@ -34,6 +34,11 @@ public class Team {
         this.name = name;
         this.coach = coach;
     }
+
+    public Team(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }
 
 /*

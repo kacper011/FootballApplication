@@ -3,6 +3,7 @@ package com.example.ekstraklasa_api.service;
 import com.example.ekstraklasa_api.dto.PlayerDTO;
 import com.example.ekstraklasa_api.mapper.PlayerMapper;
 import com.example.ekstraklasa_api.model.Player;
+import com.example.ekstraklasa_api.model.Team;
 import com.example.ekstraklasa_api.repository.PlayerRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -150,4 +151,29 @@ class PlayerServiceTest {
         verify(playerRepository, times(1)).findByTeamId(teamId);
     }
 
+    @DisplayName("Save Player With Existing Team")
+    @Test
+    public void testSavePlayerWithExistingTeam() {
+
+        //Given
+        Team team = new Team(1L, "Team A");
+        Player player = new Player(1, "Player 1", "Forward", 11, "Poland", 20);
+
+        player.setTeam(team);
+
+        when(teamService.getTeamById(1L)).thenReturn(team);
+        when(playerRepository.save(player)).thenReturn(player);
+
+        //When
+        Player result = playerService.savePlayer(player);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(player, result);
+        assertEquals(team, result.getTeam());
+
+        verify(teamService, times(1)).getTeamById(1L);
+        verify(playerRepository, times(1)).save(player);
+
+    }
 }
