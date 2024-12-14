@@ -176,4 +176,27 @@ class PlayerServiceTest {
         verify(playerRepository, times(1)).save(player);
 
     }
+
+    @DisplayName("Save Player Without Team")
+    @Test
+    public void testSavePlayerWithoutTeam() {
+
+        //Given
+        Player player = new Player(1, "Player 1", "Forward", 11, "Poland", 20);
+        player.setTeam(null);
+
+        when(playerRepository.save(player)).thenReturn(player);
+
+        //When
+        Player result = playerService.savePlayer(player);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(player, result);
+        assertNull(result.getTeam());
+
+        verify(teamService, times(0)).getTeamById(any());
+        verify(playerRepository, times(1)).save(player);
+
+    }
 }
