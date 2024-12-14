@@ -13,6 +13,7 @@ import org.mockito.MockedStatic;
 import org.mockito.MockitoAnnotations;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
@@ -129,6 +130,24 @@ class PlayerServiceTest {
 
         verify(playerRepository, times(1)).findByTeamId(teamId);
 
+    }
+
+    @DisplayName("Get Players By Team Id Empty")
+    @Test
+    public void testGetPlayersByTeamIdEmpty() {
+
+        //Given
+        Long teamId = 1L;
+        when(playerRepository.findByTeamId(teamId)).thenReturn(Collections.emptyList());
+
+        //When
+        List<Player> result = playerService.getPlayersByTeamId(teamId);
+
+        //Then
+        assertNotNull(result);
+        assertTrue(result.isEmpty());
+
+        verify(playerRepository, times(1)).findByTeamId(teamId);
     }
 
 }
