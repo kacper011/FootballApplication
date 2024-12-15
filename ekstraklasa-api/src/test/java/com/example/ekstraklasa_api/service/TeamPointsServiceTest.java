@@ -52,4 +52,25 @@ class TeamPointsServiceTest {
         verify(teamPointsRepository, times(1)).save(teamPoints);
     }
 
+    @DisplayName("Add Team Team Already Exists")
+    @Test
+    public void testAddTeamTeamAlreadyExists() {
+
+        //Given
+        TeamPoints teamPoints = new TeamPoints();
+        teamPoints.setTeamName("Team A");
+        teamPoints.setPoints(0);
+
+        when(teamPointsRepository.findAllByTeamName("Team A")).thenReturn(Collections.singletonList(teamPoints));
+
+        //When & Then
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class,
+                () -> teamPointsService.addTeam(teamPoints));
+
+        assertEquals("Team with name Team A already exists.", exception.getMessage());
+
+        verify(teamPointsRepository, times(1)).findAllByTeamName("Team A");
+        verify(teamPointsRepository, never()).save(any(TeamPoints.class));
+    }
+
 }
