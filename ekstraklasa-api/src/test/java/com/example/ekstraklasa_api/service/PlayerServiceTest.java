@@ -12,6 +12,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockedStatic;
 import org.mockito.MockitoAnnotations;
+import org.springframework.dao.EmptyResultDataAccessException;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -211,6 +212,21 @@ class PlayerServiceTest {
         playerService.deletePlayer(playerId);
 
         //Then
+        verify(playerRepository, times(1)).deleteById(playerId);
+    }
+
+    @DisplayName("Delete Player Not Found")
+    @Test
+    public void testDeletePlayerNotFound() {
+
+        //Given
+        Long playerId = 1L;
+        doThrow(new EmptyResultDataAccessException(1))
+                .when(playerRepository).deleteById(playerId);
+
+        //When & Then
+        assertThrows(EmptyResultDataAccessException.class, () -> playerService.deletePlayer(playerId));
+
         verify(playerRepository, times(1)).deleteById(playerId);
     }
 }
