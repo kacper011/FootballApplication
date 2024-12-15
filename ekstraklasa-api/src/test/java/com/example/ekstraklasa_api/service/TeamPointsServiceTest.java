@@ -107,4 +107,24 @@ class TeamPointsServiceTest {
         verify(teamPointsRepository, times(1)).save(existingTeam);
     }
 
+    @DisplayName("Update Points Team Not Found")
+    @Test
+    public void testUpdatePointsTeamNotFound() {
+
+        //Given
+        String teamName = "Team A";
+        int points = 3;
+
+        when(teamPointsRepository.findByTeamName(teamName)).thenReturn(null);
+
+        //When & Then
+        RuntimeException exception = assertThrows(RuntimeException.class,
+                () -> teamPointsService.updatePoints(teamName, points));
+
+        assertEquals("Team not found with name: Team A", exception.getMessage());
+
+        verify(teamPointsRepository, times(1)).findByTeamName(teamName);
+        verify(teamPointsRepository, never()).save(any(TeamPoints.class));
+    }
+
 }
