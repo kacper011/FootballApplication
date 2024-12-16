@@ -11,6 +11,7 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
@@ -51,6 +52,25 @@ class TeamServiceTest {
         assertEquals("Team B", result.get(1).getName());
 
         verify(teamRepository, times(1)).findAll();
+    }
+
+    @DisplayName("Get Team By Id Success")
+    @Test
+    public void testGetTeamByIdSuccess() {
+
+        //Given
+        Team team = new Team(1L, "Team A");
+        when(teamRepository.findById(1L)).thenReturn(Optional.of(team));
+
+        //When
+        Team result = teamService.getTeamById(1L);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(1L, result.getId());
+        assertEquals("Team A", result.getName());
+
+        verify(teamRepository, times(1)).findById(1L);
     }
 
 }
