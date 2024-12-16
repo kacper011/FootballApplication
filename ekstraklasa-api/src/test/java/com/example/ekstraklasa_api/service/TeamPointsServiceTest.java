@@ -9,7 +9,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
@@ -151,4 +153,29 @@ class TeamPointsServiceTest {
         verify(teamPointsRepository, never()).save(any(TeamPoints.class));
     }
 
+    @DisplayName("Get League Table Success")
+    @Test
+    public void testGetLeagueTableSuccess() {
+
+        //Given
+        TeamPoints team1 = new TeamPoints(1L, "Team A", 15, 5, 5, 0, 0);
+        TeamPoints team2 = new TeamPoints(2L, "Team B", 9, 5, 2, 3, 0);
+        TeamPoints team3 = new TeamPoints(3L, "Team C", 10, 5, 3, 1, 2);
+
+        List<TeamPoints> unsortedTeams = Arrays.asList(team1, team2, team3);
+
+        when(teamPointsRepository.findAll()).thenReturn(unsortedTeams);
+
+        //When
+        List<TeamPoints> result = teamPointsService.getLeagueTable();
+
+        //Then
+        assertNotNull(result);
+        assertEquals(3, result.size());
+        assertEquals("Team A", result.get(0).getTeamName());
+        assertEquals("Team C", result.get(1).getTeamName());
+        assertEquals("Team B", result.get(2).getTeamName());
+
+        verify(teamPointsRepository, times(1)).findAll();
+    }
 }
