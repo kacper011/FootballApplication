@@ -10,10 +10,10 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 class CoachServiceTest {
@@ -48,6 +48,23 @@ class CoachServiceTest {
         assertEquals(2, result.size());
         assertEquals(coach1, result.get(0));
         assertEquals(coach2, result.get(1));
+
+        verify(coachRepository, times(1)).findAll();
+    }
+
+    @DisplayName("Get All Coaches Empty List")
+    @Test
+    public void testGetAllCoachesEmptyList() {
+
+        //Given
+        when(coachRepository.findAll()).thenReturn(Collections.emptyList());
+
+        //When
+        List<Coach> result = coachService.getAllCoaches();
+
+        //Then
+        assertNotNull(result);
+        assertTrue(result.isEmpty());
 
         verify(coachRepository, times(1)).findAll();
     }
