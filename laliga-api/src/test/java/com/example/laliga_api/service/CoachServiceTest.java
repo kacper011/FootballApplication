@@ -12,6 +12,7 @@ import org.mockito.MockitoAnnotations;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
@@ -67,6 +68,30 @@ class CoachServiceTest {
         assertTrue(result.isEmpty());
 
         verify(coachRepository, times(1)).findAll();
+    }
+
+    @DisplayName("Get Coach By Id Success")
+    @Test
+    public void testGetCoachByIdSuccess() {
+
+        //Given
+        Long coachId = 1L;
+        Coach coach = new Coach(coachId, "Coach A", "Poland", 50);
+
+        when(coachRepository.findById(coachId)).thenReturn(Optional.of(coach));
+
+        //When
+        Coach result = coachService.getCoachById(coachId);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(coach, result);
+        assertEquals(coachId, result.getId());
+        assertEquals("Coach A", result.getName());
+        assertEquals("Poland", result.getNationality());
+        assertEquals(50, result.getAge());
+
+        verify(coachRepository, times(1)).findById(coachId);
     }
 
 }
