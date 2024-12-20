@@ -26,6 +26,23 @@ public class Player {
     @JoinColumn(name = "team_id")
     @JsonBackReference
     private Team team;
+
+    public Player(Integer id, String name, String position, Integer number, String nationality, Integer age) {
+        this.id = id;
+        this.name = name;
+        this.position = position;
+        this.number = number;
+        this.nationality = nationality;
+        this.age = age;
+    }
+
+    public Player(Integer id, String name, Integer age, String position,  Team team) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.position = position;
+        this.team = team;
+    }
 }
 /*
 
