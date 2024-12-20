@@ -90,4 +90,22 @@ class PlayerServiceTest {
 
         verify(playerRepository, times(1)).findById(playerId);
     }
+
+    @DisplayName("Get Player By Id Not Found")
+    @Test
+    public void testGetPlayerByIdNotFound() {
+
+        //Given
+        Long playerId = 1L;
+
+        when(playerRepository.findById(playerId)).thenReturn(Optional.empty());
+
+        //When
+        Player result = playerService.getPlayerById(playerId);
+
+        //Then
+        assertNull(result);
+
+        verify(playerRepository, times(1)).findById(playerId);
+    }
 }
