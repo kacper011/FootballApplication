@@ -174,5 +174,17 @@ class PlayerServiceTest {
         verify(playerRepository, times(1)).deleteById(playerId);
     }
 
-    
+    @DisplayName("Delete Player Not Found")
+    @Test
+    public void testDeletePlayerNotFound() {
+
+        //Given
+        Long playerId = 999L;
+
+        //When
+        playerService.deletePlayer(playerId);
+
+        //Then
+        verify(playerRepository, times(1)).deleteById(playerId);
+    }
 }
