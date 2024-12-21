@@ -206,4 +206,40 @@ class PlayerServiceTest {
 
         verify(playerRepository, times(1)).findById(playerId);
     }
+
+    @DisplayName("Update Player Success")
+    @Test
+    public void testUpdatePlayerSuccess() {
+
+        //Given
+        Long playerId = 1L;
+        PlayerDTO playerDTO = new PlayerDTO(0, "Player 1", "Forward", 11, "Poland", 18);
+
+        Player existingPlayer = new Player();
+        existingPlayer.setId(1);
+        existingPlayer.setName("Old Player");
+
+        Team team = new Team();
+        team.setName("Team A");
+
+        when(playerRepository.findById(playerId)).thenReturn(Optional.of(existingPlayer));
+        when(teamService.findByName(playerDTO.getTeamName())).thenReturn(team);
+        when(playerRepository.save(existingPlayer)).thenReturn(existingPlayer);
+
+        //When
+        Player result = playerService.updatePlayer(playerId, playerDTO);
+
+        //Then
+        assertNotNull(result);
+        assertEquals("Player 1", result.getName());
+        assertEquals("Forward", result.getPosition());
+        assertEquals(11, result.getNumber());
+        assertEquals("Poland", result.getNationality());
+        assertEquals(18, result.getAge());
+        assertEquals(team, result.getTeam());
+
+        verify(playerRepository, times(1)).findById(playerId);
+        verify(playerRepository, times(1)).save(existingPlayer);
+        verify(teamService, times(1)).findByName(playerDTO.getTeamName());
+    }
 }
