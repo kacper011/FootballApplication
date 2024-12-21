@@ -159,4 +159,20 @@ class PlayerServiceTest {
 
         verify(playerRepository, times(1)).save(player);
     }
+
+    @DisplayName("Delete Player Success")
+    @Test
+    public void testDeletePlayerSuccess() {
+
+        //Given
+        Long playerId = 1L;
+
+        //When
+        playerService.deletePlayer(playerId);
+
+        //Then
+        verify(playerRepository, times(1)).deleteById(playerId);
+    }
+
+    
 }
