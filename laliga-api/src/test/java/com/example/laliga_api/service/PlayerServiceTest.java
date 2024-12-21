@@ -187,4 +187,23 @@ class PlayerServiceTest {
         //Then
         verify(playerRepository, times(1)).deleteById(playerId);
     }
+
+    @DisplayName("Update Player Not Found")
+    @Test
+    public void testUpdatePlayerNotFound() {
+
+        //Given
+        Long playerId = 1L;
+        PlayerDTO playerDTO = new PlayerDTO(0, "Player 1", "Forward", 11, "Poland", 18);
+
+        when(playerRepository.findById(playerId)).thenReturn(Optional.empty());
+
+        //When
+        Player result = playerService.updatePlayer(playerId, playerDTO);
+
+        //Then
+        assertNull(result);
+
+        verify(playerRepository, times(1)).findById(playerId);
+    }
 }
