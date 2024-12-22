@@ -192,4 +192,26 @@ class TeamPointsServiceTest {
         verify(teamPointsRepository, never()).save(any(TeamPoints.class));
     }
 
+    @DisplayName("Update Points Invalid Points Value")
+    @Test
+    public void testUpdatePointsInvalidPointsValue() {
+
+        //Given
+        String teamName = "Team D";
+        int points = 2;
+
+        TeamPoints team = new TeamPoints();
+        team.setTeamName(teamName);
+
+        when(teamPointsRepository.findByTeamName(teamName)).thenReturn(team);
+
+        //When & Then
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> teamPointsService.updatePoints(teamName, points));
+
+        assertEquals("Points must be 0, 1, or 3.", exception.getMessage());
+
+        verify(teamPointsRepository, times(1)).findByTeamName(teamName);
+        verify(teamPointsRepository, never()).save(any(TeamPoints.class));
+    }
+
 }
