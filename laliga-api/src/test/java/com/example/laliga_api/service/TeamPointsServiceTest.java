@@ -73,4 +73,38 @@ class TeamPointsServiceTest {
         verify(teamPointsRepository, never()).save(newTeam);
     }
 
+    @DisplayName("Update Points Success With 3 Points")
+    @Test
+    public void testUpdatePointsSuccessWith3Points() {
+
+        //Given
+        String teamName = "Team A";
+        int points = 3;
+
+        TeamPoints team = new TeamPoints();
+        team.setTeamName(teamName);
+        team.setPoints(0);
+        team.setMatchesPlayed(0);
+        team.setWins(0);
+        team.setDraws(0);
+        team.setLosses(0);
+
+        when(teamPointsRepository.findByTeamName(teamName)).thenReturn(team);
+        when(teamPointsRepository.save(team)).thenReturn(team);
+
+        //When
+        TeamPoints result = teamPointsService.updatePoints(teamName, points);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(3, result.getPoints());
+        assertEquals(1, result.getMatchesPlayed());
+        assertEquals(1, result.getWins());
+        assertEquals(0, result.getDraws());
+        assertEquals(0, result.getLosses());
+
+        verify(teamPointsRepository, times(1)).findByTeamName(teamName);
+        verify(teamPointsRepository, times(1)).save(team);
+    }
+
 }
