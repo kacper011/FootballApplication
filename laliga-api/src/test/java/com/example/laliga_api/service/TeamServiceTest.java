@@ -89,4 +89,22 @@ class TeamServiceTest {
 
         verify(teamRepository, times(1)).findById(teamId);
     }
+
+    @DisplayName("Get Team By Id Not Found")
+    @Test
+    public void testGetTeamByIdNotFound() {
+
+        //Given
+        Long teamId = 1L;
+
+        when(teamRepository.findById(teamId)).thenReturn(Optional.empty());
+
+        //When
+        Team result = teamService.getTeamById(teamId);
+
+        //Then
+        assertNull(result);
+
+        verify(teamRepository, times(1)).findById(teamId);
+    }
 }
