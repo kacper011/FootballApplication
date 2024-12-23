@@ -31,4 +31,9 @@ public class Coach {
         this.nationality = nationality;
         this.age = age;
     }
+
+    public Coach(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }
