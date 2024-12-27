@@ -107,4 +107,25 @@ class TeamServiceTest {
 
         verify(teamRepository, times(1)).findById(teamId);
     }
+
+    @DisplayName("Find Team By Name Success")
+    @Test
+    public void testFindTeamByNameSuccess() {
+
+        //Given
+        String teamName = "Team A";
+        Team mockTeam = new Team(1L, teamName, "Stadium A", null, null);
+
+        when(teamRepository.findByName(teamName)).thenReturn(mockTeam);
+
+        //When
+        Team result = teamService.findByName(teamName);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(teamName, result.getName());
+        assertEquals(1L, result.getId());
+
+        verify(teamRepository, times(1)).findByName(teamName);
+    }
 }
