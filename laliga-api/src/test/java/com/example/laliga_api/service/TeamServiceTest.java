@@ -128,4 +128,22 @@ class TeamServiceTest {
 
         verify(teamRepository, times(1)).findByName(teamName);
     }
+
+    @DisplayName("Find Team By Name Not Found")
+    @Test
+    public void testFindTeamByNameNotFound() {
+
+        //Given
+        String teamName = "Team A";
+
+        when(teamRepository.findByName(teamName)).thenReturn(null);
+
+        //When
+        Team result = teamService.findByName(teamName);
+
+        //Then
+        assertNull(result);
+
+        verify(teamRepository, times(1)).findByName(teamName);
+    }
 }
