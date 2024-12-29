@@ -24,4 +24,11 @@ public class Coach {
     @OneToOne(mappedBy = "coach")
     @JsonBackReference
     private Team team;
+
+    public Coach(Long id, String name, String nationality, int age) {
+        this.id = id;
+        this.name = name;
+        this.nationality = nationality;
+        this.age = age;
+    }
 }
