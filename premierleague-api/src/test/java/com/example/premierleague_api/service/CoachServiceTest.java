@@ -74,4 +74,22 @@ class CoachServiceTest {
         verify(coachRepository, times(1)).findById(coachId);
     }
 
+    @DisplayName("Get Coach By Id Not Found")
+    @Test
+    public void testGetCoachByIdNotFound() {
+
+        //Given
+        Long coachId = 1L;
+
+        when(coachRepository.findById(coachId)).thenReturn(Optional.empty());
+
+        //When
+        Coach result = coachService.getCoachById(coachId);
+
+        //Then
+        assertNull(result);
+
+        verify(coachRepository, times(1)).findById(coachId);
+    }
+
 }
