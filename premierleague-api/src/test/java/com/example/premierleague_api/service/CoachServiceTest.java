@@ -114,4 +114,18 @@ class CoachServiceTest {
         verify(coachRepository, times(1)).save(newCoach);
     }
 
+    @DisplayName("Delete Coach Success")
+    @Test
+    public void testDeleteCoachSuccess() {
+
+        //Given
+        Long coachId = 1L;
+
+        //When
+        coachService.deleteCoach(coachId);
+
+        //Then
+        verify(coachRepository, times(1)).deleteById(coachId);
+    }
+
 }
