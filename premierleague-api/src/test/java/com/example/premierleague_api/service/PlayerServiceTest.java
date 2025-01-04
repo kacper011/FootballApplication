@@ -14,6 +14,7 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -61,6 +62,31 @@ class PlayerServiceTest {
 
             verify(playerRepository, times(1)).findAll();
         }
+    }
+
+    @DisplayName("Get Player By Id Success")
+    @Test
+    public void testGetPlayerByIdSuccess() {
+
+        //Given
+        Long playerId = 1L;
+        Player player = new Player(1, "Player 1", "Forward", 10, "Spain", 25, null);
+
+        when(playerRepository.findById(playerId)).thenReturn(Optional.of(player));
+
+        //When
+        Player result = playerService.getPlayerById(playerId);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(1, result.getId());
+        assertEquals("Player 1", result.getName());
+        assertEquals("Forward", result.getPosition());
+        assertEquals(10, result.getNumber());
+        assertEquals("Spain", result.getNationality());
+        assertEquals(25, result.getAge());
+
+        verify(playerRepository, times(1)).findById(playerId);
     }
 
 }
