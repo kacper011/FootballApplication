@@ -12,6 +12,7 @@ import org.mockito.Mock;
 import org.mockito.MockedStatic;
 import org.mockito.MockitoAnnotations;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -104,6 +105,30 @@ class PlayerServiceTest {
         assertNull(result);
 
         verify(playerRepository, times(1)).findById(playerId);
+    }
+
+    @DisplayName("Get Players By Team Id Success")
+    @Test
+    public void testGetPlayersByTeamIdSuccess() {
+
+        //Given
+        Long teamId = 1L;
+        List<Player> players = new ArrayList<>();
+        players.add(new Player(1, "Player 1", "Forward", 10, "Spain", 25, null));
+        players.add(new Player(2, "Player 2", "Defender", 5, "Germany", 30, null));
+
+        when(playerRepository.findByTeamId(teamId)).thenReturn(players);
+
+        //When
+        List<Player> result = playerService.getPlayersByTeamId(teamId);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(2, result.size());
+        assertEquals("Player 1", result.get(0).getName());
+        assertEquals("Player 2", result.get(1).getName());
+
+        verify(playerRepository, times(1)).findByTeamId(teamId);
     }
 
 }
