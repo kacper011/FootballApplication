@@ -3,6 +3,7 @@ package com.example.premierleague_api.service;
 import com.example.premierleague_api.dto.PlayerDTO;
 import com.example.premierleague_api.mapper.PlayerMapper;
 import com.example.premierleague_api.model.Player;
+import com.example.premierleague_api.model.Team;
 import com.example.premierleague_api.repository.PlayerRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -25,6 +26,9 @@ class PlayerServiceTest {
 
     @Mock
     private PlayerRepository playerRepository;
+
+    @Mock
+    private TeamService teamService;
 
     @InjectMocks
     private PlayerService playerService;
@@ -148,6 +152,30 @@ class PlayerServiceTest {
         assertTrue(result.isEmpty());
 
         verify(playerRepository, times(1)).findByTeamId(teamId);
+    }
+
+    @DisplayName("Save Player With Team Success")
+    @Test
+    public void testSavePlayerWithTeamSuccess() {
+
+        //Given
+        Long teamId = 1L;
+        Team team = new Team(teamId, "Team A", "Stadium A", null, null);
+        Player player = new Player(1, "Player 1", "Forward", 10, "Spain", 25, team);
+
+        when(teamService.getTeamById(teamId)).thenReturn(team);
+        when(playerRepository.save(player)).thenReturn(player);
+
+        //When
+        Player result = playerService.savePlayer(player);
+
+        //Then
+        assertNotNull(result);
+        assertEquals("Player 1", result.getName());
+        assertEquals("Team A", result.getTeam().getName());
+
+        verify(teamService, times(1)).getTeamById(teamId);
+        verify(playerRepository, times(1)).save(player);
     }
 
 }
