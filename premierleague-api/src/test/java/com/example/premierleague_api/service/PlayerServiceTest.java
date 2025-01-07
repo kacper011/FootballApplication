@@ -198,4 +198,18 @@ class PlayerServiceTest {
         verify(playerRepository, times(1)).save(player);
         verify(teamService, never()).getTeamById(anyLong());
     }
+
+    @DisplayName("Delete Player By Id Success")
+    @Test
+    public void testDeletePlayerByIdSuccess() {
+
+        //Given
+        Long playerId = 1L;
+
+        //When
+        playerService.deletePlayer(playerId);
+
+        //Then
+        verify(playerRepository, times(1)).deleteById(playerId);
+    }
 }
