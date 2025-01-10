@@ -158,7 +158,7 @@ class TeamPointsServiceTest {
         assertEquals(3, leagueTable.size());
         assertEquals("Team B", leagueTable.get(0).getTeamName());
         assertEquals("Team A", leagueTable.get(1).getTeamName());
-        assertEquals("Team C", leagueTable.get(2).getTeamName()); 
+        assertEquals("Team C", leagueTable.get(2).getTeamName());
 
         verify(teamPointsRepository, times(1)).findAll();
     }
