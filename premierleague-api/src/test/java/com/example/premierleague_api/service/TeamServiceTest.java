@@ -73,4 +73,21 @@ class TeamServiceTest {
         verify(teamRepository, times(1)).findById(1L);
     }
 
+    @DisplayName("Get Team By Id Team Does Not Exist")
+    @Test
+    public void testGetTeamByIdTeamDoesNotExist() {
+
+        //Given
+
+        when(teamRepository.findById(1L)).thenReturn(Optional.empty());
+
+        //When
+        Team result = teamService.getTeamById(1L);
+
+        //Then
+        assertNull(result);
+
+        verify(teamRepository, times(1)).findById(1L);
+    }
+
 }
