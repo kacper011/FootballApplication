@@ -111,4 +111,22 @@ class TeamServiceTest {
         verify(teamRepository, times(1)).findByName(teamName);
     }
 
+    @DisplayName("FindByNameTeamDoesNotExist")
+    @Test
+    public void testFindByNameTeamDoesNotExist() {
+
+        //Given
+        String teamName = "Nonexistent Team";
+
+        when(teamRepository.findByName(teamName)).thenReturn(null);
+
+        //When
+        Team result = teamService.findByName(teamName);
+
+        //Then
+        assertNull(result);
+
+        verify(teamRepository, times(1)).findByName(teamName);
+    }
+
 }
