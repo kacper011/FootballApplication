@@ -129,4 +129,25 @@ class TeamServiceTest {
         verify(teamRepository, times(1)).findByName(teamName);
     }
 
+    @DisplayName("Save Team Should Return Saved Team")
+    @Test
+    public void testSaveTeamShouldReturnSavedTeam() {
+
+        //Given
+        Team team = new Team();
+        team.setId(1L);
+        team.setName("Team A");
+
+        when(teamRepository.save(team)).thenReturn(team);
+
+        //When
+        Team result = teamService.saveTeam(team);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(1L, result.getId());
+        assertEquals("Team A", result.getName());
+
+        verify(teamRepository, times(1)).save(team);
+    }
 }
