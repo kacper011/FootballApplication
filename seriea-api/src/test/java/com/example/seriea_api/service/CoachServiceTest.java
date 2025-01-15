@@ -79,4 +79,22 @@ class CoachServiceTest {
 
         verify(coachRepository, times(1)).findById(coachId);
     }
+
+    @DisplayName("Get Coach By Id Should Return Null If Not Exists")
+    @Test
+    public void testGetCoachByIdShouldReturnNullIfNotExists() {
+
+        //Given
+        Long coachId = 1L;
+
+        when(coachRepository.findById(coachId)).thenReturn(Optional.empty());
+
+        //When
+        Coach result = coachService.getCoachById(coachId);
+
+        //Then
+        assertNull(result);
+
+        verify(coachRepository, times(1)).findById(coachId);
+    }
 }
