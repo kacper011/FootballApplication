@@ -97,4 +97,26 @@ class CoachServiceTest {
 
         verify(coachRepository, times(1)).findById(coachId);
     }
+
+    @DisplayName("Save Coach Should Return Saved Coach")
+    @Test
+    public void testSaveCoachShouldReturnSavedCoach() {
+
+        //Given
+        Coach coach = new Coach();
+        coach.setId(1L);
+        coach.setName("Coach A");
+
+        when(coachRepository.save(coach)).thenReturn(coach);
+
+        //When
+        Coach result = coachService.saveCoach(coach);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(1L, result.getId());
+        assertEquals("Coach A", result.getName());
+
+        verify(coachRepository, times(1)).save(coach);
+    }
 }
