@@ -16,8 +16,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 import static org.mockito.Mockito.times;
 
@@ -89,6 +88,23 @@ class PlayerServiceTest {
         assertEquals(34, result.getAge());
 
         verify(playerRepository, times(1)).findById(playerId);
+    }
 
+    @DisplayName("Get Player By Id Not Found")
+    @Test
+    public void testGetPlayerByIdNotFound() {
+
+        //Given
+        Long playerId = 1L;
+
+        when(playerRepository.findById(playerId)).thenReturn(Optional.empty());
+
+        //When
+        Player result = playerService.getPlayerById(playerId);
+
+        //Then
+        assertNull(result);
+
+        verify(playerRepository, times(1)).findById(playerId);
     }
 }
