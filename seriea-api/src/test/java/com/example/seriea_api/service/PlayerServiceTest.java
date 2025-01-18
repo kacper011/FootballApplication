@@ -132,4 +132,23 @@ class PlayerServiceTest {
 
         verify(playerRepository, times(1)).findByTeamId(teamId);
     }
+
+    @DisplayName("Get Players By Team Id No Players Found")
+    @Test
+    public void testGetPlayersByTeamIdNoPlayersFound() {
+
+        //Given
+        Long teamId = 1L;
+
+        when(playerRepository.findByTeamId(teamId)).thenReturn(new ArrayList<>());
+
+        //When
+        List<Player> result = playerService.getPlayersByTeamId(teamId);
+
+        //Then
+        assertNotNull(result);
+        assertTrue(result.isEmpty());
+
+        verify(playerRepository, times(1)).findByTeamId(teamId);
+    }
 }
