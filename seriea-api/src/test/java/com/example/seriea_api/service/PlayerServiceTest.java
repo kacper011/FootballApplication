@@ -3,6 +3,7 @@ package com.example.seriea_api.service;
 import com.example.seriea_api.dto.PlayerDTO;
 import com.example.seriea_api.mapper.PlayerMapper;
 import com.example.seriea_api.model.Player;
+import com.example.seriea_api.model.Team;
 import com.example.seriea_api.repository.PlayerRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -25,6 +26,9 @@ class PlayerServiceTest {
 
     @Mock
     private PlayerRepository playerRepository;
+
+    @Mock
+    private TeamService teamService;
 
     @InjectMocks
     private PlayerService playerService;
@@ -151,4 +155,33 @@ class PlayerServiceTest {
 
         verify(playerRepository, times(1)).findByTeamId(teamId);
     }
+
+    @DisplayName("Save Player With Team Success")
+    @Test
+    public void testSavePlayerWithTeamSuccess() {
+
+        //Given
+        Team team = new Team();
+        team.setId(1L);
+        team.setName("Team A");
+
+        Player player = new Player(1, "Player 1", "Defender", 6, "Italy", 34);
+        player.setTeam(team);
+
+        when(teamService.getTeamById(1L)).thenReturn(team);
+        when(playerRepository.save(player)).thenReturn(player);
+
+        //When
+        Player result = playerService.savePlayer(player);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(1, result.getId());
+        assertEquals("Player 1", result.getName());
+        assertEquals(1L, result.getTeam().getId());
+
+        verify(teamService, times(1)).getTeamById(1L);
+        verify(playerRepository, times(1)).save(player);
+    }
+
 }
