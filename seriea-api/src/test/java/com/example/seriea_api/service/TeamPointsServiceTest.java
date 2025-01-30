@@ -135,4 +135,37 @@ class TeamPointsServiceTest {
         verify(teamPointsRepository, times(1)).save(team);
     }
 
+    @DisplayName("Update Points Team Loses")
+    @Test
+    public void testUpdatePointsTeamLoses() {
+
+        //Given
+        String teamName = "Team A";
+        TeamPoints team = new TeamPoints();
+        team.setTeamName(teamName);
+        team.setPoints(8);
+        team.setMatchesPlayed(6);
+        team.setWins(2);
+        team.setDraws(2);
+        team.setLosses(2);
+
+        when(teamPointsRepository.findByTeamName(teamName)).thenReturn(team);
+        when(teamPointsRepository.save(any(TeamPoints.class))).thenReturn(team);
+
+        //When
+        TeamPoints result = teamPointsService.updatePoints(teamName, 0);
+
+        //Then
+        assertNotNull(result);
+        assertEquals(8, result.getPoints());
+        assertEquals(7, result.getMatchesPlayed());
+        assertEquals(2, result.getWins());
+        assertEquals(2, result.getDraws());
+        assertEquals(3, result.getLosses());
+
+        verify(teamPointsRepository, times(1)).findByTeamName(teamName);
+        verify(teamPointsRepository, times(1)).save(team);
+
+    }
+
 }
