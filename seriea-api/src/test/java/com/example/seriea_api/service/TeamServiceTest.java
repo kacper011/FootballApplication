@@ -95,4 +95,31 @@ class TeamServiceTest {
         verify(teamRepository, times(1)).findById(1L);
     }
 
+    @DisplayName("Find By Name")
+    @Test
+    public void testFindByName() {
+
+        //Given
+        Coach coach = new Coach(1L, "Coach 1", "Germany", 25, null);
+
+        Player player1 = new Player(1, "Player 1", "Defender", 6, "Italy", 34);
+        Player player2 = new Player(2, "Player 2", "Forward", 11, "Poland", 23);
+
+        Team team = new Team(1L, "Team 1", "Stadium 1", coach, Arrays.asList(player1, player2));
+
+        when(teamRepository.findByName("Team 1")).thenReturn(team);
+
+        //When
+        Team result = teamService.findByName("Team 1");
+
+        //Then
+        assertNotNull(result);
+        assertEquals("Team 1", result.getName());
+        assertEquals("Stadium 1", result.getStadium());
+        assertEquals("Coach 1", result.getCoach().getName());
+        assertEquals(2, result.getPlayers().size());
+
+        verify(teamRepository, times(1)).findByName("Team 1");
+    }
+
 }
