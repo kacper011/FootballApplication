@@ -149,4 +149,20 @@ class TeamServiceTest {
         verify(teamRepository, times(1)).save(team);
     }
 
+    @DisplayName("Delete Team")
+    @Test
+    public void testDeleteTeam() {
+
+        //Given
+        Long teamId = 1L;
+
+        doNothing().when(teamRepository).deleteById(teamId);
+
+        //When
+        teamService.deleteTeam(teamId);
+
+        //Then
+        verify(teamRepository, times(1)).deleteById(teamId);
+    }
+
 }
