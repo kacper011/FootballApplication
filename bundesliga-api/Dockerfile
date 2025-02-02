@@ -7,6 +7,9 @@ WORKDIR /app
 # Kopiowanie pliku JAR do katalogu roboczego
 COPY target/bundesliga-api-0.0.1-SNAPSHOT.jar /app/bundesliga-api.jar
 
+# Kopiowanie pliku .env do katalogu roboczego
+COPY .env /app/.env
+
 # Określenie portu, na którym będzie nasłuchiwać aplikacja
 EXPOSE 8082
 

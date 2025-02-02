@@ -2,6 +2,8 @@ server:
   port: 8082
   eureka:
     client:
+      register-with-eureka: true
+      fetch-registry: true
       service-url:
         defaultZone: http://eureka-server:8761/eureka/
 
@@ -26,3 +28,9 @@ spring:
       indent-output: true
     deserialization:
       fail-on-unknown-properties: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info

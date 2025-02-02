@@ -1,14 +1,28 @@
 server:
   port: 8761
+  address: 0.0.0.0
 
 spring:
   application:
     name: eureka-server
 
+  cloud:
+    discovery:
+      enabled: true
+    loadbalancer:
+      cache:
+        type: caffeine
+
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    registerWithEureka: false
+    fetchRegistry: false
   server:
-    enable-self-preservation: false
+    enableSelfPreservation: false
+    evictionIntervalTimerInMs: 5000
+    responseCacheUpdateIntervalMs: 10000
+    registrySyncRetries: 5
+  instance:
+    hostname: eureka-server
+    prefer-ip-address: true
 
