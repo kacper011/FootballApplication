@@ -5,7 +5,7 @@ server:
       register-with-eureka: true
       fetch-registry: true
       service-url:
-        defaultZone: http://eureka-server:8761/eureka/
+        defaultZone: http://eureka-server:8761/eureka/eureka/
 
 spring:
   application:
@@ -34,3 +34,8 @@ management:
     web:
       exposure:
         include: health, info
+
+app:
+  name: Bundesliga-api
+  version: 1.0.0
+  owner: Kacper Szabat
