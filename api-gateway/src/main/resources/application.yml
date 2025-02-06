@@ -34,4 +34,9 @@ spring:
     discovery:
       client:
         service-url:
-          defaultZone: http://eureka-server:8761/eureka/
+          defaultZone: http://172.18.0.2:8761/eureka/
+
+app:
+  name: Api-gateway
+  version: 1.0.0
+  owner: Kacper Szabat
