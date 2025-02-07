@@ -2,8 +2,10 @@ server:
   port: 8085
   eureka:
     client:
+      register-with-eureka: true
+      fetch-registry: true
       service-url:
-        defaultZone: http://eureka-server:8761/eureka/
+        defaultZone: http://eureka-server:8761/eureka/eureka/
 
 spring:
   application:
@@ -25,3 +27,8 @@ spring:
       indent-output: true
     deserialization:
       fail-on-unknown-properties: false
+
+app:
+  name: Seriea-api
+  version: 1.0.0
+  owner: Kacper Szabat
