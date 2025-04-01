@@ -5,7 +5,7 @@ services:
     ports:
       - "8761:8761"
     networks:
-      - footballapplication_gateway-network
+      - football-app-network
     restart: always
 
   gateway:
@@ -14,11 +14,11 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - SPRING_CLOUD_DISCOVERY_CLIENT_SERVICE_URL_DEFAULT_ZONE=http://eureka-server:8761/eureka/
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
     depends_on:
       - eureka-server
     networks:
-      - footballapplication_gateway-network
+      - football-app-network
     restart: always
 
   bundesliga-api:
@@ -27,78 +27,81 @@ services:
     ports:
       - "8082:8082"
     environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://172.22.0.2:8761/eureka/
+      - DB_FOOTBALL_USERNAME=${DB_FOOTBALL_USERNAME}
+      - DB_FOOTBALL_PASSWORD=${DB_FOOTBALL_PASSWORD}
     depends_on:
       - eureka-server
     networks:
-      - footballapplication_gateway-network
+      - football-app-network
     restart: always
 
-  laliga-api:
-    image: laliga-api
-    container_name: laliga-api
-    ports:
-      - "8081:8081"
-    environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
-    depends_on:
-      - eureka-server
-    networks:
-      - footballapplication_gateway-network
-    restart: always
+  # laliga-api:
+  #   image: laliga-api
+  #   container_name: laliga-api
+  #   ports:
+  #     - "8081:8081"
+  #   environment:
+  #     - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+  #   depends_on:
+  #     - eureka-server
+  #   networks:
+  #     - footballapplication_gateway-network
+  #   restart: always
 
-  premierleague-api:
-    image: premierleague-api
-    container_name: premierleague-api
-    ports:
-      - "8083:8083"
-    environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
-    depends_on:
-      - eureka-server
-    networks:
-      - footballapplication_gateway-network
-    restart: always
+  # premierleague-api:
+  #   image: premierleague-api
+  #   container_name: premierleague-api
+  #   ports:
+  #     - "8083:8083"
+  #   environment:
+  #     - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+  #   depends_on:
+  #     - eureka-server
+  #   networks:
+  #     - footballapplication_gateway-network
+  #   restart: always
 
-  ekstraklasa-api:
-    image: ekstraklasa-api
-    container_name: ekstraklasa-api
-    ports:
-      - "8084:8084"
-    environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
-    depends_on:
-      - eureka-server
-    networks:
-      - footballapplication_gateway-network
-    restart: always
+  # ekstraklasa-api:
+  #   image: ekstraklasa-api
+  #   container_name: ekstraklasa-api
+  #   ports:
+  #     - "8084:8084"
+  #   environment:
+  #     - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+  #   depends_on:
+  #     - eureka-server
+  #   networks:
+  #     - footballapplication_gateway-network
+  #   restart: always
 
-  seriea-api:
-    image: seriea-api
-    container_name: seriea-api
-    ports:
-      - "8085:8085"
-    environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
-    depends_on:
-      - eureka-server
-    networks:
-      - footballapplication_gateway-network
-    restart: always
+  # seriea-api:
+  #   image: seriea-api
+  #   container_name: seriea-api
+  #   ports:
+  #     - "8085:8085"
+  #   environment:
+  #     - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+  #   depends_on:
+  #     - eureka-server
+  #   networks:
+  #     - footballapplication_gateway-network
+  #   restart: always
 
-  transfermarket:
-    image: transfermarket
-    container_name: transfermarket
-    ports:
-      - "8086:8086"
-    environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
-    depends_on:
-      - eureka-server
-    networks:
-      - footballapplication_gateway-network
-    restart: always
+  # transfermarket:
+  #   image: transfermarket
+  #   container_name: transfermarket
+  #   ports:
+  #     - "8086:8086"
+  #   environment:
+  #     - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+  #   depends_on:
+  #     - eureka-server
+  #   networks:
+  #     - footballapplication_gateway-network
+  #   restart: always
 
 networks:
-  footballapplication_gateway-network:
-    external: true
+  football-app-network:
+    driver: bridge
+
